@@ -1,6 +1,5 @@
 {
   "name": "deltech-website",
-  "homepage": "https://varundtu.github.io/deltech-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,8 +20,6 @@
     "util": "^0.12.5"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
