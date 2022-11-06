@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/deltech-website/static/css/main.adb87a09.css",
-    "main.js": "/deltech-website/static/js/main.02999f18.js",
-    "static/js/496.5ae2893f.chunk.js": "/deltech-website/static/js/496.5ae2893f.chunk.js",
+    "main.js": "/deltech-website/static/js/main.fa771189.js",
+    "static/js/496.ee4af7e8.chunk.js": "/deltech-website/static/js/496.ee4af7e8.chunk.js",
     "static/media/party2.jpg": "/deltech-website/static/media/party2.64d0e00218303dbf98b3.jpg",
     "static/media/party1.jpg": "/deltech-website/static/media/party1.0250b6202c5dd533ec72.jpg",
+    "static/media/deltech.png": "/deltech-website/static/media/deltech.bcc6dc99589b9d397bd4.png",
     "static/media/slick.svg": "/deltech-website/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/deltech-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/deltech-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/deltech-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/deltech-website/index.html",
     "main.adb87a09.css.map": "/deltech-website/static/css/main.adb87a09.css.map",
-    "main.02999f18.js.map": "/deltech-website/static/js/main.02999f18.js.map",
-    "496.5ae2893f.chunk.js.map": "/deltech-website/static/js/496.5ae2893f.chunk.js.map"
+    "main.fa771189.js.map": "/deltech-website/static/js/main.fa771189.js.map",
+    "496.ee4af7e8.chunk.js.map": "/deltech-website/static/js/496.ee4af7e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adb87a09.css",
-    "static/js/main.02999f18.js"
+    "static/js/main.fa771189.js"
   ]
 }
