@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-scroll';
-
+import deltech from './/deltech.png'
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center h-20 px-4">
         
         <a className="flex title-font font-medium items-center mb-4">
-          <img alt="" width="50" height="50" className="h-8 pr-1 mx-auto" src="/deltech-logo.png"></img>
+          <img alt="" width="50" height="50" className="h-8 pr-1 mx-auto" src={deltech}></img>
           <span className="ml-3 text-xl">DelTech MUN</span>
         </a>
         <nav className=" mx-1 md:block hidden">
