@@ -4,11 +4,11 @@ import deltech from './/deltech.png'
 
 const Navbar = () => {
   return (
-    <header className="text-white body-font z-10 top-0 fixed w-full backdrop-blur-sm bg-red-300/20">
+    <header className="text-white body-font z-10 top-0 fixed w-full ">
       <div className="flex justify-between items-center h-20 px-4">
         
         <a className="flex title-font font-medium items-center mb-4">
-          <img alt="" width="50" height="50" className="h-8 pr-1 mx-auto" src={deltech}></img>
+          <img alt="" height="50" className="h-8 pr-1 mx-auto" src={deltech}></img>
           <span className="ml-3 text-xl">DelTech MUN</span>
         </a>
         <nav className=" mx-1 md:block hidden">
@@ -21,6 +21,12 @@ const Navbar = () => {
           
           <Link activeClass="active" className="mr-5 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
           CONTACT
+          </Link>
+          <Link activeClass="active" className="mr-5 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
+          COMMITTEES
+          </Link>
+          <Link activeClass="active" className="mr-5 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
+          JUDGES
           </Link>
           <button className="inline-flex border-0 py-1 px-3 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-base">
           Register Now

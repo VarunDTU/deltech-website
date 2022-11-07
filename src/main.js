@@ -24,9 +24,16 @@ const Main = () => {
             <h1 className="mt-5 text-center text-7xl text-white font-semibold drop-shadow-lg">
             DelTech MUN
             </h1>
-            <button className="flex mx-auto mt-16 text-white border-0 py-2 px-8 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-lg">
+            <div className="py-5 justify-center flex md:flex-row flex-col">
+            <div className="md:inline-flex border-0 py-1 px-3 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-base mx-2">
           Register Now
+        </div>
+        <button className="md:inline-flex border-0 py-1 px-3 focus:outline-none bg-white hover:outline-2 outline hover:bg-transparent hover:text-red-900 rounded text-base mx-2">
+          Know More
         </button>
+
+            </div>
+        
         </div>
     </div>
     </Slider>
