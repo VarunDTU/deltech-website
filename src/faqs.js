@@ -3,7 +3,7 @@ import React from "react";
 const Faqs = () => {
   return (
     <section className="text-white bg-cyan-800">
-      <div className="container w-full md:w-1/2 mx-auto flex flex-col px-16 py-24 justify-center items-center">
+      <div className="container w-10/12 mx-auto flex flex-col px-5 py-24 justify-center items-center">
         <h1 className="text-5xl mb-16 font-bold">FAQ&#39;S</h1>
         <div className="mb-5 text-md sm:text-lg">
           <p>What is AISYWLC?</p>
