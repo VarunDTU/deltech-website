@@ -1,42 +1,31 @@
-import Slider from "react-slick";
 import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 const Main = () => {
-  var settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
   return (
     <div>
     <section className='text-gray-600 -z-50 w-screen' id="home" >
       <div className="mx-0 content-center">
-      <Slider  {...settings}>
+      
       <div className="relative w-screen h-screen ">
         <div
-            className="w-screen h-full bg-[url('party1.jpg')] bg-cover bg-center blur-sm">
-        </div>
+            className="w-screen h-full bg-[url('landing_notext.png')] bg-cover bg-center backdrop-blur-3xl mix-blend-darken">
+       
         <div
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center">
-            <h1 className="mt-5 text-center text-7xl text-white font-semibold drop-shadow-lg">
-            DelTech MUN
+            className="content-center flex flex-col h-screen justify-center items-center">
+            <h1 className="mt-5 text-center md:text-7xl text-5xl text-white bg-black/70 backdrop-blur-sm font-semibold drop-shadow-lg py-2 border-black mix-blend-darken">
+            DELTECH MODEL UNITED NATIONS CONFERENCE 2023
             </h1>
             <div className="py-5 justify-center flex md:flex-row flex-col">
-            <div className="md:inline-flex border-0 py-1 px-3 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-base mx-2">
+            <div className="md:inline-flex border-0 py-1 mt-2 px-3 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-base mx-2 transition-all ease-linear">
           Register Now
         </div>
-        <button className="md:inline-flex border-0 py-1 px-3 focus:outline-none bg-white hover:outline-2 outline hover:bg-transparent hover:text-red-900 rounded text-base mx-2">
+        <button className="md:inline-flex border-0 py-1 px-3 mt-2 focus:outline-none bg-white hover:outline-2 outline hover:bg-transparent hover:text-black rounded text-base mx-2 ease-linear transition-all">
           Know More
         </button>
 
             </div>
-        
         </div>
-    </div>
-    </Slider>
+        </div>
+    </div>  
     </div>
     </section>
     </div>
