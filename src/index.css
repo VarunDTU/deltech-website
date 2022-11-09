@@ -13,7 +13,7 @@ a {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     scroll-behavior: smooth;
-    transition:all
+    transition:all ease 1s;
   }
   ::-webkit-scrollbar{
     height: 10px;
