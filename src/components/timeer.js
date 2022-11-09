@@ -28,27 +28,27 @@ const Timer = () => {
   }, []);
 
   return (
-    <div class="min-w-screen h-96a bg-yellow-500 flex items-center justify-center px-5 py-5" x-data="beer()" x-init="start()">
-    <div class="text-yellow-100">
-        <h1 class="text-3xl text-center mb-3 font-extralight">EVENT</h1>
-        <div class="text-6xl text-center flex w-full items-center justify-center">
-            <div class="text-2xl mr-1 font-extralight">in</div>
-            <div class="w-24 mx-1 p-2 bg-white text-yellow-500 rounded-lg">
-                <div class="font-mono leading-none" x-text="days">{days < 10 ? "0" + days : days}</div>
-                <div class="font-mono uppercase text-sm leading-none">Days</div>
+    <div className="min-w-screen h-96a bg-yellow-500 flex items-center justify-center px-5 py-5" x-data="beer()" x-init="start()">
+    <div className="text-yellow-100">
+        <h1 className="text-3xl text-center mb-3 font-extralight">EVENT</h1>
+        <div className="text-6xl text-center flex w-full items-center justify-center">
+            <div className="text-2xl mr-1 font-extralight">in</div>
+            <div className="w-24 mx-1 p-2 bg-white text-yellow-500 rounded-lg">
+                <div className="font-mono leading-none" x-text="days">{days < 10 ? "0" + days : days}</div>
+                <div className="font-mono uppercase text-sm leading-none">Days</div>
             </div>
-            <div class="w-24 mx-1 p-2 bg-white text-yellow-500 rounded-lg">
-                <div class="font-mono leading-none" x-text="hours">{hours < 10 ? "0" + hours : hours}</div>
-                <div class="font-mono uppercase text-sm leading-none">Hours</div>
+            <div className="w-24 mx-1 p-2 bg-white text-yellow-500 rounded-lg">
+                <div className="font-mono leading-none" x-text="hours">{hours < 10 ? "0" + hours : hours}</div>
+                <div className="font-mono uppercase text-sm leading-none">Hours</div>
             </div>
-            <div class="w-24 mx-1 p-2 bg-white text-yellow-500 rounded-lg">
-                <div class="font-mono leading-none" x-text="minutes">{minutes < 10 ?'0'+ minutes : minutes}</div>
-                <div class="font-mono uppercase text-sm leading-none">Minutes</div>
+            <div className="w-24 mx-1 p-2 bg-white text-yellow-500 rounded-lg">
+                <div className="font-mono leading-none" x-text="minutes">{minutes < 10 ?'0'+ minutes : minutes}</div>
+                <div className="font-mono uppercase text-sm leading-none">Minutes</div>
             </div>
-            <div class="text-2xl mx-1 font-extralight">and</div>
-            <div class="w-24 mx-1 p-2 bg-white text-yellow-500 rounded-lg">
-                <div class="font-mono leading-none" x-text="seconds">{seconds < 10 ? "0" + seconds : seconds}</div>
-                <div class="font-mono uppercase text-sm leading-none">Seconds</div>
+            <div className="text-2xl mx-1 font-extralight">and</div>
+            <div className="w-24 mx-1 p-2 bg-white text-yellow-500 rounded-lg">
+                <div className="font-mono leading-none" x-text="seconds">{seconds < 10 ? "0" + seconds : seconds}</div>
+                <div className="font-mono uppercase text-sm leading-none">Seconds</div>
             </div>
         </div>
     </div>
