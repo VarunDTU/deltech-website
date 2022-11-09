@@ -16,15 +16,15 @@ const Faqs = () => {
         <h1 className="text-5xl mb-16 font-bold text-center">FAQ&#39;S</h1>
         <div className="mb-5 text-md sm:text-lg">
           <div className="border-b-2 border-white mb-4">
-            <div className=" flex flex-row justify-between  mb-2" onClick={toggle1}>
-              <h2>What is DELTECH-MUN?</h2>
+            <div className=" flex flex-row justify-between  mb-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle1}>
+              <h2 className="">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open1 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-2 sm:text-base"
-              style={{ display: open1 ? "" : "none" }}
+              className="text-xs leading-relaxed mb-2 sm:text-base ml-4 overflow-hidden "
+              style={{ height: open1 ? "" : "0" }}
              
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
@@ -37,14 +37,14 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between  mb-2" onClick={toggle2}>
-              <h2>Where will DELTECH-MUN 2022 be held?</h2>
+            <div className="flex flex-row justify-between mb-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle2}>
+            <h2 className=" ">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open2 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-2 sm:text-base"
+              className="text-xs leading-relaxed mb-2 ml-4 sm:text-base"
               style={{ display: open2 ? "" : "none" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
@@ -57,14 +57,14 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between mb-2" onClick={toggle3}>
-              <h2>Which events can I attend?</h2>
+            <div className="flex flex-row justify-between mb-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle3}>
+            <h2 className="  ">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open3 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-2 sm:text-base"
+              className="text-xs leading-relaxed mb-2 ml-4 sm:text-base"
               style={{ display: open3 ? "" : "none" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
@@ -77,14 +77,14 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between mb-2" onClick={toggle4}>
-              <h2>What is DELTECH-MUN?</h2>
+            <div className="flex flex-row justify-between mb-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle4}>
+            <h2 className="">What is DELTECH-MUN?</h2>
               <span className="right-0"  style={{ transform: open4 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-2 sm:text-base overflow-hidden"
+              className="text-xs leading-relaxed mb-2 ml-4 sm:text-base overflow-hidden"
               style={{ height: open4 ? "" : "0" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,

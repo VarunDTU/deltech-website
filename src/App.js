@@ -1,22 +1,21 @@
-import Main from './main'
-import './App.css';
-import Navbar from './navbar';
-import About from './about';
-import Faqs from './faqs';
-import Footer from './footer';
-import Comingsoon from './comingsoon'
-import Nav from './newnavbar'
-import Timer  from './timeer';
+import Main from "./components/main";
+import Navbar from "./components/navbar";
+import About from "./components/about";
+import Faqs from "./components/faqs";
+import Footer from "./components/footer";
+// import Comingsoon from './components/comingsoon'
+// import Nav from './components/newnavbar'
+import Timer from "./components/timeer";
+
 function App() {
   return (
     <div>
-      
-      <Navbar/>
-      <Main></Main>
-      <About></About>
-      <Timer></Timer>
-      <Faqs/>
-      <Footer/>
+      <Navbar />
+      <Main />
+      <About />
+      <Timer />
+      <Faqs />
+      <Footer />
     </div>
   );
 }
