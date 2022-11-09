@@ -1,10 +1,9 @@
 import React from "react";
 import {Link} from 'react-scroll';
 import deltech from './/deltech.png'
-
 const Navbar = () => {
   return (
-    <header className="text-white body-font z-10 top-0 fixed w-full ">
+    <header className="text-white body-font z-10 top-0 fixed w-full bg-gray-800">
       <div className="flex justify-between items-center h-20 px-4">
         
         <a className="flex title-font font-medium items-center mb-4">
@@ -24,9 +23,6 @@ const Navbar = () => {
           </Link>
           <Link activeClass="active" className="mr-5 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
           COMMITTEES
-          </Link>
-          <Link activeClass="active" className="mr-5 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
-          JUDGES
           </Link>
           <button className="inline-flex border-0 py-1 px-3 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-base">
           Register Now

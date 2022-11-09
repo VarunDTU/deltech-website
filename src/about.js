@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="text-white bg-slate-800  ">
-      <div className="container w-full md:w-1/2 mx-auto flex flex-col px-8 py-24 justify-center items-center">
+    <section className="text-white bg-slate-800">
+      <div className="container w-full mx-auto flex flex-col px-8 py-24 justify-center items-center">
         <h1 className="text-4xl md:text-5xl mb-16 font-semibold md:font-bold">
           ABOUT DELTECH MUN
         </h1>
