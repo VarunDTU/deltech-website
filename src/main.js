@@ -2,12 +2,12 @@ import React from "react";
 const Main = () => {
   return (
     <div>
-    <section className='text-gray-600 -z-50 w-screen' id="home" >
+    <section className='text-gray-600 -z-50 w-full' id="home" >
       <div className="mx-0 content-center">
       
       <div className="relative w-screen h-screen ">
         <div
-            className="w-screen h-full bg-[url('landing_notext.png')] bg-cover bg-center backdrop-blur-3xl mix-blend-darken">
+            className="w-full h-full bg-[url('landing_notext.png')] bg-cover bg-center backdrop-blur-3xl mix-blend-darken">
        
         <div
             className="content-center flex flex-col h-screen justify-center items-center">

@@ -3,7 +3,7 @@ import {Link} from 'react-scroll';
 import deltech from './/deltech.png'
 const Navbar = () => {
   return (
-    <header className="text-white body-font z-10 top-0 fixed w-full bg-gray-800">
+    <header className="text-white body-font z-10 top-0 sticky w-screen bg-gray-800">
       <div className="flex justify-between items-center h-20 px-4">
         
         <a className="flex title-font font-medium items-center mb-4">

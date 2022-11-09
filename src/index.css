@@ -12,8 +12,8 @@ a {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    scroll-behavior: smooth;
-    transition:all ease 1s;
+    scroll-behavior: auto;
+    transition:all ease 0.5s;
   }
   ::-webkit-scrollbar{
     height: 10px;
