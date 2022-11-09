@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <a href="/" className="flex items-center">
-            <img src="../images/whiteDelTech.png" className="mr-3 h-8" alt="" />
+            <img src="./images/whiteDelTech.png" className="mr-3 h-8" alt="" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               DELTECH MUN
             </span>
