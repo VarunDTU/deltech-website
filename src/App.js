@@ -1,5 +1,4 @@
 import Main from "./components/main";
-import Navbar from "./components/navbar";
 import About from "./components/about";
 import Faqs from "./components/faqs";
 import Footer from "./components/footer";

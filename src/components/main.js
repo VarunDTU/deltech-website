@@ -1,5 +1,4 @@
 import React from "react";
-import { FaSmileBeam } from "react-icons/fa";
 const Main = () => {
   return (
     <div>
