@@ -1,11 +1,11 @@
 import { Popover } from "@headlessui/react";
 import { useState } from "react";
 import {Link} from 'react-scroll';
-import { userposition } from "../hook/navscroll";
+import { Userposition } from "../hook/navscroll";
 
 export default function NavBar2() {
     const [navbar, setNavbar] = useState(false);
-    const scrollPosition=userposition();
+    const scrollPosition=Userposition();
     function classNames(...classes){
             return classes.filter(Boolean).join(' ');
     }
