@@ -16,7 +16,7 @@ const Faqs = () => {
         <h1 className="text-5xl mb-16 font-bold text-center">FAQ&#39;S</h1>
         <div className="mb-5 text-md sm:text-lg">
           <div className="border-b-2 border-white mb-4">
-            <div className=" flex flex-row justify-between  pb-2 hover:-translate-y-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle1}>
+            <div className=" flex flex-row justify-between  pb-2 hover:-translate-y-1 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle1}>
               <h2 className="">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open1 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
@@ -37,7 +37,7 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between pb-2 hover:-translate-y-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle2}>
+            <div className="flex flex-row justify-between pb-2 hover:-translate-y-1 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle2}>
             <h2 className=" ">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open2 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
@@ -57,7 +57,7 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between pb-2 hover:-translate-y-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle3}>
+            <div className="flex flex-row justify-between pb-2 hover:-translate-y-1 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle3}>
             <h2 className="  ">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open3 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
@@ -77,7 +77,7 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between pb-2 hover:text-cyan-400 hover:-translate-y-2 hover:cursor-pointer" onClick={toggle4}>
+            <div className="flex flex-row justify-between pb-2 hover:text-cyan-400 hover:-translate-y-1 hover:cursor-pointer" onClick={toggle4}>
             <h2 className="">What is DELTECH-MUN?</h2>
               <span className="right-0"  style={{ transform: open4 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
