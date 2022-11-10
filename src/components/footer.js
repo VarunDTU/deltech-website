@@ -1,12 +1,13 @@
 import React from "react";
+import deltech from "../images/whiteDelTech.png";
 
 const Footer = () => {
   return (
     <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900 w-full">
       <div className="md:flex md:justify-between">
-        <div className="mb-6 md:mb-0">
+        <div className="mb-6 ml-4 md:mb-0">
           <a href="/" className="flex items-center">
-            <img src="./images/whiteDelTech.png" className="mr-3 h-8" alt="" />
+            <img className="h-10 mr-4 mx-auto" src={deltech} alt="" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               DELTECH MUN
             </span>
