@@ -9,7 +9,7 @@ export default function NavBar2() {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
                     <a className="flex title-font font-medium items-center mb-4">
-          <img alt="/" height="50" className="h-8 pr-1 mx-auto" src='/images/WhiteDelTech.png'></img>
+          <img alt="/" height="50" className="h-8 pr-1 mx-auto" src='/images/whiteDelTech.png'></img>
           <span className="ml-3 text-xl">DelTech MUN</span>
         </a>
                         <div className="md:hidden">

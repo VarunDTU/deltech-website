@@ -1,9 +1,4 @@
 import React from "react";
-import disec from "../images/disec.png";
-import sc from "../images/sc.png";
-import gst from "../images/gst.png";
-import unhrc from "../images/unhrc.png";
-import securityCouncil from "../images/securityCouncil.png";
 
 const Committees = () => {
   return (
@@ -26,7 +21,7 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src={disec}
+                      src="images/disec.png"
                       alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -34,7 +29,7 @@ const Committees = () => {
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    Andres Berlin
+                    United Nations
                   </div>
                   <p className="text-gray-800 text-sm text-center">Chief</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
@@ -54,7 +49,7 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src={gst}
+                      src="/images/gst.png"
                       alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -62,7 +57,7 @@ const Committees = () => {
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    Silene Tokyo
+                    GST
                   </div>
                   <p className="text-gray-800 text-sm text-center">Head</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
@@ -79,7 +74,7 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src={sc}
+                      src="/images/sc.png"
                       alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -87,7 +82,7 @@ const Committees = () => {
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    Johnson Stone
+                    SC
                   </div>
                   <p className="text-gray-800 text-sm text-center">
                     Development
@@ -105,7 +100,7 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src={securityCouncil}
+                      src="/images/sc.png"
                       alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -113,7 +108,7 @@ const Committees = () => {
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    Dean Jones
+                    UN security council
                   </div>
                   <p className="text-gray-800 text-sm text-center">Principal</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
@@ -129,7 +124,7 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src={unhrc}
+                      src="/images/unhrc.png"
                       alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -137,9 +132,9 @@ const Committees = () => {
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    Rachel Adams
+                   UNHRC
                   </div>
-                  <p className="text-gray-800 text-sm text-center">Product</p>
+                  <p className="text-gray-800 text-sm text-center">text</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Consequatur, beatae.
@@ -153,7 +148,7 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src="https://cdn.tuk.dev/assets/photo-1570211776045-af3a51026f4a.jfif"
+                      src="/images/Deltech.png"
                       alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -161,9 +156,9 @@ const Committees = () => {
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    Charles Keith
+                   DelTech
                   </div>
-                  <p className="text-gray-800 text-sm text-center">Uv</p>
+                  <p className="text-gray-800 text-sm text-center">MUN</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Expedita, sunt?
