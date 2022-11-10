@@ -1,10 +1,18 @@
+import { Popover } from "@headlessui/react";
 import { useState } from "react";
 import {Link} from 'react-scroll';
+import { userposition } from "../hook/navscroll";
+
 export default function NavBar2() {
     const [navbar, setNavbar] = useState(false);
-
+    const scrollPosition=userposition();
+    function classNames(...classes){
+            return classes.filter(Boolean).join(' ');
+    }
+   
     return (
-        <nav className="w-full bg-gray-800 shadow z-10 text-white fixed">
+        <Popover className={classNames(scrollPosition>0)?'bg-gray-900 z-10 fixed w-full':'bg-transparent fixed z-10 w-full'}>
+        <nav className="w-full z-10 text-white">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
@@ -14,7 +22,7 @@ export default function NavBar2() {
         </a>
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                                className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -57,27 +65,27 @@ export default function NavBar2() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-yellow-600"  to="home"  smooth={true} duration={500}>
                               HOME
                             </Link>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="temp"  smooth={true}  duration={500}>
           ABOUT
           </Link>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
           CONTACT
           </Link>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
           COMMITTEES
           </Link>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-white hover:text-blue-600">
                             <button className="inline-flex border-0 py-1 px-5 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-base">
           Register Now
           
@@ -88,5 +96,6 @@ export default function NavBar2() {
                 </div>
             </div>
         </nav>
+        </Popover>
     );
 }

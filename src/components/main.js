@@ -7,7 +7,7 @@ const Main = () => {
       
       <div className="relative w-screen h-screen ">
         <div
-            className="w-full h-full bg-[url('landing_notext.png')] bg-cover bg-center backdrop-blur-3xl mix-blend-darken">
+            className="w-full h-full bg-[url('without_text.jpg')] bg-cover bg-center backdrop-blur-3xl mix-blend-darken">
        
         <div
             className="content-center flex flex-col h-screen justify-center items-center">
