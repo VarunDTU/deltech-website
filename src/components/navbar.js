@@ -27,7 +27,6 @@ const Navbar = () => {
           </Link>
           <button className="inline-flex border-0 py-1 px-3 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-base">
           Register Now
-          
         </button>
         </nav>
       </div>
