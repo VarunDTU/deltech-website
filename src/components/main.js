@@ -5,7 +5,7 @@ const Main = () => {
       <section className="text-gray-600 -z-50 w-full" id="home">
         <div className="mx-0 content-center">
           <div className="relative w-full h-screen ">
-            <div className="w-full h-screen bg-[url('./images/landing_notext.png')] bg-cover bg-center bg-fixed backdrop-blur-3xl mix-blend-darken">
+            <div className="w-full h-full bg-[url('./images/landing_notext.png')] bg-cover bg-center bg-fixed backdrop-blur-3xl mix-blend-darken">
               <div className="content-center flex flex-col h-screen justify-center items-center">
                 <h1 className="mt-5 text-center md:text-7xl text-5xl text-white bg-black/70 backdrop-blur-sm font-semibold drop-shadow-lg py-2 border-black mix-blend-darken">
                   DELTECH MODEL UNITED NATIONS CONFERENCE 2023

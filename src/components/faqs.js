@@ -16,14 +16,14 @@ const Faqs = () => {
         <h1 className="text-5xl mb-16 font-bold text-center">FAQ&#39;S</h1>
         <div className="mb-5 text-md sm:text-lg">
           <div className="border-b-2 border-white mb-4">
-            <div className=" flex flex-row justify-between  mb-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle1}>
+            <div className=" flex flex-row justify-between  pb-2 hover:-translate-y-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle1}>
               <h2 className="">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open1 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-2 sm:text-base ml-4 overflow-hidden "
+              className="text-xs leading-relaxed mb-3 sm:text-base ml-4 overflow-hidden "
               style={{ height: open1 ? "" : "0" }}
              
             >
@@ -37,15 +37,15 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between mb-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle2}>
+            <div className="flex flex-row justify-between pb-2 hover:-translate-y-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle2}>
             <h2 className=" ">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open2 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-2 ml-4 sm:text-base"
-              style={{ display: open2 ? "" : "none" }}
+              className="text-xs leading-relaxed mb-3 ml-4 sm:text-base overflow-hidden"
+              style={{ height: open2 ? "" : "0" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
               laudantium cum! Eos incidunt fugiat, corrupti impedit libero
@@ -57,15 +57,15 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between mb-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle3}>
+            <div className="flex flex-row justify-between pb-2 hover:-translate-y-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle3}>
             <h2 className="  ">What is DELTECH-MUN?</h2>
               <span className="right-0" style={{ transform: open3 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-2 ml-4 sm:text-base"
-              style={{ display: open3 ? "" : "none" }}
+              className="text-xs leading-relaxed mb-3 ml-4 sm:text-base overflow-hidden"
+              style={{ height: open3 ? "" : "0" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
               laudantium cum! Eos incidunt fugiat, corrupti impedit libero
@@ -77,14 +77,14 @@ const Faqs = () => {
             </p>
           </div>
           <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between mb-2 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle4}>
+            <div className="flex flex-row justify-between pb-2 hover:text-cyan-400 hover:-translate-y-2 hover:cursor-pointer" onClick={toggle4}>
             <h2 className="">What is DELTECH-MUN?</h2>
               <span className="right-0"  style={{ transform: open4 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-2 ml-4 sm:text-base overflow-hidden"
+              className="text-xs leading-relaxed mb-3 ml-4 sm:text-base overflow-hidden"
               style={{ height: open4 ? "" : "0" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
