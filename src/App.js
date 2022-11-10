@@ -2,6 +2,7 @@ import Main from "./components/main";
 import Navbar from "./components/navbar";
 import About from "./components/about";
 import Faqs from "./components/faqs";
+import Committees from "./components/committees";
 import Footer from "./components/footer";
 // import Comingsoon from './components/comingsoon'
 // import Nav from './components/newnavbar'
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Main />
       <About />
+      <Committees />
       <Timer />
       <Faqs />
       <Footer />
