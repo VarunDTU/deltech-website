@@ -148,7 +148,7 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src="/images/Deltech.png"
+                      src="/images/deltech.png"
                       alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
