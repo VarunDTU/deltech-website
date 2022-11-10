@@ -11,12 +11,13 @@ export default function NavBar2() {
     }
    
     return (
-        <Popover className={classNames(scrollPosition>0)?'bg-gray-900 z-10 fixed w-full':'bg-transparent fixed z-10 w-full'}>
+        <Popover className={classNames(scrollPosition>0)?'bg-gray-900 z-10 fixed w-full':' bg-black/60 fixed z-10 w-full'}>
         <nav className="w-full z-10 text-white">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
                     <a className="flex title-font font-medium items-center mb-4">
+                        
           <img alt="/" height="50" className="h-8 pr-1 mx-auto" src='/images/whiteDelTech.png'></img>
           <span className="ml-3 text-xl">DelTech MUN</span>
         </a>
@@ -90,6 +91,7 @@ export default function NavBar2() {
           Register Now
           
         </button>
+        
                             </li>
                         </ul>
                     </div>

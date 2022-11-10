@@ -1,4 +1,5 @@
 import React from "react";
+import Timer from "./timeer";
 const Main = () => {
   return (
     <div>
@@ -14,7 +15,8 @@ const Main = () => {
             <h1 className="mt-5 text-center md:text-7xl text-5xl text-white bg-black/70 backdrop-blur-sm font-semibold drop-shadow-lg py-2 border-black mix-blend-darken">
             DELTECH MODEL UNITED NATIONS CONFERENCE 2023
             </h1>
-            <div className="py-5 justify-center flex md:flex-row flex-col z-5">
+            <div className="flex flex-row ">
+            <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
             <a href="#_" class="relative inline-block text-lg group">
 <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
 <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
@@ -25,9 +27,22 @@ const Main = () => {
 </a>
 
             </div>
+            <div className="py-5 justify-center flex md:flex-row flex-col z-5">
+              <div className="relative z-10 block px-5 py-1 overflow-hidden">
+
+            <button className="inline-flex border-0 py-3 outline outline-2 px-5 focus:outline-none bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded text-base">
+          Register Now
+          
+        </button>
+           
+              </div>
+            </div>
+            </div>
+            
+    <Timer></Timer> 
         </div>
         </div>
-    </div>  
+    </div> 
     </div>
     </section>
     </div>

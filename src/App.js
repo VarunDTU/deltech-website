@@ -16,7 +16,6 @@ function App() {
       <Main />
       <About />
       <Committees />
-      <Timer />
       <Faqs />
       <Footer />
     </div>
