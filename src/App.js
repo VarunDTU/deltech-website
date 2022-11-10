@@ -6,11 +6,13 @@ import Footer from "./components/footer";
 // import Comingsoon from './components/comingsoon'
 // import Nav from './components/newnavbar'
 import Timer from "./components/timeer";
+import NavBarnew from "./components/newnavbar";
 
 function App() {
   return (
     <div>
-      <Navbar />
+     
+      <NavBarnew/>
       <Main />
       <About />
       <Timer />
