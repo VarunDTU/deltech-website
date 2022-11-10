@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-scroll";
-import deltech from "../images/whiteDelTech.png";
+
 const Navbar = () => {
   return (
     <header className="text-white body-font z-10 top-0 sticky w-screen bg-gray-800">
       <div className="flex justify-between items-center h-20 px-4">
         <a href="/" className="flex title-font font-medium items-center mb-4">
-          <img alt="" className="h-10 ml-4 mr-2 mx-auto" src={deltech}></img>
+          <img alt="" className="h-10 ml-4 mr-2 mx-auto" src="/images/whiteDelTech.png" ></img>
           <span className="ml-3 text-xl">DelTech MUN</span>
         </a>
         <nav className=" mx-1 md:block hidden">

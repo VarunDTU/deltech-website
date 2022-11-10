@@ -1,5 +1,5 @@
 import React from "react";
-import deltech from "../images/whiteDelTech.png";
+
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="md:flex md:justify-between">
         <div className="mb-6 ml-4 md:mb-0">
           <a href="/" className="flex items-center">
-            <img className="h-10 mr-4 mx-auto" src={deltech} alt="" />
+            <img className="h-10 mr-4 mx-auto" src='/images/whiteDelTech.png' alt="" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               DELTECH MUN
             </span>
