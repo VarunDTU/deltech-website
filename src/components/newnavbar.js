@@ -11,19 +11,19 @@ export default function NavBar2() {
     }
    
     return (
-        <Popover className={classNames(scrollPosition>0)?'bg-gray-900 z-10 fixed w-full':' md:bg-black/60 bg-gray-900 fixed z-10 w-full'}>
-        <nav className="w-full z-10 text-white">
+        <Popover className={classNames(scrollPosition>10)?'bg-white z-10 fixed w-full':' md:bg-transparent bg-white  fixed z-10 w-full'}>
+        <nav className="w-full text-black font-medium z-10 ">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
                     <a className="flex title-font font-medium items-center mb-4">
                         
-          <img alt="/" height="50" className="h-8 pr-1 mx-auto" src='/images/whiteDelTech.png'></img>
+          <img alt="/" height="50" className="h-8 pr-1 mx-auto" src='/images/delTech.png'></img>
           <span className="ml-3 text-xl">DelTech MUN</span>
         </a>
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
+                                className="p-2 text-gray-900 rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -66,27 +66,27 @@ export default function NavBar2() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-yellow-600"  to="home"  smooth={true} duration={500}>
                               HOME
                             </Link>
                             </li>
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="temp"  smooth={true}  duration={500}>
           ABOUT
           </Link>
                             </li>
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
           CONTACT
           </Link>
                             </li>
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
           COMMITTEES
           </Link>
                             </li>
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                           
                             
             <a href="#_" class="relative inline-block text-lg group">
