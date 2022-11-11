@@ -38,7 +38,7 @@ const Footer = () => {
                   President
                 </p>
                 <h5 className="mb-2  md:text-lg font-bold text-gray-900 dark:text-white">
-                  Sunny
+                  Lakhan
                 </h5>
                 <div className="font-normal flex flex-row items-center text-gray-700 dark:text-gray-400">
                   <span>
@@ -52,7 +52,7 @@ const Footer = () => {
                   Vice President
                 </p>
                 <h5 className="mb-2 md:text-lg font-bold text-gray-900 dark:text-white">
-                  Munny
+                  Magan
                 </h5>
                 <div className="font-normal flex flex-row items-center text-gray-700 dark:text-gray-400">
                   <span>
@@ -78,7 +78,7 @@ const Footer = () => {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2022
+            © 2023
             <a href="/" className="hover:underline">
               deltech-mun™
             </a>
