@@ -5,21 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 export default class Council extends Component {
   render() {
-    // const designation=new Map([
-    //     ["Ishpreet.jpg", 500],
-    //     ["kushi.jpg", 300],
-    //     ["Lakshay.jpg", 200]
-    //     ["RahulSingh.jpg", 200]
-    //     ["RitikaRai.jpg", 200]
-    //     ["Shaksham.jpg", 200]
-    //     ["Sankalp.jpg", 200]
-    //     ["Shruti.jpg", 200]
-    //     ["Siddharth.jpg",200]
-    //     ["Tushar.jpg", 200]
-        
-    // ])
     var councilList=[
-        {name:"Ishpreet.jpg",desi:'External affairs'},{name:"Khushi.jpg",desi:'Internal Affairs'},{name:"Lakshay.jpg",desi:'Public Relations'},{name:"Nilesh.jpg",desi:'Operations'},{name:"RahulSingh.jpg",desi:'Corporate Affairs'},{name:"RitikaRai.jpg",desi:'Publicity'},{name:"Saksham.jpg",desi:'Finance'},{name:"Sankalp.jpg",desi:'MUN'},{name:"Shruti.jpg",desi:'Social & Outreach'},{name:"Siddharth.jpg",desi:'Debating'},{name:"Tushar.jpg"
+        {name:"ishpreet.jpg",desi:'External affairs'},{name:"khushi.jpg",desi:'Internal Affairs'},{name:"Lakshay.jpg",desi:'Public Relations'},{name:"Nilesh.jpg",desi:'Operations'},{name:"RahulSingh.jpg",desi:'Corporate Affairs'},{name:"RitikaRai.jpg",desi:'Publicity'},{name:"Saksham.jpg",desi:'Finance'},{name:"Sankalp.jpg",desi:'MUN'},{name:"Shruti.jpg",desi:'Social & Outreach'},{name:"Siddharth.jpg",desi:'Debating'},{name:"Tushar.jpg"
 ,desi:'Research & Policy'},];
     
     var councilcc= councilList.map(item =>  <div class="h-fit w-fit flex py-3 px-3  bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -37,6 +24,8 @@ export default class Council extends Component {
       speed: 600,
       slidesToShow: 4,
       slidesToScroll: 4,
+      swipeToSlide:true,
+      pauseOnFocus:true,
       autoplay:true,
       arrows:true,
       draggable:true,
