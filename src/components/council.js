@@ -6,30 +6,30 @@ import "slick-carousel/slick/slick-theme.css";
 export default class Council extends Component {
   render() {
     var councilList=[
-        {name:"ext1.png",desi:'External affairs'},{name:"int1.png",desi:'Internal Affairs'},{name:"Lakshay.jpg",desi:'Public Relations'},{name:"Nilesh.jpg",desi:'Operations'},{name:"RahulSingh.jpg",desi:'Corporate Affairs'},{name:"RitikaRai.jpg",desi:'Publicity'},{name:"Saksham.jpg",desi:'Finance'},{name:"Sankalp.jpg",desi:'MUN'},{name:"Shruti.jpg",desi:'Social & Outreach'},{name:"Siddharth.jpg",desi:'Debating'},{name:"Tushar.jpg"
+        {name:"Ishpreet.png",desi:'External affairs'},{name:"Kushi.png",desi:'Internal Affairs'},{name:"Lakshay.jpg",desi:'Public Relations'},{name:"Nilesh.jpg",desi:'Operations'},{name:"RahulSingh.jpg",desi:'Corporate Affairs'},{name:"RitikaRai.jpg",desi:'Publicity'},{name:"Saksham.jpg",desi:'Finance'},{name:"Sankalp.jpg",desi:'MUN'},{name:"Shruti.jpg",desi:'Social & Outreach'},{name:"Siddharth.jpg",desi:'Debating'},{name:"Tushar.jpg"
 ,desi:'Research & Policy'},];
     
-    var councilcc= councilList.map(item =>  <div class="h-fit w-fit flex py-3 px-3  bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-    
-    <img className="rounded-t-lg h-52 object-cover w-96 justify-center" src={`/images/Council/${item.name}`}  alt="" />
-<div class="p-5">
-    <a href="#">
-        <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-white">{item.name.slice(0,-4)}</h5>
-    </a>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{item.desi}</p>
-    
-</div>
-</div>)
+    var councilcc= councilList.map(item => <div class="flex justify-center">
+    <div class="rounded-2xl z-5 shadow-lg bg-gray-800 outline outline-2 outline-black py-5 max-w-sm px-3" >
+      <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+        <img class="rounded-t-lg h-60 object-cover w-96" src={`/images/Council/${item.name}`} alt=""/>
+      </a>
+      <div class="p-6">
+        <h5 class="text-white text-xl font-medium mb-2">{item.name.slice(0,-4)}</h5>
+        <p class="text-gray-300 text-base mb-4">
+          {item.desi}
+        </p>
+      
+      </div>
+    </div>
+  </div>)
     var settings = {
-      speed: 600,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      initialSlide:5,
-      swipeToSlide:true,
-      pauseOnFocus:true,
-      autoplay:true,
-      arrows:true,
-      draggable:true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 5000,
+      autoplaySpeed: 5000,
       responsive: [
         {
           breakpoint: 1024,
@@ -62,7 +62,6 @@ export default class Council extends Component {
     return (
       <div className="bg-cyan-800">
         <Slider {...settings}>
-        
             {councilcc[0]}
             {councilcc[1]}
             {councilcc[2]}
