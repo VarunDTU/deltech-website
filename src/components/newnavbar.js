@@ -11,7 +11,7 @@ export default function NavBar2() {
     }
    
     return (
-        <Popover className={classNames(scrollPosition>10)?'bg-white z-10 fixed w-full':' md:bg-transparent bg-white  fixed z-10 w-full'}>
+        <Popover className={classNames(scrollPosition>10)?'bg-white z-10 shadow-black shadow-sm fixed w-full':' md:bg-transparent bg-white  fixed z-10 w-full'}>
         <nav className="w-full text-black font-medium z-10 ">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>

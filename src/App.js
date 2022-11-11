@@ -5,8 +5,8 @@ import Committees from "./components/committees";
 import Footer from "./components/footer";
 // import Comingsoon from './components/comingsoon'
 // import Nav from './components/newnavbar'
-import Timer from "./components/timeer";
 import NavBarnew from "./components/newnavbar";
+import Council from "./components/council";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Main />
       <About />
       <Committees />
+      <Council/>
       <Faqs />
       <Footer />
     </div>
