@@ -1,17 +1,35 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import NavBarnew from "./components/newnavbar";
-import Footer from "./components/footer";
+import PaymentPolicy from "./components/paymentPolicy";
+import TermsConditions from "./components/termsConditions";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
+        <App />
+        
+    ),
+  },
+  {
+    path: "paymentPolicy",
+    element: <PaymentPolicy/>
+    
+  },
+  {
+    path: "termsConditions",
+    element: <TermsConditions/>
+    
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <NavBarnew />
-    <App />
-    <Footer />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

@@ -4,17 +4,15 @@ import Faqs from "./components/faqs";
 import Sponsors from "./components/sponsors";
 import Committees from "./components/committees";
 // import Gallery from "./components/gallery";
-// import Footer from "./components/footer";
+import Footer from "./components/footer";
 import ScrollToTop from "react-scroll-to-top";
-// import Comingsoon from './components/comingsoon'
-// import Nav from './components/newnavbar'
-// import NavBarnew from "./components/newnavbar";
+import NavBarnew from "./components/newnavbar";
 import Council from "./components/council";
 
 function App() {
   return (
-    <div>
-      {/* <NavBarnew /> */}
+    <>
+      <NavBarnew />
       <Main />
       <ScrollToTop
         smooth
@@ -32,8 +30,8 @@ function App() {
       {/* <Gallery /> */}
       <Sponsors />
       <Faqs />
-      {/* <Footer /> */}
-    </div>
+      <Footer />
+    </>
   );
 }
 
