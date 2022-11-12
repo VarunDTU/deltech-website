@@ -3,12 +3,9 @@ import React from "react";
 const Committees = () => {
   return (
     <div>
-      <div className="container flex justify-center mx-auto pt-16">
+      <div className="container flex justify-center mx-auto">
         <div>
-          <p className="text-gray-500 text-lg text-center font-normal pb-3">
-            DELTECH MUN
-          </p>
-          <h1 className="xl:text-4xl text-3xl text-gray-800 font-extrabold pb-6  mx-auto">
+          <h1 className="xl:text-5xl text-3xl text-gray-800 font-extrabold text-center py-12 mx-auto">
             Our Committees
           </h1>
         </div>
@@ -23,18 +20,17 @@ const Committees = () => {
                     <img
                       src="images/disec.png"
                       alt=""
-                      className="rounded-full object-cover h-full w-full shadow-md"
+                      className="rounded-full object-cover h-30 w-30 shadow-md"
                     />
                   </div>
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    United Nations
+                  UNGA DISEC
                   </div>
-                  <p className="text-gray-800 text-sm text-center">Chief</p>
+                  <p className="text-gray-800 text-sm text-center">Disarmament and International Security Committee</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius, delectus?
+                  Agenda and EB releases soon
                   </p>
                   <div className="w-full flex justify-center pt-5 pb-5">
                     <a href="/" className="mx-5">
@@ -51,19 +47,17 @@ const Committees = () => {
                     <img
                       src="/images/gst.png"
                       alt=""
-                      className="rounded-full object-cover h-full w-full shadow-md"
+                      className="rounded-full object-cover h-30 w-30shadow-md"
                     />
                   </div>
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    GST
+                    GST COUNCIL
                   </div>
-                  <p className="text-gray-800 text-sm text-center">Head</p>
+                  <p className="text-gray-800 text-sm text-center">Goods And Sevices Tax Council</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Eaque rem unde accusantium ratione neque quisquam alias
-                    ullam? Commodi, dolore tenetur!
+                  Agenda and EB releases soon
                   </p>
                   <div className="w-full flex justify-center pt-5 pb-5"></div>
                 </div>
@@ -76,20 +70,19 @@ const Committees = () => {
                     <img
                       src="/images/sc.png"
                       alt=""
-                      className="rounded-full object-cover h-full w-full shadow-md"
+                      className="rounded-full object-cover h-30 w-30 shadow-md"
                     />
                   </div>
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    SC
+                    UNCSW
                   </div>
                   <p className="text-gray-800 text-sm text-center">
-                    Development
+                  United Nations Commission on the Status of Women
                   </p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odit eius error iure maxime nemo culpa!
+                  Agenda and EB releases soon
                   </p>
                   <div className="w-full flex justify-center pt-5 pb-5"></div>
                 </div>
@@ -100,20 +93,19 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src="/images/sc.png"
+                      src="/images/unsc.png"
                       alt=""
-                      className="rounded-full object-cover h-full w-full shadow-md"
+                      className="rounded-full object-cover h-30 w-30 shadow-md"
                     />
                   </div>
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                    UN security council
+                    UNSC
                   </div>
-                  <p className="text-gray-800 text-sm text-center">Principal</p>
+                  <p className="text-gray-800 text-sm text-center">United Nations security council</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                    voluptas eaque quaerat!
+                  Agenda and EB releases soon
                   </p>
                   <div className="w-full flex justify-center pt-5 pb-5"></div>
                 </div>
@@ -136,8 +128,7 @@ const Committees = () => {
                   </div>
                   <p className="text-gray-800 text-sm text-center">text</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequatur, beatae.
+                  Agenda and EB releases soon
                   </p>
                   <div className="w-full flex justify-center pt-5 pb-5"></div>
                 </div>
@@ -148,7 +139,7 @@ const Committees = () => {
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
-                      src="/images/deltech.png"
+                      src="/images/ip.jpg"
                       alt=""
                       className="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -156,12 +147,11 @@ const Committees = () => {
                 </div>
                 <div className="px-6 mt-16">
                   <div className="font-bold text-3xl text-center pb-1">
-                   DelTech
+                   IP
                   </div>
-                  <p className="text-gray-800 text-sm text-center">MUN</p>
+                  <p className="text-gray-800 text-sm text-center">International Press</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Expedita, sunt?
+                  Agenda and EB releases soon
                   </p>
                   <div className="w-full flex justify-center pt-5 pb-5"></div>
                 </div>

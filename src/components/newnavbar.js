@@ -12,8 +12,8 @@ export default function NavBar2() {
    
     return (
         <Popover className={classNames(scrollPosition>10)?'bg-white z-10 shadow-black shadow-sm fixed w-full':' md:bg-transparent bg-white  fixed z-10 w-full'}>
-        <nav className="w-screen text-black font-medium z-10 ">
-            <div className="justify-between px-4 lg:max-w-7xl md:items-center md:flex md:px-8">
+        <nav className=" text-black font-medium z-10 ">
+            <div className="justify-between px-4 md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
                     <a className="flex title-font font-medium items-center mb-4">
@@ -72,7 +72,7 @@ export default function NavBar2() {
                             </Link>
                             </li>
                             <li className="hover:text-blue-600">
-                            <Link activeClass="active" className="mr-2 hover:text-red-600"  to="temp"  smooth={true}  duration={500}>
+                            <Link activeClass="active" className="mr-2 hover:text-red-600"  to="aboutus"  smooth={true}  duration={300}>
           ABOUT
           </Link>
                             </li>

@@ -1,6 +1,6 @@
 import React from "react";
 import Timer from "./timeer";
-
+import {Link} from 'react-scroll';
 const Main = () => {
   return (
     <div>
@@ -12,22 +12,23 @@ const Main = () => {
             className="w-full h-full bg-[url('without_text.jpg')] bg-cover bg-center backdrop-blur-3xl mix-blend-darken">
        
         <div
-            className="content-center flex flex-col h-screen justify-center items-center">
-              <div className="items-center justify-center flex flex-col py-2 my-5">
-              <h2 className="mt-5 text-center md:text-2xl text-xl text-gray-900 font-semibold drop-shadow-lg py-2 border-black">
-            Deltech MUN and debating society presents
+            className="content-center flex flex-col h-screen justify-center items-center py-10">
+              <div className="items-center justify-center flex flex-col py-2">
+              <h2 className="mt-9 text-center md:text-2xl text-xl text-gray-800 font-semibold font-Montserrat drop-shadow-lg py-2 border-black">
+            Deltech MUN & Debating Society <br/>presents
             </h2>
-            <h1 className="mt-5 text-center md:text-7xl text-5xl text-gray-900 font-extrabold text-shadow: py-2 border-black">
+            <h1 className="mt-5 text-center md:text-9xl text-5xl text-gray-900 font-bb font-bold text-shadow: py-2 border-black">
             DELTECH MUN 2023
             </h1>
             
-            <p1 className="mt-5 text-center md:text-xl text-md text-gray-900 font-semibold drop-shadow-lg py-2 border-black">
-            where the diplomacy begins
+            <p1 className="mt-5 text-center md:text-xl text-md text-gray-800 font-Montserrat italic drop-shadow-lg py-2 border-black">
+            Where The Diplomacy Begins
             </p1>
 
             </div>
     <Timer></Timer> 
             <div className="flex flex-row py-5">
+              <Link  to="aboutus"  smooth={true}  duration={200}>
             <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
             <a href="#_" class="relative inline-block text-lg group">
 <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -39,6 +40,7 @@ const Main = () => {
 </a>
 
             </div>
+              </Link >
             <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
             <a href="#_" class="relative inline-block text-lg group">
 <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
