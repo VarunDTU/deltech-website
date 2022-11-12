@@ -11,19 +11,19 @@ export default function NavBar2() {
     }
    
     return (
-        <Popover className={classNames(scrollPosition>0)?'bg-gray-900 z-10 fixed w-full':' md:bg-black/60 bg-gray-900 fixed z-10 w-full'}>
-        <nav className="w-full z-10 text-white">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <Popover className={classNames(scrollPosition>10)?'bg-white z-10 shadow-black shadow-sm fixed w-full':' md:bg-transparent bg-white  fixed z-10 w-full'}>
+        <nav className="w-screen text-black font-medium z-10 ">
+            <div className="justify-between px-4 lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
                     <a className="flex title-font font-medium items-center mb-4">
                         
-          <img alt="/" height="50" className="h-8 pr-1 mx-auto" src='/images/whiteDelTech.png'></img>
+          <img alt="/" height="50" className="h-8 pr-1 mx-auto" src='/images/deltech.png'></img>
           <span className="ml-3 text-xl">DelTech MUN</span>
         </a>
                         <div className="md:hidden">
                             <button
-                                className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
+                                className="p-2 text-gray-900 rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
                             >
                                 {navbar ? (
@@ -66,33 +66,33 @@ export default function NavBar2() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-yellow-600"  to="home"  smooth={true} duration={500}>
                               HOME
                             </Link>
                             </li>
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="temp"  smooth={true}  duration={500}>
           ABOUT
           </Link>
                             </li>
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
           CONTACT
           </Link>
                             </li>
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
           COMMITTEES
           </Link>
                             </li>
-                            <li className="text-white hover:text-blue-600">
+                            <li className="hover:text-blue-600">
                           
                             
             <a href="#_" class="relative inline-block text-lg group">
 <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
 <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-<span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gradient-to-r from-pink-500 to-purple-500 group-hover:rotate-180 ease"></span>
+<span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:rotate-180 ease"></span>
 <span class="relative">Register Now</span>
 </span>
 <span class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-700 rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>

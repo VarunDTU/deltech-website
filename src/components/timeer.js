@@ -28,7 +28,7 @@ const Timer = () => {
   }, []);
 
   return (
-    <div className="min-w-screen h-36 bg-transparent flex items-center justify-center px-5 py-5" x-data="beer()" x-init="start()">
+    <div className="min-w-screen h-36 bg-transparent flex items-center justify-center px-5 py-2" x-data="beer()" x-init="start()">
     <div className="text-yellow-200">
         <h1 className="text-3xl text-center mb-3 font-extralight">EVENT</h1>
         <div className="text-6xl text-center flex w-full items-center justify-center">

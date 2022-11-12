@@ -7,6 +7,7 @@ import ScrollToTop from "react-scroll-to-top";
 // import Comingsoon from './components/comingsoon'
 // import Nav from './components/newnavbar'
 import NavBarnew from "./components/newnavbar";
+import Council from "./components/council";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
 
       <About />
       <Committees />
+      <Council/>
       <Faqs />
       <Footer />
     </div>
