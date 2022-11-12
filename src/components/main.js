@@ -7,7 +7,7 @@ const Main = () => {
     <section className='text-gray-600 -z-50 w-full' id="home" >
       <div className="mx-0 content-center">
       
-      <div className="relative w-screen h-screen ">
+      <div className="relative w-full h-screen ">
         <div
             className="w-full h-full bg-[url('without_text.jpg')] bg-cover bg-center backdrop-blur-3xl mix-blend-darken">
        

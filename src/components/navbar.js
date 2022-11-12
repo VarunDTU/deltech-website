@@ -6,7 +6,7 @@ const Navbar = () => {
     <header className="text-white body-font z-10 top-0 sticky w-screen bg-gray-800">
       <div className="flex justify-between items-center h-20 px-4">
         
-        <a className="flex title-font font-medium items-center mb-4">
+        <a href="/" className="flex title-font font-medium items-center mb-4">
           <img alt="" height="50" className="h-8 pr-1 mx-auto" src='/images/WhiteDelTech.png'></img>
           <span className="ml-3 text-xl">DelTech MUN</span>
         </a>
