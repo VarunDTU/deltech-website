@@ -9,10 +9,10 @@ const Main = () => {
       
       <div className="relative w-full h-screen ">
         <div
-            className="w-full h-full bg-[url('without_text.jpg')] bg-cover bg-center backdrop-blur-3xl mix-blend-darken">
-       
+            className="w-full h-full absolute -z-10 bg-[url('without_text.jpg')] backdrop-blur-sm bg-cover bg-center">
+       </div>
         <div
-            className="content-center flex flex-col h-screen justify-center items-center py-10">
+            className="content-center flex flex-col h-screen justify-center items-center py-10 backdrop-blur-md">
               <div className="items-center justify-center flex flex-col py-2">
               <h2 className="mt-9 text-center md:text-2xl text-xl text-gray-800 italic font-Montserrat md:lh1 drop-shadow-lg py-2 border-black">
             Deltech MUN & Debating Society <br/>presents
@@ -55,7 +55,7 @@ const Main = () => {
             </div>
             
         </div>
-        </div>
+        
     </div> 
     </div>
     </section>
