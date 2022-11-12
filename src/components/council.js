@@ -23,52 +23,9 @@ export default class Council extends Component {
       </div>
     </div>
   </div>)
-    var settings = {
-      infinite: true,
-      slidesToShow: 3,
-      focusOnSelect: true,
-      autoplay: true,
-      slidesToScroll: 1,
-      speed: 5000,
-      swipeToSlide: true,
-      centerMode: true,
-      pauseOnHover: true,
-      autoplaySpeed: 3000,
-      initialSlide:1,
-      arrows:true,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            centerMode:false,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            infinite: true,
-            initialSlide:5,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            centerMode:false,
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 5
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 5,
-          }
-        }
-      ]
-    };
+    
     return (
-      <div className="bg-cyan-800">
+      <div className="bg-cyan-800 md:min-h-[584px] ">
       <h1 className="xl:text-5xl text-3xl text-white font-extrabold text-center py-6 mx-auto">
             Senior Council
           </h1>
