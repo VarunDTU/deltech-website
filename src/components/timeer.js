@@ -31,21 +31,21 @@ const Timer = () => {
     <div className="min-w-screen h-36 bg-transparent flex items-center justify-center px-5 py-2" x-data="beer()" x-init="start()">
     <div className="text-yellow-200">
         
-        <div className="text-6xl text-center flex w-full items-center justify-center text-yellow-500 ">
-            <div className="mx-1 p-2 outline outline-2 outline-black bg-white rounded-lg">
-                <div className="md:w-24 w-5 md:text-5xl text-sm font-mono leading-none" x-text="days">{days < 10 ? "0" + days : days}</div>
+        <div className="text-6xl text-center flex w-full items-center justify-center text-yellow-500">
+            <div className="mx-1 p-2 outline outline-2 md:px-2 px-5 outline-black bg-white rounded-lg">
+                <div className="md:w-24 w-5 md:text-5xl text-3xl font-mono leading-none" x-text="days">{days < 10 ? "0" + days : days}</div>
                 <div className="font-mono uppercase md:text-sm text-xs leading-none">Days</div>
             </div>
-            <div className="mx-1 p-2 outline outline-2 outline-black bg-white rounded-lg">
-                <div className="md:w-24 w-5 md:text-5xl text-sm font-mono leading-none" x-text="hours">{hours < 10 ? "0" + hours : hours}</div>
+            <div className="mx-1 p-2 outline outline-2 md:px-2 px-5 outline-black bg-white rounded-lg">
+                <div className="md:w-24 w-5 md:text-5xl text-3xl font-mono leading-none" x-text="hours">{hours < 10 ? "0" + hours : hours}</div>
                 <div className="font-mono uppercase md:text-sm text-xs leading-none">Hours</div>
             </div>
-            <div className="mx-1 p-2 outline outline-2 outline-black bg-white rounded-lg">
-                <div className="md:w-24 w-5 md:text-5xl text-sm font-mono leading-none" x-text="minutes">{minutes < 10 ?'0'+ minutes : minutes}</div>
+            <div className="mx-1 p-2 outline outline-2 md:px-2 px-5 outline-black bg-white rounded-lg">
+                <div className="md:w-24 w-5 md:text-5xl text-3xl font-mono leading-none" x-text="minutes">{minutes < 10 ?'0'+ minutes : minutes}</div>
                 <div className="font-mono uppercase md:text-sm text-xs leading-none">Minutes</div>
             </div>
-            <div className="mx-1 p-2 outline outline-2 outline-black bg-white rounded-lg">
-                <div className="md:w-24 w-5 md:text-5xl text-sm font-mono leading-none" x-text="seconds">{seconds < 10 ? "0" + seconds : seconds}</div>
+            <div className="mx-1 p-2 outline outline-2 md:px-2 px-5 outline-black bg-white rounded-lg">
+                <div className="md:w-24 w-5 md:text-5xl text-3xl font-mono leading-none" x-text="seconds">{seconds < 10 ? "0" + seconds : seconds}</div>
                 <div className="font-mono uppercase md:text-sm text-xs leading-none">Seconds</div>
             </div>
         </div>

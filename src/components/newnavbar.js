@@ -12,7 +12,7 @@ export default function NavBar2() {
    
     return (
         <Popover className={classNames(scrollPosition>10)?'bg-white z-10 shadow-black shadow-sm fixed w-full':' md:bg-transparent bg-white  fixed z-10 w-full'}>
-        <nav className=" text-black font-medium z-10 ">
+        <nav className=" text-black font-medium z-10 px-4">
             <div className="justify-between px-4 md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
