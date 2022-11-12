@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {fontFamily:{
       Montserrat:["Montserrat", "sans-serif"],
-      bb:[ 'Bebas Neue', "cursive"]
+      bb:[ 'Bebas Neue', "cursive"],
+      hbb:[ 'Monoton', 'cursive']
     }},
   },
   plugins: [],

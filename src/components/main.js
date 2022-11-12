@@ -14,10 +14,10 @@ const Main = () => {
         <div
             className="content-center flex flex-col h-screen justify-center items-center py-10">
               <div className="items-center justify-center flex flex-col py-2">
-              <h2 className="mt-9 text-center md:text-2xl text-xl text-gray-800 italic font-semibold lh1 drop-shadow-lg py-2 border-black">
+              <h2 className="mt-9 text-center md:text-2xl text-xl text-gray-800 italic font-Montserrat md:lh1 drop-shadow-lg py-2 border-black">
             Deltech MUN & Debating Society <br/>presents
             </h2>
-            <h1 className="mt-5 text-center md:text-9xl lh1 text-5xl text-gray-900 font-bb font-extrabold text-shadow: py-2 border-black">
+            <h1 className="mt-5 text-center md:text-7xl text-5xl text-gray-900 font-hbb font-bold text-shadow: py-2 border-black">
             DELTECH MUN 2023
             </h1>
             
