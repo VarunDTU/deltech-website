@@ -21,9 +21,9 @@ const Main = () => {
             DELTECH MUN 2023
             </h1>
             
-            <p1 className="mt-5 text-center md:text-xl text-md text-gray-800 font-Montserrat italic drop-shadow-lg py-2 border-black">
+            <i className="mt-5 text-center md:text-xl text-md text-gray-800 font-Montserrat italic drop-shadow-lg py-2 border-black">
             Where The Diplomacy Begins
-            </p1>
+            </i>
 
             </div>
     <Timer></Timer> 
