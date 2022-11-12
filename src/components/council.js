@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import {Carousel} from '3d-react-carousal';
 export default class Council extends Component {
   render() {
     var councilList=[
@@ -72,23 +72,7 @@ export default class Council extends Component {
       <h1 className="xl:text-5xl text-3xl text-white font-extrabold text-center py-6 mx-auto">
             Senior Council
           </h1>
-        <Slider {...settings}>
-
-            {councilcc[0]}
-            {councilcc[1]}
-            {councilcc[2]}
-            {councilcc[3]}
-            {councilcc[4]}
-            {councilcc[5]}
-            {councilcc[6]}
-            {councilcc[7]}
-            {councilcc[8]}
-            {councilcc[9]}
-            {councilcc[10]}
-            {councilcc[11]}
-           
-
-        </Slider>
+          <Carousel slides={councilcc} autoplay={true} interval={3000} arrows={true}/>
       </div>
     );
   }
