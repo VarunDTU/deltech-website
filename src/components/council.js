@@ -40,8 +40,9 @@ export default class Council extends Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            centerMode:false,
+            slidesToShow: 2,
+            slidesToScroll: 2,
             infinite: true,
             initialSlide:5,
             dots: true
@@ -50,6 +51,7 @@ export default class Council extends Component {
         {
           breakpoint: 600,
           settings: {
+            centerMode:false,
             slidesToShow: 2,
             slidesToScroll: 2,
             initialSlide: 5
@@ -67,7 +69,11 @@ export default class Council extends Component {
     };
     return (
       <div className="bg-cyan-800">
+      <h1 className="xl:text-5xl text-3xl text-white font-extrabold text-center py-6 mx-auto">
+            Senior Council
+          </h1>
         <Slider {...settings}>
+
             {councilcc[0]}
             {councilcc[1]}
             {councilcc[2]}
