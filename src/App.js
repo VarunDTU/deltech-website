@@ -6,7 +6,6 @@ import Footer from "./components/footer";
 import ScrollToTop from "react-scroll-to-top";
 // import Comingsoon from './components/comingsoon'
 // import Nav from './components/newnavbar'
-// import Timer from "./components/timeer";
 import NavBarnew from "./components/newnavbar";
 
 function App() {
