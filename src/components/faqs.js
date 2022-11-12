@@ -12,7 +12,7 @@ const Faqs = () => {
   const toggle4 = () => setOpen4(!open4);
   return (
     <section className=" text-white bg-cyan-800">
-      <div className="container w-full mx-auto flex flex-col px-5 py-24 justify-center ">
+      <div className="container w-11/12 mx-auto flex flex-col px-5 py-24 justify-center ">
         <h1 className="text-5xl mb-16 font-bold text-center">FAQ&#39;S</h1>
         <div className="mb-5 text-md sm:text-lg">
           <div className="border-b-2 border-white mb-4">

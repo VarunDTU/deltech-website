@@ -4,9 +4,10 @@ import {
   FaLinkedinIn,
   FaEnvelope,
   FaFacebookF,
-  // FaYoutube,
+  FaYoutube,
   FaInstagram,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -74,65 +75,88 @@ const Footer = () => {
             <h5 className="mb-2 md:text-lg font-bold text-gray-900 dark:text-white">
               Helpful Links
             </h5>
+
             <div>
-              <a
-                href="/"
-                className="font-normal text-gray-700 dark:text-gray-400 text-sm hover:underline"
-              >
-                Privacy Policy
-              </a>
-            </div>
-            <div>
-              <a
-                href="/"
+              <Link
+                to="/termsConditions"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-normal text-gray-700 dark:text-gray-400 text-sm hover:underline"
               >
                 Terms &amp; Conditions
-              </a>
+              </Link>
             </div>
             <div>
-              <a
-                href="/"
+              <Link
+                to="/paymentPolicy"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-normal text-gray-700 dark:text-gray-400 text-sm hover:underline"
               >
                 Payment Policy
-              </a>
+              </Link>
             </div>
           </div>
           <div className=" space-y-2  flex flex-col ">
             <h5 className="mb-2 md:text-lg font-bold text-gray-900 dark:text-white">
               Connect With Us
             </h5>
-            <div className=" items-center flex flex-row font-normal text-gray-700 dark:text-gray-400">
-              <span>
-                <FaEnvelope />
-              </span>
-              <span className="ml-2 text-sm ">Email</span>
-            </div>
-            <div className="font-normal items-center flex flex-row text-gray-700 dark:text-gray-400">
+
+            <a
+              href="https://www.instagram.com/deltechdebsoc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-normal items-center flex flex-row text-gray-700 dark:text-gray-400"
+            >
               <span>
                 <FaInstagram />
               </span>
-              <span className="ml-2 text-sm ">Instagram</span>
-            </div>
-            <div className="font-normal items-center flex flex-row text-gray-700 dark:text-gray-400">
+              <span className="ml-2 text-sm  hover:underline">Instagram</span>
+            </a>
+            <a
+              href="https://www.facebook.com/mundeltech"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-normal items-center flex flex-row text-gray-700 dark:text-gray-400"
+            >
               <span>
                 <FaFacebookF />
               </span>
-              <span className="ml-2 text-sm ">Facebook</span>
-            </div>
-            <div className="font-normal items-center flex flex-row text-gray-700 dark:text-gray-400">
+              <span className="ml-2 text-sm  hover:underline">Facebook</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/deltechdebsoc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-normal items-center flex flex-row text-gray-700 dark:text-gray-400"
+            >
               <span>
                 <FaLinkedinIn />
               </span>
-              <span className="ml-2 text-sm ">LinkedIn</span>
-            </div>
-            {/* <div className="font-normal items-center flex flex-row text-gray-700 dark:text-gray-400">
-                <span>
-                  <FaYoutube />
-                </span>
-                <span className="ml-2 text-sm ">Youtube</span>
-              </div> */}
+              <span className="ml-2 text-sm  hover:underline">LinkedIn</span>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCAw3xkvalx-64ZuZ32fSgNA/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-normal items-center flex flex-row text-gray-700 dark:text-gray-400"
+            >
+              <span>
+                <FaYoutube />
+              </span>
+              <span className="ml-2 text-sm  hover:underline">Youtube</span>
+            </a>
+            <a
+              href="mailto:deltech.mun@gmail.com"
+              className=" items-center flex flex-row font-normal text-gray-700 dark:text-gray-400"
+            >
+              <span>
+                <FaEnvelope />
+              </span>
+              <span className="ml-2 text-sm  hover:underline">
+                deltech.mun@gmail.com
+              </span>
+            </a>
           </div>
         </div>
         <hr className="mb-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:mb-6" />
