@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="text-4xl md:text-5xl mb-16 font-semibold md:font-bold">
           ABOUT US
         </h1>
-        <p className="text-xs leading-relaxed md:text-base mb-5">
+        <p className="text-xs leading-relaxed md:text-base mb-5 md:px-48 text-center">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, soluta
           amet, necessitatibus vel non error nobis quo voluptatum nisi iure
           repellendus! Officia dolores beatae esse qui voluptatem non, magni
