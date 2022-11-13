@@ -126,7 +126,7 @@ const Committees = () => {
                   <div className="font-bold text-3xl text-center pb-1">
                    UNHRC
                   </div>
-                  <p className="text-gray-800 text-sm text-center">text</p>
+                  <p className="text-gray-800 text-sm text-center">United Nations Human Rights Council</p>
                   <p className="text-center text-gray-600 text-base pt-3 font-normal">
                   Agenda and EB releases soon
                   </p>

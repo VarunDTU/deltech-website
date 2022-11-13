@@ -47,7 +47,7 @@ const Footer = () => {
                 Administrative Affairs
                 </p>
                 <h5 className="mb-2 font-bold text-sm text-gray-900 dark:text-white">
-                Ratanjay Shrivastava
+                Rtanjay Shrivastava
                 </h5>
                 <div className="font-normal text-sm flex flex-row items-center  text-neutral-300">
                   <span>
