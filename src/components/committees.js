@@ -3,7 +3,7 @@ import React from "react";
 const Committees = () => {
   return (
     <div>
-      <div className="container flex justify-center mx-auto">
+      <div className="container flex justify-center mx-auto" id="committees">
         <div>
           <h1 className="xl:text-5xl text-3xl text-gray-800 font-extrabold text-center py-12 mx-auto">
             Our Committees

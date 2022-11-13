@@ -67,7 +67,7 @@ export default function NavBar2() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="hover:text-blue-600">
-                            <Link activeClass="active" className="mr-2 hover:text-yellow-600"  to="home"  smooth={true} duration={500}>
+                            <Link activeClass="active" className="mr-2 hover:text-red-600"  to="home"  smooth={true} duration={300}>
                               HOME
                             </Link>
                             </li>
@@ -77,12 +77,12 @@ export default function NavBar2() {
           </Link>
                             </li>
                             <li className="hover:text-blue-600">
-                            <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
+                            <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true}  duration={300}>
           CONTACT
           </Link>
                             </li>
                             <li className="hover:text-blue-600">
-                            <Link activeClass="active" className="mr-2 hover:text-red-600"  to="contacts" smooth={true} offset={50} duration={500}>
+                            <Link activeClass="active" className="mr-2 hover:text-red-600"  to="committees" smooth={true}  duration={300}>
           COMMITTEES
           </Link>
                             </li>

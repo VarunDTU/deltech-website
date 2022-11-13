@@ -11,9 +11,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <>
+    <div id="contacts">
       <div className="flex flex-col md:flex-row">
-        <div className="w-full h-60 md:h-96  ">
+        <div className="w-full h-60 md:h-96">
           <iframe
             title="bing bing boo"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.997443658061!2d77.11617251501175!3d28.749493282371805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0138a74f7da7%3A0xf09fad683c23bd5d!2sDelhi%20Technological%20University!5e0!3m2!1sen!2sin!4v1668174548995!5m2!1sen!2sin"
@@ -21,6 +21,7 @@ const Footer = () => {
             allowfullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            
           ></iframe>
         </div>
         <div className=" text-white p-10 bg-slate-700 w-full ">
@@ -43,30 +44,30 @@ const Footer = () => {
             <div className="flex flex-col justify-evenly items-center md:flex-row ">
               <div className="p-4 w-52  h-24  mb-5 flex flex-col justify-evenly items-center md:mr-5 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <p className=" text-neutral-300 text-xs text-center font-normal pb-2">
-                  President
+                Administrative Affairs
                 </p>
-                <h5 className="mb-2 font-bold text-gray-900 dark:text-white">
-                  Divit Goel
+                <h5 className="mb-2 font-bold text-sm text-gray-900 dark:text-white">
+                Ratanjay Shrivastava
                 </h5>
                 <div className="font-normal text-sm flex flex-row items-center  text-neutral-300">
                   <span>
                     <FaPhoneAlt size={15} />
                   </span>
-                  <span className="ml-2">1 2 ka 4</span>
+                  <span className="ml-2">9431448889</span>
                 </div>
               </div>
               <div className="p-4 w-52  h-24 mb-5 bg-white flex flex-col justify-evenly items-center rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <p className=" text-neutral-300 text-xs text-center font-normal pb-2">
-                  Vice President
+                  Publicity
                 </p>
                 <h5 className="mb-2  font-bold text-gray-900 dark:text-white">
-                  Ashwin Rao
+                Ritika Rai
                 </h5>
                 <div className="font-normal  text-xs flex flex-row items-center text-neutral-300   ">
                   <span>
                     <FaPhoneAlt size={15} />
                   </span>
-                  <span className="ml-2 leading-loose ">9891777321</span>
+                  <span className="ml-2 leading-loose ">9013541686</span>
                 </div>
               </div>
             </div>
@@ -170,7 +171,7 @@ const Footer = () => {
           </span>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 
