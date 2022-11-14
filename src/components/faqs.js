@@ -11,89 +11,65 @@ const Faqs = () => {
   const [open4, setOpen4] = useState(false);
   const toggle4 = () => setOpen4(!open4);
   return (
-    <section className=" text-white bg-cyan-800">
+    <section className=" text-black bg-slate-800">
       <div className="container w-11/12 mx-auto flex flex-col px-5 py-24 justify-center ">
-        <h1 className="text-5xl mb-16 font-bold text-center">FAQ&#39;S</h1>
+        <h1 className="text-5xl mb-16 font-bold text-white text-center">FAQ&#39;S</h1>
         <div className="mb-5 text-md sm:text-lg">
-          <div className="border-b-2 border-white mb-4">
-            <div className=" flex flex-row justify-between  pb-2 hover:-translate-y-1 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle1}>
-              <h2 className="">What is DELTECH-MUN?</h2>
+          <div className=" mb-4">
+            <div className=" flex flex-row justify-between py-2 pb-2 bg-white hover:-translate-y-1 hover:text-cyan-400 rounded px-2  hover:cursor-pointer" onClick={toggle1}>
+              <h2 className="">Where is the venue?</h2>
               <span className="right-0" style={{ transform: open1 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-3 sm:text-base ml-4 overflow-hidden "
+              className="text-xs leading-relaxed mb-3 sm:text-base mt-4 text-white ml-4 overflow-hidden "
               style={{ height: open1 ? "" : "0" }}
              
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-              laudantium cum! Eos incidunt fugiat, corrupti impedit libero
-              veniam? Eum quidem cupiditate inventore ducimus asperiores quaerat
-              a, nemo iure. Doloremque, officia. Tenetur sapiente quae ab?
-              Eveniet, deserunt ducimus! Magni et libero odio quibusdam
-              doloremque officia est, fugiat adipisci iure minima mollitia quasi
-              aperiam, quo ratione numquam.
+              B.R. Auditorium Delhi Technological University.
             </p>
           </div>
-          <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between pb-2 hover:-translate-y-1 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle2}>
-            <h2 className=" ">What is DELTECH-MUN?</h2>
+          <div className=" mb-4 ">
+            <div className="flex flex-row py-2 px-2 bg-white rounded  justify-between pb-2 hover:-translate-y-1 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle2}>
+            <h2 className=" ">What are the dates?</h2>
               <span className="right-0" style={{ transform: open2 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-3 ml-4 sm:text-base overflow-hidden"
+              className="text-xs leading-relaxed mb-3 ml-4 mt-4 sm:text-base text-white overflow-hidden"
               style={{ height: open2 ? "" : "0" }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-              laudantium cum! Eos incidunt fugiat, corrupti impedit libero
-              veniam? Eum quidem cupiditate inventore ducimus asperiores quaerat
-              a, nemo iure. Doloremque, officia. Tenetur sapiente quae ab?
-              Eveniet, deserunt ducimus! Magni et libero odio quibusdam
-              doloremque officia est, fugiat adipisci iure minima mollitia quasi
-              aperiam, quo ratione numquam.
+              7th & 8th January 2023.
             </p>
           </div>
-          <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between pb-2 hover:-translate-y-1 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle3}>
-            <h2 className="  ">What is DELTECH-MUN?</h2>
+          <div className=" mb-4 ">
+            <div className="flex flex-row justify-between py-2 px-2 bg-white rounded pb-2 hover:-translate-y-1 hover:text-cyan-400 hover:cursor-pointer" onClick={toggle3}>
+            <h2 className="  ">Will Outstation delegates be provided with accomodation?</h2>
               <span className="right-0" style={{ transform: open3 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-3 ml-4 sm:text-base overflow-hidden"
+              className="text-xs leading-relaxed mb-3 ml-4 mt-4 sm:text-base text-white overflow-hidden"
               style={{ height: open3 ? "" : "0" }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-              laudantium cum! Eos incidunt fugiat, corrupti impedit libero
-              veniam? Eum quidem cupiditate inventore ducimus asperiores quaerat
-              a, nemo iure. Doloremque, officia. Tenetur sapiente quae ab?
-              Eveniet, deserunt ducimus! Magni et libero odio quibusdam
-              doloremque officia est, fugiat adipisci iure minima mollitia quasi
-              aperiam, quo ratione numquam.
+              Accomodation would be on requirement basis. The charges for each day would be bare by the delegates themselves.
             </p>
           </div>
-          <div className="border-b-2 border-white mb-4 ">
-            <div className="flex flex-row justify-between pb-2 hover:text-cyan-400 hover:-translate-y-1 hover:cursor-pointer" onClick={toggle4}>
-            <h2 className="">What is DELTECH-MUN?</h2>
+          <div className="mb-4 ">
+            <div className="flex flex-row justify-between pb-2 py-2 px-2 bg-white rounded  hover:text-cyan-400 hover:-translate-y-1 hover:cursor-pointer" onClick={toggle4}>
+            <h2 className="">What all is included in the delegation fees?</h2>
               <span className="right-0"  style={{ transform: open4 ? "rotate(180deg)" : "" }}>
                 <FaAngleDown size={25} />
               </span>
             </div>
             <p
-              className="text-xs leading-relaxed mb-3 ml-4 sm:text-base overflow-hidden"
+              className="text-xs leading-relaxed mb-3 ml-4 mt-4 sm:text-base text-white overflow-hidden"
               style={{ height: open4 ? "" : "0" }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
-              laudantium cum! Eos incidunt fugiat, corrupti impedit libero
-              veniam? Eum quidem cupiditate inventore ducimus asperiores quaerat
-              a, nemo iure. Doloremque, officia. Tenetur sapiente quae ab?
-              Eveniet, deserunt ducimus! Magni et libero odio quibusdam
-              doloremque officia est, fugiat adipisci iure minima mollitia quasi
-              aperiam, quo ratione numquam.
+              The fees would cover,breakfast,lunch &Night tea on the 7th & 8th January 2023. However, the delegates who opt for accomodation would bear the prices separately.
             </p>
           </div>
         </div>

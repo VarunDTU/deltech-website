@@ -6,19 +6,21 @@ import {Carousel} from '3d-react-carousal';
 export default class Council extends Component {
   render() {
     var councilList=[
-      {name:"Ishpreet.png",desi:'Director, External affairs'},
+        {name:"Lakshay.jpg",desi:'Public Relations'},
         {name:"Divit_goel.jpg",desi:"President"},
         {name:"Ashwin_Rao.jpg",desi:"Vice President"},
-        {name:"Kushi.png",desi:'Director, Internal Affairs'},{name:"Lakshay.jpg",desi:'Public Relations'},
-        {name:"Nilesh.jpg",desi:'Director, Operations'},
-        {name:"RahulSingh.jpg",desi:'Director, Corporate Affairs'},
-        {name:"RitikaRai.jpg",desi:'Director, Publicity'},
-        {name:"Saksham.jpg",desi:'Director, Finance'},
+        {name:"Rtanjay.jpg",desi:'Director, Administrative Affairs'},
         {name:"Sankalp.jpg",desi:'Director, MUN'},
-        {name:"Shruti.jpg",desi:'Director, Social & Outreach'},
         {name:"Siddharth.jpg",desi:'Director, Debating'},
+        {name:"Ishpreet.png",desi:'Director, External affairs'},
+        {name:"Saksham.jpg",desi:'Director, Finance'},
+        {name:"Kushi.png",desi:'Director, Internal Affairs'},
+        {name:"RitikaRai.jpg",desi:'Director, Publicity'},
+        {name:"RahulSingh.jpg",desi:'Director, Corporate Affairs'},
+        {name:"Nilesh.jpg",desi:'Director, Operations'},
+        {name:"Shruti.jpg",desi:'Director, Social & Outreach'},
         {name:"Tushar.jpg",desi:'Director, Research & Policy'},
-        {name:"Rtanjay.jpg",desi:'Director, Administrative Affairs'}];
+      ];
     
     var councilcc= councilList.map(item => <div class="flex justify-center text-center py-10 px-5">
     <div class="rounded-2xl shadow-lg bg-white outline outline-2 outline-black shadow-black py-5 max-w-sm px-3" >

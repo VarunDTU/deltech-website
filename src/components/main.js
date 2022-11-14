@@ -17,17 +17,21 @@ const Main = () => {
               <h2 className="mt-9 text-center md:text-2xl text-xl text-gray-800 italic font-Montserrat md:lh1 drop-shadow-lg py-2 border-black">
             Deltech MUN & Debating Society <br/>presents
             </h2>
-            <h1 className="mt-5 text-center md:text-9xl text-7xl text-white lh1 font-hd1 font-bold text-shadow: py-2 border-black">
+            <h1 className="mt-5 text-center md:text-9xl text-7xl text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-amber-200 via-violet-600 to-sky-900 lh1 font-hd1 font-bold  border-black">
             DELTECH MUN 2023
             </h1>
             
-            <i className="mt-5 text-center md:text-xl text-md text-gray-800 font-Montserrat italic drop-shadow-lg py-2 border-black">
+            <i className="mt-5 text-center md:text-xl text-md text-gray-800 font-Montserrat italic drop-shadow-lg border-black">
             Where The Diplomacy Begins
             </i>
-
+            <i className="mt-1 text-center md:text-xl text-md text-gray-800 font-Montserrat italic drop-shadow-lg border-black">
+            On<br/>7th & 8th January 2023
+            </i>
+          
             </div>
+
     <Timer></Timer> 
-            <div className="flex flex-row py-5">
+            <div className="flex flex-row py-3">
               <Link  to="aboutus"  smooth={true}  duration={200}>
             <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
             <a href="#_" class="relative inline-block text-lg group">

@@ -2,15 +2,15 @@ import React from "react";
 
 const Committees = () => {
   return (
-    <div>
-      <div className="container flex justify-center mx-auto" id="committees">
+    <div className="bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-slate-300 via-cyan-600 to-violet-300">
+      <div className="container flex justify-center mx-auto " id="committees">
         <div>
           <h1 className="xl:text-5xl text-3xl text-gray-800 font-extrabold text-center py-12 mx-auto">
             Our Committees
           </h1>
         </div>
       </div>
-      <div className="w-full bg-gray-100 px-10 pt-10">
+      <div className="w-full px-10 pt-10">
         <div className="container mx-auto">
           <div className="lg:flex md:flex sm:flex items-center xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around">
             <div className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5">
