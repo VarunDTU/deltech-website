@@ -22,6 +22,8 @@ const Committees = () => {
                 >
                   Disarmament and International Security Committee
                 </h5>
+                
+
                 <button
                   type="button"
                   class="btn-close box-content w-4 h-4 p-1 text-black rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
@@ -37,6 +39,23 @@ const Committees = () => {
                   signed by Ukraine at the annual summit of the Association of
                   Southeast Asian Nations (ASEAN).
                 </p>
+                {/* vice chairperson name */}
+                <div className="flex flex-col md:flex-row justify-evenly my-5">
+                  <div className="flex flex-col">
+                  <a>
+                    Chair
+                  </a>
+                  <a className="text-gray-600 my-3">Dhruv Jain</a>
+
+                  </div>
+                  <div className="flex flex-col">
+                  <a>
+                    Vice Chairperson
+                  </a>
+                  <a className="text-gray-600 my-3">Pulkit Taneja</a>
+
+                  </div>
+                </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -86,6 +105,23 @@ const Committees = () => {
                   Deliberation on the GST Act, With special emphasis on
                   Jurisdictional issues.
                 </p>
+                {/* vice chairperson name */}
+                <div className="flex flex-col md:flex-row justify-evenly my-5">
+                  <div className="flex flex-col">
+                  <a>
+                    Chair
+                  </a>
+                  <a className="text-gray-600 my-3">Aniket Basu</a>
+
+                  </div>
+                  <div className="flex flex-col">
+                  <a>
+                    Vice Chairperson
+                  </a>
+                  <a className="text-gray-600 my-3">Aditya Sharma</a>
+
+                  </div>
+                </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
 
                 <a href="#_" class="relative inline-block text-sm group">
@@ -133,7 +169,25 @@ const Committees = () => {
               </div>
               <div className="modal-body relative p-4">
                 <p className="text-center text-gray-600 text-sm font-medium"></p>
+                {/* vice chairperson name */}
+                <div className="flex flex-col md:flex-row justify-evenly my-5">
+                  <div className="flex flex-col">
+                  <a>
+                    Chair
+                  </a>
+                  <a className="text-gray-600 my-3">Kaveri Rawal</a>
+
+                  </div>
+                  <div className="flex flex-col">
+                  <a>
+                    Vice Chairperson
+                  </a>
+                  <a className="text-gray-600 my-3">Maheen Faisal</a>
+
+                  </div>
+                </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
+
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                     <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
@@ -226,6 +280,23 @@ const Committees = () => {
                   Discussing the humanitarian violations by PMSCs, with a
                   special emphasis on conflicted regions.
                 </p>
+                {/* vice chairperson name */}
+                <div className="flex flex-col md:flex-row justify-evenly my-5">
+                  <div className="flex flex-col">
+                  <a>
+                    Chair
+                  </a>
+                  <a className="text-gray-600 my-3">Rahul Menon</a>
+
+                  </div>
+                  <div className="flex flex-col">
+                  <a>
+                    Vice Chairperson
+                  </a>
+                  <a className="text-gray-600 my-3">Ishaan Jain</a>
+
+                  </div>
+                </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -272,6 +343,23 @@ const Committees = () => {
               </div>
               <div className="modal-body relative p-4">
                 <p className="text-center text-gray-600 text-sm font-medium"></p>
+                {/* vice chairperson name */}
+                <div className="flex flex-col md:flex-row justify-evenly my-5">
+                  <div className="flex flex-col">
+                  <a>
+                    Chair
+                  </a>
+                  <a className="text-gray-600 my-3"></a>
+
+                  </div>
+                  <div className="flex flex-col">
+                  <a>
+                    Vice Chairperson
+                  </a>
+                  <a className="text-gray-600 my-3"></a>
+
+                  </div>
+                </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -308,7 +396,7 @@ const Committees = () => {
               <div
                 data-bs-toggle="modal"
                 data-bs-target="#disec"
-                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5"
+                className="cursor-pointer xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5"
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
@@ -344,10 +432,10 @@ const Committees = () => {
               <div
                 data-bs-toggle="modal"
                 data-bs-target="#gst"
-                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5"
+                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 cursor-pointer "
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
-                  <div className="absolute -mt-20 w-full flex justify-center">
+                  <div className="absolute -mt-20 w-full flex justify-center ">
                     <div className="h-32 w-32">
                       <img
                         src="/images/gst.png"
@@ -374,7 +462,7 @@ const Committees = () => {
               <div
                 data-bs-toggle="modal"
                 data-bs-target="#uncsw"
-                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5"
+                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 cursor-pointer "
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
@@ -394,7 +482,7 @@ const Committees = () => {
                       United Nations Commission on the Status of Women
                     </p>
                     <p className="text-center pt-4 text-xs font-medium">
-                      Agenda and EB releases soon
+                     
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
@@ -403,7 +491,7 @@ const Committees = () => {
               <div
                 data-bs-toggle="modal"
                 data-bs-target="#unsc"
-                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5"
+                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 cursor-pointer "
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
@@ -423,7 +511,7 @@ const Committees = () => {
                       United Nations security council
                     </p>
                     <p className="text-center pt-4 text-xs font-medium">
-                      Agenda and EB releases soon
+                     
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
@@ -432,7 +520,7 @@ const Committees = () => {
               <div
                 data-bs-toggle="modal"
                 data-bs-target="#unhrc"
-                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5"
+                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 cursor-pointer "
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
@@ -462,7 +550,7 @@ const Committees = () => {
               <div
                 data-bs-toggle="modal"
                 data-bs-target="#ip"
-                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5"
+                className="xl:w-1/3 sm:w-3/4 md:w-2/5 relative mt-16 mb-32 sm:mb-24 xl:max-w-sm lg:w-2/5 cursor-pointer "
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
@@ -482,7 +570,7 @@ const Committees = () => {
                       International Press
                     </p>
                     <p className="text-center pt-4 text-xs font-medium">
-                      Agenda and EB releases soon
+                      
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
