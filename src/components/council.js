@@ -36,7 +36,7 @@ export default class Council extends Component {
   </div>)
     
     return (
-      <div className="bg-cyan-800 md:min-h-[584px] ">
+      <div className="bg-cyan-800 min-h-[584px]">
       <h1 className="xl:text-5xl text-3xl text-white font-extrabold text-center py-6 mx-auto">
             Senior Council
           </h1>
