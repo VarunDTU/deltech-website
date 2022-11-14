@@ -3,7 +3,7 @@ import About from "./components/about";
 import Faqs from "./components/faqs";
 import Sponsors from "./components/sponsors";
 import Committees from "./components/committees";
-// import Gallery from "./components/gallery";
+import Gallery from "./components/gallery";
 import Footer from "./components/footer";
 import ScrollToTop from "react-scroll-to-top";
 import NavBarnew from "./components/newnavbar";
@@ -27,7 +27,7 @@ function App() {
       <About />
       <Committees />
       <Council />
-      {/* <Gallery /> */}
+      <Gallery />
       <Sponsors />
       <Faqs />
       <Footer />
