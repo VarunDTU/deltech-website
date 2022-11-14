@@ -6,7 +6,7 @@ const Committees = () => {
     <>
       <section>
         <div
-          class="modal fade z-10 fixed top-28 left-28 hidden w-3/4 h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="disec"
           tabindex="-1"
           aria-labelledby="disecModalLgLabel"
@@ -31,11 +31,11 @@ const Committees = () => {
                   <FaTimes size={20} />
                 </button>
               </div>
-              <div className="modal-body relative p-8">
-                <p className="text-center text-gray-600 text-sm font-normal">
-                  “Deliberation on the Treaty on Amity and Cooperation ("TAC")
+              <div className="modal-body relative p-10">
+                <p className="text-center text-gray-600 text-sm font-medium ">
+                  Deliberation on the Treaty on Amity and Cooperation ("TAC")
                   signed by Ukraine at the annual summit of the Association of
-                  Southeast Asian Nations (ASEAN).”
+                  Southeast Asian Nations (ASEAN).
                 </p>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
@@ -56,7 +56,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-28 left-28 hidden w-3/4 h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="gst"
           tabindex="-1"
           aria-labelledby="gstModalLgLabel"
@@ -67,7 +67,7 @@ const Committees = () => {
             <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
-                  className="text-center text-gray-600 text-sm font-normal"
+                  className="text-lg font-medium leading-normal text-gray-800 "
                   id="gstModalLgLabel"
                 >
                   Goods And Sevices Tax Council
@@ -82,9 +82,9 @@ const Committees = () => {
                 </button>
               </div>
               <div className="modal-body relative p-4">
-                <p className="text-center text-gray-600 text-sm font-normal">
-                  “Deliberation on the GST Act, With special emphasis on
-                  Jurisdictional issues.”
+                <p className="text-center text-gray-600 text-sm font-medium">
+                  Deliberation on the GST Act, With special emphasis on
+                  Jurisdictional issues.
                 </p>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
 
@@ -106,7 +106,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-28 left-28 hidden w-3/4 h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="uncsw"
           tabindex="-1"
           aria-labelledby="uncswModalLgLabel"
@@ -117,7 +117,7 @@ const Committees = () => {
             <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
-                  className="text-center text-gray-600 text-sm font-normal"
+                  className="text-lg font-medium leading-normal text-gray-800 "
                   id="uncswModalLgLabel"
                 >
                   United Nations Commission on the Status of Women
@@ -132,7 +132,7 @@ const Committees = () => {
                 </button>
               </div>
               <div className="modal-body relative p-4">
-                <p className="text-center text-gray-600 text-sm font-normal"></p>
+                <p className="text-center text-gray-600 text-sm font-medium"></p>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -152,7 +152,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-28 left-28 hidden w-3/4 h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="unsc"
           tabindex="-1"
           aria-labelledby="unscModalLgLabel"
@@ -163,7 +163,7 @@ const Committees = () => {
             <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
-                  className="text-center text-gray-600 text-sm font-normal"
+                  className="text-lg font-medium leading-normal text-gray-800 "
                   id="unscModalLgLabel"
                 >
                   United Nations security council
@@ -196,7 +196,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-28 left-28 hidden w-3/4 h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="unhrc"
           tabindex="-1"
           aria-labelledby="unhrcModalLgLabel"
@@ -207,7 +207,7 @@ const Committees = () => {
             <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
-                  className="text-center text-gray-600 text-sm font-normal"
+                  className="text-lg font-medium leading-normal text-gray-800 "
                   id="unhrcModalLgLabel"
                 >
                   United Nations Human Rights Council
@@ -222,9 +222,9 @@ const Committees = () => {
                 </button>
               </div>
               <div className="modal-body relative p-4">
-                <p className="text-center text-gray-600 text-sm font-normal">
-                  “Discussing the humanitarian violations by PMSCs, with a
-                  special emphasis on conflicted regions ”
+                <p className="text-center text-gray-600 text-sm font-medium">
+                  Discussing the humanitarian violations by PMSCs, with a
+                  special emphasis on conflicted regions.
                 </p>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
@@ -245,7 +245,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-28 left-28 hidden w-3/4 h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="ip"
           tabindex="-1"
           aria-labelledby="ipModalLgLabel"
@@ -256,7 +256,7 @@ const Committees = () => {
             <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
-                  className="text-center text-gray-600 text-sm font-normal"
+                  className="text-lg font-medium leading-normal text-gray-800 "
                   id="ipModalLgLabel"
                 >
                   International Press
@@ -271,7 +271,7 @@ const Committees = () => {
                 </button>
               </div>
               <div className="modal-body relative p-4">
-                <p className="text-center text-gray-600 text-sm font-normal"></p>
+                <p className="text-center text-gray-600 text-sm font-medium"></p>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -289,8 +289,11 @@ const Committees = () => {
           </div>
         </div>
       </section>
+      
       {/* <------------------------------------------------------------------------------------------------------> */}
+      
       {/* <------------------------------------------------------------------------------------------------------> */}
+      
       <section>
         <div className="container flex justify-center mx-auto" id="committees">
           <div>
@@ -324,10 +327,10 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       Disarmament and International Security Committee
                     </p>
-                    <p className="text-center text-gray-600 text-sm font-normal">
-                      “Deliberation on the Treaty on Amity and Cooperation
+                    <p className="text-center pt-4 text-xs font-medium">
+                      Deliberation on the Treaty on Amity and Cooperation
                       ("TAC") signed by Ukraine at the annual summit of the
-                      Association of Southeast Asian Nations (ASEAN).”
+                      Association of Southeast Asian Nations (ASEAN).
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5">
                       <a href="/" className="mx-5">
@@ -360,9 +363,9 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       Goods And Sevices Tax Council
                     </p>
-                    <p className="text-center text-gray-600 text-sm font-normal">
-                      “Deliberation on the GST Act, With special emphasis on
-                      Jurisdictional issues.”
+                    <p className="text-center pt-4 text-xs font-medium  ">
+                      Deliberation on the GST Act, With special emphasis on
+                      Jurisdictional issues.
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
@@ -390,7 +393,7 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       United Nations Commission on the Status of Women
                     </p>
-                    <p className="text-center text-gray-600 text-sm font-normal">
+                    <p className="text-center pt-4 text-xs font-medium">
                       Agenda and EB releases soon
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
@@ -419,7 +422,7 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       United Nations security council
                     </p>
-                    <p className="text-center text-gray-600 text-sm font-normal">
+                    <p className="text-center pt-4 text-xs font-medium">
                       Agenda and EB releases soon
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
@@ -448,9 +451,9 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       United Nations Human Rights Council
                     </p>
-                    <p className="text-center text-gray-600 text-sm font-normal">
-                      “Discussing the humanitarian violations by PMSCs, with a
-                      special emphasis on conflicted regions ”
+                    <p className="text-center pt-4 text-xs font-medium">
+                      Discussing the humanitarian violations by PMSCs, with a
+                      special emphasis on conflicted regions.
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
@@ -478,7 +481,7 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       International Press
                     </p>
-                    <p className="text-center text-gray-600 text-sm font-normal">
+                    <p className="text-center pt-4 text-xs font-medium">
                       Agenda and EB releases soon
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
