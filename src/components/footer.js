@@ -21,7 +21,6 @@ const Footer = () => {
             allowfullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            
           ></iframe>
         </div>
         <div className=" text-white p-10 bg-slate-700 w-full ">
@@ -44,10 +43,10 @@ const Footer = () => {
             <div className="flex flex-col justify-evenly items-center md:flex-row ">
               <div className="p-4 w-52  h-24  mb-5 flex flex-col justify-evenly items-center md:mr-5 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <p className=" text-neutral-300 text-xs text-center font-normal pb-2">
-                Administrative Affairs
+                  Administrative Affairs
                 </p>
                 <h5 className="mb-2 font-bold text-sm text-gray-900 dark:text-white">
-                Rtanjay Shrivastava
+                  Rtanjay Shrivastava
                 </h5>
                 <div className="font-normal text-sm flex flex-row items-center  text-neutral-300">
                   <span>
@@ -61,7 +60,7 @@ const Footer = () => {
                   Publicity
                 </p>
                 <h5 className="mb-2  font-bold text-gray-900 dark:text-white">
-                Ritika Rai
+                  Ritika Rai
                 </h5>
                 <div className="font-normal  text-xs flex flex-row items-center text-neutral-300   ">
                   <span>
@@ -98,11 +97,21 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className=" space-y-2  flex flex-col ">
+          <div className=" space-y-2  flex flex-col items-center ">
             <h5 className="mb-2 md:text-lg font-bold text-gray-900 dark:text-white">
               Connect With Us
             </h5>
-
+            <a
+              href="mailto:deltech.mun@gmail.com"
+              className=" items-center flex flex-row font-normal text-gray-700 dark:text-gray-400"
+            >
+              <span>
+                <FaEnvelope />
+              </span>
+              <span className="ml-2 text-sm  hover:underline">
+                deltech.mun@gmail.com
+              </span>
+            </a>
             <a
               href="https://www.instagram.com/deltechdebsoc"
               target="_blank"
@@ -146,17 +155,6 @@ const Footer = () => {
                 <FaYoutube />
               </span>
               <span className="ml-2 text-sm  hover:underline">Youtube</span>
-            </a>
-            <a
-              href="mailto:deltech.mun@gmail.com"
-              className=" items-center flex flex-row font-normal text-gray-700 dark:text-gray-400"
-            >
-              <span>
-                <FaEnvelope />
-              </span>
-              <span className="ml-2 text-sm  hover:underline">
-                deltech.mun@gmail.com
-              </span>
             </a>
           </div>
         </div>
