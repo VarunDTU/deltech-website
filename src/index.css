@@ -3,8 +3,8 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
 a {
   text-decoration: none;
   color: inherit;
@@ -33,7 +33,7 @@ a {
   transform: scale(1.08) 
 }
 .lh1 {
-  -webkit-text-stroke: 0.1px black;
+  -webkit-text-stroke: 2px black;
   
   
   

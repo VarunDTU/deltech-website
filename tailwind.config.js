@@ -7,8 +7,8 @@ module.exports = {
     extend: {fontFamily:{
       Montserrat:["Montserrat", "sans-serif"],
       bb:[ 'Bebas Neue', "cursive"],
-      hbb:[ 'Monoton', 'cursive'],
-      hd1:['Anton', 'sans-serif'],
+      Lato:['Lato', 'sans-serif']
+
     }},
   },
   plugins: [],
