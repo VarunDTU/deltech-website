@@ -6,7 +6,7 @@ const Committees = () => {
     <>
       <section>
         <div
-          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
           id="disec"
           tabindex="-1"
           aria-labelledby="disecModalLgLabel"
