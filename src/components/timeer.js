@@ -31,7 +31,7 @@ const Timer = () => {
     <div className="min-w-screen h-36 bg-transparent flex items-center justify-center px-5 py-2" x-data="beer()" x-init="start()">
     <div className="text-yellow-200">
         
-        <div className="text-6xl text-center flex w-full items-center justify-center text-yellow-500">
+        <div className="text-6xl text-center flex w-full items-center justify-center text-slate-900">
             <div className="mx-1 p-2 outline outline-2 md:px-2 px-5 outline-black bg-white rounded-lg">
                 <div className="md:w-24 w-5 md:text-5xl text-3xl font-mono leading-none" x-text="days">{days < 10 ? "0" + days : days}</div>
                 <div className="font-mono uppercase md:text-sm text-xs leading-none">Days</div>

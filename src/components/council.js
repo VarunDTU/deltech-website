@@ -7,8 +7,8 @@ export default class Council extends Component {
   render() {
     var councilList=[
       {name:"Ishpreet.png",desi:'Director, External affairs'},
-        {name:"Ashwin_Rao.jpg",desi:"President"},
-        {name:"Divit_goel.jpg",desi:"Vice President"},
+        {name:"Divit_goel.jpg",desi:"President"},
+        {name:"Ashwin_Rao.jpg",desi:"Vice President"},
         {name:"Kushi.png",desi:'Director, Internal Affairs'},{name:"Lakshay.jpg",desi:'Public Relations'},
         {name:"Nilesh.jpg",desi:'Director, Operations'},
         {name:"RahulSingh.jpg",desi:'Director, Corporate Affairs'},
