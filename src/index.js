@@ -4,6 +4,7 @@ import PaymentPolicy from "./components/paymentPolicy";
 import TermsConditions from "./components/termsConditions";
 import "./index.css";
 import App from "./App";
+import 'tw-elements';
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
