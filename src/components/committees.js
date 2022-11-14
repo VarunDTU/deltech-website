@@ -2,7 +2,7 @@ import React from "react";
 
 const Committees = () => {
   return (
-    <div className="bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-slate-300 via-cyan-600 to-violet-300">
+    <div className="bg-white">
       <div className="container flex justify-center mx-auto " id="committees">
         <div>
           <h1 className="xl:text-5xl text-3xl text-gray-800 font-extrabold text-center py-12 mx-auto">
