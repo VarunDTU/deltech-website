@@ -23,7 +23,7 @@ const Footer = () => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className=" text-white p-10 bg-slate-700 w-full ">
+        <div className=" text-slate-900 p-10 bg-white w-full ">
           <h1 className="text-4xl lg:text-5xl font-bold mt-5 text-center">
             Venue
           </h1>
