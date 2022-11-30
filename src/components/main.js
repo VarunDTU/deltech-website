@@ -17,7 +17,7 @@ const Main = () => {
               <h2 className="mt-9 text-center md:text-2xl text-xl text-gray-800 italic font-Montserrat md:lh1 drop-shadow-lg py-2 border-black">
             Deltech MUN & Debating Society <br/>presents
             </h2>
-            <h1 className="mt-5 text-center md:text-8xl text-6xl text-white/60 font-lato lh1 font-bold  border-black">
+            <h1 className="mt-5 text-center md:text-8xl text-6xl text-white/80 font-lato lh1 font-bold  border-black">
             DELTECH MUN 2023
             </h1>
             
