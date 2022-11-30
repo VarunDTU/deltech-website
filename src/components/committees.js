@@ -6,7 +6,7 @@ const Committees = () => {
     <>
       <section>
         <div
-          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
           id="disec"
           tabindex="-1"
           aria-labelledby="disecModalLgLabel"
@@ -14,7 +14,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -22,7 +22,6 @@ const Committees = () => {
                 >
                   Disarmament and International Security Committee
                 </h5>
-                
 
                 <button
                   type="button"
@@ -42,18 +41,12 @@ const Committees = () => {
                 {/* vice chairperson name */}
                 <div className="flex flex-col md:flex-row justify-evenly my-5">
                   <div className="flex flex-col">
-                  <a>
-                    Chair
-                  </a>
-                  <a className="text-gray-600 my-3">Dhruv Jain</a>
-
+                    <a>Chair</a>
+                    <a className="text-gray-600 my-3">Dhruv Jain</a>
                   </div>
                   <div className="flex flex-col">
-                  <a>
-                    Vice Chairperson
-                  </a>
-                  <a className="text-gray-600 my-3">Pulkit Taneja</a>
-
+                    <a>Vice Chairperson</a>
+                    <a className="text-gray-600 my-3">Pulkit Taneja</a>
                   </div>
                 </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
@@ -75,7 +68,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
           id="gst"
           tabindex="-1"
           aria-labelledby="gstModalLgLabel"
@@ -83,7 +76,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -108,18 +101,12 @@ const Committees = () => {
                 {/* vice chairperson name */}
                 <div className="flex flex-col md:flex-row justify-evenly my-5">
                   <div className="flex flex-col">
-                  <a>
-                    Chair
-                  </a>
-                  <a className="text-gray-600 my-3">Aniket Basu</a>
-
+                    <a>Chair</a>
+                    <a className="text-gray-600 my-3">Aniket Basu</a>
                   </div>
                   <div className="flex flex-col">
-                  <a>
-                    Vice Chairperson
-                  </a>
-                  <a className="text-gray-600 my-3">Aditya Sharma</a>
-
+                    <a>Vice Chairperson</a>
+                    <a className="text-gray-600 my-3">Aditya Sharma</a>
                   </div>
                 </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
@@ -142,7 +129,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
           id="uncsw"
           tabindex="-1"
           aria-labelledby="uncswModalLgLabel"
@@ -150,7 +137,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -168,26 +155,22 @@ const Committees = () => {
                 </button>
               </div>
               <div className="modal-body relative p-4">
-                <p className="text-center text-gray-600 text-sm font-medium"></p>
+                <p className="text-center text-gray-600 text-sm font-medium">
+                  Issue of decriminalization and legalization of sex work,
+                  including the commercial exchange of sexual services
+                </p>
                 {/* vice chairperson name */}
                 <div className="flex flex-col md:flex-row justify-evenly my-5">
                   <div className="flex flex-col">
-                  <a>
-                    Chair
-                  </a>
-                  <a className="text-gray-600 my-3">Kaveri Rawal</a>
-
+                    <a>Chair</a>
+                    <a className="text-gray-600 my-3">Kaveri Rawal</a>
                   </div>
                   <div className="flex flex-col">
-                  <a>
-                    Vice Chairperson
-                  </a>
-                  <a className="text-gray-600 my-3">Maheen Faisal</a>
-
+                    <a>Vice Chairperson</a>
+                    <a className="text-gray-600 my-3">Maheen Faisal</a>
                   </div>
                 </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
-
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                     <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
@@ -206,7 +189,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
           id="unsc"
           tabindex="-1"
           aria-labelledby="unscModalLgLabel"
@@ -214,7 +197,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -231,6 +214,22 @@ const Committees = () => {
                   <FaTimes size={20} />
                 </button>
               </div>
+              <div className="modal-body relative p-4"></div>
+              <p className="text-center text-gray-600 text-sm font-medium">
+                Deliberation on Taiwan crisis
+              </p>
+              {/* vice chairperson name */}
+              <div className="flex flex-col md:flex-row justify-evenly my-5">
+                <div className="flex flex-col">
+                  <a>Chair</a>
+                  <a className="text-gray-600 my-3">Siddharth Kapoor</a>
+                </div>
+                <div className="flex flex-col">
+                  <a>Vice Chairperson</a>
+                  <a className="text-gray-600 my-3">Aryan Singh</a>
+                </div>
+              </div>
+
               <div className="modal-body relative p-4">
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -250,7 +249,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
           id="unhrc"
           tabindex="-1"
           aria-labelledby="unhrcModalLgLabel"
@@ -258,7 +257,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -283,18 +282,12 @@ const Committees = () => {
                 {/* vice chairperson name */}
                 <div className="flex flex-col md:flex-row justify-evenly my-5">
                   <div className="flex flex-col">
-                  <a>
-                    Chair
-                  </a>
-                  <a className="text-gray-600 my-3">Rahul Menon</a>
-
+                    <a>Chair</a>
+                    <a className="text-gray-600 my-3">Rahul Menon</a>
                   </div>
                   <div className="flex flex-col">
-                  <a>
-                    Vice Chairperson
-                  </a>
-                  <a className="text-gray-600 my-3">Ishaan Jain</a>
-
+                    <a>Vice Chairperson</a>
+                    <a className="text-gray-600 my-3">Ishaan Jain</a>
                   </div>
                 </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
@@ -316,7 +309,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-         class="modal fade z-10 fixed hidden top-0 left-0 text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
           id="ip"
           tabindex="-1"
           aria-labelledby="ipModalLgLabel"
@@ -324,7 +317,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -346,18 +339,12 @@ const Committees = () => {
                 {/* vice chairperson name */}
                 <div className="flex flex-col md:flex-row justify-evenly my-5">
                   <div className="flex flex-col">
-                  <a>
-                    Chair
-                  </a>
-                  <a className="text-gray-600 my-3"></a>
-
+                    <a>Editor in Chief</a>
+                    <a className="text-gray-600 my-3">Shreya Chatterjee </a>
                   </div>
                   <div className="flex flex-col">
-                  <a>
-                    Vice Chairperson
-                  </a>
-                  <a className="text-gray-600 my-3"></a>
-
+                    <a>Head Of Photography</a>
+                    <a className="text-gray-600 my-3">Gaurish Chawla</a>
                   </div>
                 </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
@@ -377,11 +364,11 @@ const Committees = () => {
           </div>
         </div>
       </section>
-      
+
       {/* <------------------------------------------------------------------------------------------------------> */}
-      
+
       {/* <------------------------------------------------------------------------------------------------------> */}
-      
+
       <section>
         <div className="container flex justify-center mx-auto" id="committees">
           <div>
@@ -482,7 +469,8 @@ const Committees = () => {
                       United Nations Commission on the Status of Women
                     </p>
                     <p className="text-center pt-4 text-xs font-medium">
-                     
+                      Issue of decriminalization and legalization of sex work,
+                      including the commercial exchange of sexual services.
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
@@ -511,7 +499,7 @@ const Committees = () => {
                       United Nations security council
                     </p>
                     <p className="text-center pt-4 text-xs font-medium">
-                     
+                      Deliberation on Taiwan crisis
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
@@ -569,9 +557,7 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       International Press
                     </p>
-                    <p className="text-center pt-4 text-xs font-medium">
-                      
-                    </p>
+                    <p className="text-center pt-4 text-xs font-medium"></p>
                     <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
                 </div>
