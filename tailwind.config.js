@@ -9,7 +9,11 @@ module.exports = {
       bb:[ 'Bebas Neue', "cursive"],
       Lato:['Lato', 'sans-serif']
 
-    }},
+    },
+    backgroundImage: {
+      "delbg": "url('without_text.jpg')",
+      
+    },},
   },
   plugins: [],
 }

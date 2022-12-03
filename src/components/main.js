@@ -9,7 +9,7 @@ const Main = () => {
       
       <div className="relative w-full h-screen ">
         <div
-            className="w-full h-full absolute -z-10 bg-[url('without_text.jpg')] backdrop-blur-sm bg-cover bg-center">
+            className="w-full h-full absolute -z-10 bg-delbg backdrop-blur-sm bg-cover bg-center">
        </div>
         <div
             className="content-center flex flex-col h-screen justify-center items-center py-10 backdrop-blur-md">
