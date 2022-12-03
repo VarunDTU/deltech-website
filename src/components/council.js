@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import {Carousel} from '3d-react-carousal';
 export default class Council extends Component {
   render() {

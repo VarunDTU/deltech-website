@@ -4,7 +4,7 @@ import { FaTimes } from "react-icons/fa";
 const Committees = () => {
   return (
     <>
-      <section>
+      <section className="text-center">
         <div
           class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="disec"
@@ -38,13 +38,14 @@ const Committees = () => {
                   signed by Ukraine at the annual summit of the Association of
                   Southeast Asian Nations (ASEAN).
                 </p>
-                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                <div class="container mx-auto space-y-9 pt-6 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg "
+                        class="rounded-t-lg w-80 h-72"
                         src="/images/Committees/DhruvJain_UNGA_Chairperson.jpeg"
                         alt=""
+
                       />
                       <div class="p-6">
                         <h5 class="text-gray-900 text-xl font-medium mb-2">
@@ -57,7 +58,7 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg"
+                        class="rounded-t-lg w-72 h-72"
                         src="/images/Committees/Pulkit Taneja_UNGA_Vice_Chair.jpeg"
                         alt=""
                       />
@@ -126,7 +127,7 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg "
+                        class="rounded-t-lg w-80 h-72 "
                         src="/images/Committees/Aniket Basu_GST_Council_Chairperson.jpg"
                         alt=""
                       />
@@ -141,7 +142,7 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg"
+                        class="rounded-t-lg w-80 h-72"
                         src="/images/Committees/Aditya Sharma_GSTCouncil_Vice_Chair.png"
                         alt=""
                       />
@@ -210,8 +211,8 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg "
-                        src="/images/Committees/Aniket Basu_GST_Council_Chairperson.jpg"
+                        class="rounded-t-lg w-72 h-72"
+                        src="/images/Committees/Kaveri Rawal_UNCSW_Chairperson.jpeg"
                         alt=""
                       />
                       <div class="p-6">
@@ -225,8 +226,8 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg"
-                        src="/images/Committees/Aditya Sharma_GSTCouncil_Vice_Chair.png"
+                        class="rounded-t-lg w-72 h-72"
+                        src="/images/Committees/Maheen Faizal_UNCSW_Vice_Chair.jpeg"
                         alt=""
                       />
                       <div class="p-6">
@@ -294,7 +295,7 @@ const Committees = () => {
                 <div class="flex justify-center">
                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
                     <img
-                      class="rounded-t-lg "
+                      class="rounded-t-lg w-72 h-72"
                       src="/images/Committees/Siddharth Kapoor_UNSC_President.jpeg"
                       alt=""
                     />
@@ -311,7 +312,7 @@ const Committees = () => {
                 <div class="flex justify-center">
                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
                     <img
-                      class="rounded-t-lg"
+                      class="rounded-t-lg w-72 h-72"
                       src="/images/Committees/Aryan Singh_UNSC_Vice President.JPG"
                       alt=""
                     />
@@ -379,7 +380,7 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg "
+                        class="rounded-t-lg 2-72 h-72"
                         src="/images/Committees/Rahul Menon_UNHRC_President.jpg"
                         alt=""
                       />
@@ -394,7 +395,7 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg"
+                        class="rounded-t-lg w-72 h-72"
                         src="/images/Committees/Ishan Jain_UNHRC_Vice_President.jpg"
                         alt=""
                       />
@@ -459,7 +460,7 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg "
+                        class="rounded-t-lg w-72 h-72"
                         src="/images/Committees/Shreya_IP_Editor_In_Chief.jpeg"
                         alt=""
                       />
