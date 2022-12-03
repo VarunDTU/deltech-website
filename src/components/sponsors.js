@@ -3,7 +3,7 @@ import React from 'react'
 const Sponsors = () => {
   return (
     <section class="overflow-hidden pb-10 text-white bg-slate-900">
-  <div class="container pb-6">
+  <div class=" pb-6">
     <h1 className="text-5xl mb-16 font-bold text-center py-10 bg-slate-800">PAST PARTNERS</h1>
     <div class="flex flex-wrap -m-1 md:-m-2 px-20">
       <div class="flex flex-wrap w-1/4">
