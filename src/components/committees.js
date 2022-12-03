@@ -6,7 +6,7 @@ const Committees = () => {
     <>
       <section>
         <div
-          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="disec"
           tabindex="-1"
           aria-labelledby="disecModalLgLabel"
@@ -38,15 +38,38 @@ const Committees = () => {
                   signed by Ukraine at the annual summit of the Association of
                   Southeast Asian Nations (ASEAN).
                 </p>
-                {/* vice chairperson name */}
-                <div className="flex flex-col md:flex-row justify-evenly my-5">
-                  <div className="flex flex-col">
-                    <a>Chair</a>
-                    <a className="text-gray-600 my-3">Dhruv Jain</a>
+                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg "
+                        src="/images/Committees/DhruvJain_UNGA_Chairperson.jpeg"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Chair
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">Dhruv Jain</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex flex-col">
-                    <a>Vice Chairperson</a>
-                    <a className="text-gray-600 my-3">Pulkit Taneja</a>
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg"
+                        src="/images/Committees/Pulkit Taneja_UNGA_Vice_Chair.jpeg"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Vice Chairperson
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">
+                          Pulkit Taneja
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
@@ -68,7 +91,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="gst"
           tabindex="-1"
           aria-labelledby="gstModalLgLabel"
@@ -99,18 +122,41 @@ const Committees = () => {
                   Jurisdictional issues.
                 </p>
                 {/* vice chairperson name */}
-                <div className="flex flex-col md:flex-row justify-evenly my-5">
-                  <div className="flex flex-col">
-                    <a>Chair</a>
-                    <a className="text-gray-600 my-3">Aniket Basu</a>
+                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg "
+                        src="/images/Committees/Aniket Basu_GST_Council_Chairperson.jpg"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Chair
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">Aniket Basu</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex flex-col">
-                    <a>Vice Chairperson</a>
-                    <a className="text-gray-600 my-3">Aditya Sharma</a>
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg"
+                        src="/images/Committees/Aditya Sharma_GSTCouncil_Vice_Chair.png"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Vice Chairperson
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">
+                          Aditya Sharma
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
-
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                     <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
@@ -129,7 +175,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="uncsw"
           tabindex="-1"
           aria-labelledby="uncswModalLgLabel"
@@ -160,16 +206,41 @@ const Committees = () => {
                   including the commercial exchange of sexual services
                 </p>
                 {/* vice chairperson name */}
-                <div className="flex flex-col md:flex-row justify-evenly my-5">
-                  <div className="flex flex-col">
-                    <a>Chair</a>
-                    <a className="text-gray-600 my-3">Kaveri Rawal</a>
+                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg "
+                        src="/images/Committees/Aniket Basu_GST_Council_Chairperson.jpg"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Chair
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">Kaveri Rawal</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex flex-col">
-                    <a>Vice Chairperson</a>
-                    <a className="text-gray-600 my-3">Maheen Faisal</a>
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg"
+                        src="/images/Committees/Aditya Sharma_GSTCouncil_Vice_Chair.png"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Vice Chairperson
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">
+                          Maheen Faisal
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
+
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -189,7 +260,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="unsc"
           tabindex="-1"
           aria-labelledby="unscModalLgLabel"
@@ -219,14 +290,38 @@ const Committees = () => {
                 Deliberation on Taiwan crisis
               </p>
               {/* vice chairperson name */}
-              <div className="flex flex-col md:flex-row justify-evenly my-5">
-                <div className="flex flex-col">
-                  <a>Chair</a>
-                  <a className="text-gray-600 my-3">Siddharth Kapoor</a>
+              <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                <div class="flex justify-center">
+                  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                    <img
+                      class="rounded-t-lg "
+                      src="/images/Committees/Siddharth Kapoor_UNSC_President.jpeg"
+                      alt=""
+                    />
+                    <div class="p-6">
+                      <h5 class="text-gray-900 text-xl font-medium mb-2">
+                        Chair
+                      </h5>
+                      <p class="text-gray-700 text-base mb-4">
+                        Siddharth Kapoor
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className="flex flex-col">
-                  <a>Vice Chairperson</a>
-                  <a className="text-gray-600 my-3">Aryan Singh</a>
+                <div class="flex justify-center">
+                  <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                    <img
+                      class="rounded-t-lg"
+                      src="/images/Committees/Aryan Singh_UNSC_Vice President.JPG"
+                      alt=""
+                    />
+                    <div class="p-6">
+                      <h5 class="text-gray-900 text-xl font-medium mb-2">
+                        Vice Chairperson
+                      </h5>
+                      <p class="text-gray-700 text-base mb-4">Aryan Singh</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -249,7 +344,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="unhrc"
           tabindex="-1"
           aria-labelledby="unhrcModalLgLabel"
@@ -280,16 +375,39 @@ const Committees = () => {
                   special emphasis on conflicted regions.
                 </p>
                 {/* vice chairperson name */}
-                <div className="flex flex-col md:flex-row justify-evenly my-5">
-                  <div className="flex flex-col">
-                    <a>Chair</a>
-                    <a className="text-gray-600 my-3">Rahul Menon</a>
+                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg "
+                        src="/images/Committees/Rahul Menon_UNHRC_President.jpg"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Chair
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">Rahul Menon</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex flex-col">
-                    <a>Vice Chairperson</a>
-                    <a className="text-gray-600 my-3">Ishaan Jain</a>
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg"
+                        src="/images/Committees/Ishan Jain_UNHRC_Vice_President.jpg"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Vice Chairperson
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">Ishaan Jain</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
+
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <a href="#_" class="relative inline-block text-sm group">
                   <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
@@ -309,7 +427,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-1/4 left-0 hidden text-center w-full h-3/4 outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
           id="ip"
           tabindex="-1"
           aria-labelledby="ipModalLgLabel"
@@ -337,14 +455,40 @@ const Committees = () => {
               <div className="modal-body relative p-4">
                 <p className="text-center text-gray-600 text-sm font-medium"></p>
                 {/* vice chairperson name */}
-                <div className="flex flex-col md:flex-row justify-evenly my-5">
-                  <div className="flex flex-col">
-                    <a>Editor in Chief</a>
-                    <a className="text-gray-600 my-3">Shreya Chatterjee </a>
+                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg "
+                        src="/images/Committees/Shreya_IP_Editor_In_Chief.jpeg"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Editor in Chief
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">
+                          Shreya Chatterjee
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex flex-col">
-                    <a>Head Of Photography</a>
-                    <a className="text-gray-600 my-3">Gaurish Chawla</a>
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg"
+                        src="/images/Committees/"
+                        alt=""
+                      />
+                      <div class="p-6">
+                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                          Head Of Photography
+                        </h5>
+                        <p class="text-gray-700 text-base mb-4">
+                          Gaurish Chawla
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
