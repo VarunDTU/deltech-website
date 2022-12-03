@@ -12,9 +12,9 @@ const Faqs = () => {
   const toggle4 = () => setOpen4(!open4);
   return (
     <section className=" text-white bg-cyan-900">
-      <div className="container w-11/12 mx-auto flex flex-col px-5 py-24 justify-center ">
-        <h1 className="text-5xl mb-16 font-bold text-white text-center">FAQ&#39;S</h1>
-        <div className="mb-5 text-md sm:text-lg">
+      <div className="container flex flex-col pb-6 justify-center">
+        <h1 className="text-5xl mb-16 font-bold w-full text-white bg-cyan-800 text-center py-10">FAQ&#39;S</h1>
+        <div className="mb-5 text-md sm:text-lg px-10">
           <div className=" mb-4">
             <div className=" flex flex-row justify-between py-2 pb-2  hover:-translate-y-1 hover:text-cyan-400 rounded px-2  hover:cursor-pointer" onClick={toggle1}>
               <h2 className="">Where is the venue?</h2>

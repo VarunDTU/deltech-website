@@ -518,7 +518,7 @@ const Committees = () => {
         <div className="container flex justify-center mx-auto" id="committees">
           <div>
             <h1 className="xl:text-5xl text-3xl text-gray-800 font-extrabold text-center py-12 mx-auto">
-              Our Committees
+              OUR COMMITTEES
             </h1>
           </div>
         </div>

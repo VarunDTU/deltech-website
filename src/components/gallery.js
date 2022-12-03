@@ -3,10 +3,10 @@ import React from "react";
 const Gallery = () => {
   return (
     <section class="overflow-hidden text-gray-700 justify-center">
-      <h1 className="md:text-5xl text-3xl text-slate-800 font-extrabold text-center py-6 mx-auto">
+      <h1 className="md:text-5xl text-3xl text-slate-800 font-extrabold text-center py-10 mx-auto">
             GALLERY
           </h1>
-      <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32 justify-center items-center">
+      <div class="container px-5 py-2 mx-auto lg:py-10 bg-gray-200 lg:px-32 justify-center items-center">
         <div class="flex md:flex-row flex-col -m-1 md:-m-2">
           <div class="">
             <div class="w-full p-1 md:p-2">
