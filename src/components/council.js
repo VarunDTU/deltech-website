@@ -36,7 +36,7 @@ export default class Council extends Component {
     
     return (
       <div className="bg-cyan-800 min-h-[584px]">
-      <h1 className="xl:text-5xl text-3xl text-white font-extrabold text-center bg-cyan-700 py-10 mx-auto">
+      <h1 className="xl:text-5xl text-5xl text-white font-extrabold text-center bg-cyan-700 py-10 mx-auto">
             SENIOR COUNCIL
           </h1>
           <Carousel slides={councilcc} autoplay={true} interval={5000} arrows={true}/>

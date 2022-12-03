@@ -40,11 +40,11 @@ const Timer = () => {
                 <div className="md:w-24 w-5 md:text-5xl text-3xl font-mono leading-none" x-text="hours">{hours < 10 ? "0" + hours : hours}</div>
                 <div className="font-mono uppercase md:text-sm text-xs leading-none">Hours</div>
             </div>
-            <div className="mx-1 p-2 outline outline-2 md:px-2 px-5 outline-black bg-white rounded-lg">
+            <div className="mx-1 p-2 outline outline-2 md:px-2 px-3 text-center outline-black bg-white rounded-lg">
                 <div className="md:w-24 w-5 md:text-5xl text-3xl font-mono leading-none" x-text="minutes">{minutes < 10 ?'0'+ minutes : minutes}</div>
                 <div className="font-mono uppercase md:text-sm text-xs leading-none">Minutes</div>
             </div>
-            <div className="mx-1 p-2 outline outline-2 md:px-2 px-5 outline-black bg-white rounded-lg">
+            <div className="mx-1 p-2 outline outline-2 md:px-2 px-3 outline-black bg-white rounded-lg">
                 <div className="md:w-24 w-5 md:text-5xl text-3xl font-mono leading-none" x-text="seconds">{seconds < 10 ? "0" + seconds : seconds}</div>
                 <div className="font-mono uppercase md:text-sm text-xs leading-none">Seconds</div>
             </div>

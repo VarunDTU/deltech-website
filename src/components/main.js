@@ -4,15 +4,18 @@ import {Link} from 'react-scroll';
 const Main = () => {
   return (
     <div>
-    <section className='text-gray-600 -z-50 w-full' id="home" >
+    <section className='text-gray-600 -z-20 w-full' id="home" >
+      <div className=" w-screen h-screen object-fit absolute blur-md -z-50">
+        <img className="w-screen h-screen" src="/images/without_text.jpg"></img>
+      </div>
       <div className="mx-0 content-center">
       
       <div className="relative w-full h-screen ">
         <div
-            className="w-full h-full absolute -z-10 bg-delbg backdrop-blur-sm bg-cover bg-center">
+            className="w-full h-full absolute -z-10 bg-transparent">
        </div>
         <div
-            className="content-center flex flex-col h-screen justify-center items-center py-10 backdrop-blur-md">
+            className="content-center flex flex-col h-screen justify-center items-center py-10">
               <div className="items-center justify-center flex flex-col py-2">
               <h2 className="mt-9 text-center md:text-2xl text-xl text-gray-800 italic font-Montserrat md:lh1 drop-shadow-lg py-2 border-black">
             Deltech MUN & Debating Society <br/>presents

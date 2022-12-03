@@ -57,6 +57,7 @@ const Committees = () => {
                   </div>
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      
                       <img
                         class="rounded-t-lg w-72 h-72"
                         src="/images/Committees/Pulkit Taneja_UNGA_Vice_Chair.jpeg"
@@ -521,7 +522,7 @@ const Committees = () => {
       <section>
         <div className="container flex justify-center mx-auto" id="committees">
           <div>
-            <h1 className="xl:text-5xl text-3xl text-gray-800 font-extrabold text-center py-12 mx-auto">
+            <h1 className="xl:text-5xl text-5xl text-gray-800 font-extrabold text-center py-12 mx-auto">
               OUR COMMITTEES
             </h1>
           </div>
@@ -536,6 +537,10 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
+                  <span class="flex h-3 w-3">
+  
+  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+</span>
                     <div className="h-32 w-32">
                       <img
                         src="images/disec.png"
@@ -572,7 +577,12 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center ">
+                  <span class="flex h-3 w-3">
+  
+                    <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                  </span>
                     <div className="h-32 w-32">
+                    
                       <img
                         src="/images/gst.png"
                         alt=""
@@ -603,6 +613,10 @@ const Committees = () => {
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
                     <div className="h-32 w-32">
+                    <span class="flex h-3 w-3">
+  
+  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+</span>
                       <img
                         src="/images/sc.png"
                         alt=""
@@ -632,6 +646,10 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
+                  <span class="flex h-3 w-3">
+  
+  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+</span>
                     <div className="h-32 w-32">
                       <img
                         src="/images/unsc.png"
@@ -661,6 +679,10 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
+                  <span class="flex h-3 w-3">
+  
+  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+</span>
                     <div className="h-32 w-32">
                       <img
                         src="/images/unhrc.png"
@@ -691,6 +713,10 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
+                  <span class="flex h-3 w-3">
+  
+  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+</span>
                     <div className="h-32 w-32">
                       <img
                         src="/images/ip.jpg"

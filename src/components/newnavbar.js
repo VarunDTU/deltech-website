@@ -81,12 +81,16 @@ export default function NavBar2() {
           CONTACT
           </Link>
                             </li>
-                            <li className="hover:text-blue-600">
+                            <li className="hover:text-blue-600 animate-pulse">
+                                
                             <Link activeClass="active" className="mr-2 hover:text-red-600 cursor-pointer"  to="committees" smooth={true}  duration={300}>
           COMMITTEES
           </Link>
+          
                             </li>
+                            
                             <li className="hover:text-blue-600">
+                                
                           
                             
             <a href="#_" class="relative inline-block text-lg group">
