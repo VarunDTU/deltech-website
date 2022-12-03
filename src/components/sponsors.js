@@ -5,7 +5,7 @@ const Sponsors = () => {
     <section class="overflow-hidden pb-10 text-white bg-slate-900">
   <div class=" pb-6">
     <h1 className="text-5xl mb-16 font-bold text-center py-10 bg-slate-800">PAST PARTNERS</h1>
-    <div class="flex flex-wrap -m-1 md:-m-2 px-20">
+    <div class="flex flex-wrap -m-1 md:-m-2 px-3 md:px-20">
       <div class="flex flex-wrap w-1/4">
         <div class="w-full p-1 md:p-2">
           <img alt="gallery" class="block object-fit object-center w-full h-full rounded-lg"
