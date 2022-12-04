@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import PaymentPolicy from "./components/paymentPolicy";
 import TermsConditions from "./components/termsConditions";
+import Campus from "./components/campus";
 import "./index.css";
 import App from "./App";
 import 'tw-elements';
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     element: <TermsConditions/>
     
   },
+  {
+    path:"CampusAmbassador",
+    element:<Campus/>
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
