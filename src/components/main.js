@@ -1,6 +1,6 @@
 import React from "react";
 import Timer from "./timeer";
-import {Link} from 'react-scroll';
+import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <div>
@@ -35,19 +35,26 @@ const Main = () => {
 
     <Timer></Timer> 
             <div className="flex flex-row py-3">
-              <Link  to="aboutus"  smooth={true}  duration={200}>
+            <Link
+                to="/CampusAmbassador"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-normal text-gray-400 text-sm"
+              >
+                
             <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
-            <a href="#_" class="relative inline-block text-lg group">
+            <div href="#_" class="relative inline-block text-lg group">
 <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
 <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
 <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
-<span class="relative">Explore</span>
+<span class="relative">Join us</span>
 </span>
 <span class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
-</a>
+</div>
 
             </div>
-              </Link >
+              </Link>
+             
             <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
             <a href="#_" class="relative inline-block text-lg group">
 <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
