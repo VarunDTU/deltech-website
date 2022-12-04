@@ -4,20 +4,20 @@ const Campus = () => {
   return (
       <section className="text-slate-900 bg-transparent leading-relaxed" id="home">
         <NavBarcam></NavBarcam>
-        <div className="md:flex md:flex-row items-center md:h-screen">
+        <div className="md:flex md:flex-row items-center md:h-screen px-5">
             <div>
-                <h1 className="text-5xl md:py-10 py-20 md:text-7xl font-bold">DelTech Campus Ambassador Programme</h1>
+                <h1 className="text-5xl md:py-10 py-20 md:text-7xl font-bold">DelTech MUN Campus Ambassador Programme</h1>
             </div>
-            <div className="md:w-screen -z-10 w-80 py-10">
+            <div className="md:w-screen -z-10 w-80 md:py-10">
             <img className="h-1/4" src="/images/campusStu.jpg"></img>
 
             </div>
         </div>
-        <div className="pt-5 bg-slate-300 rounded-t-3xl" id="aboutus">
-            <h2 className="text-3xl px-5">About the Programme</h2>
+        <div className="pt-5 bg-slate-300 rounded-t-3xl px-5" id="aboutus">
+            <h2 className="text-3xl pb-5">About the Programme</h2>
             <div className="md:flex md:flex-row items-center w-full">
 
-            <p1 className="w-full px-5 ">
+            <p1 className="w-full">
             North India’s No.1 ranked MUN the DelTech Model United Nations (DelTech MUN) is looking for Campus Ambassadors who can represent DelTech MUN at your respective School/ Institute. As a Campus Ambassador the selected students will assist and support DelTech MUN & DebSoc, DTU to inspire young minds who can redefine the debating and MUNing landscape.
 Interested students can apply through this form.
             </p1>

@@ -17,6 +17,8 @@ export default class Council extends Component {
         {name:"Nilesh.jpg",desi:'Director, Operations'},
         {name:"Shruti.jpg",desi:'Director, Social & Outreach'},
         {name:"Tushar.jpg",desi:'Director, Research & Policy'},
+        {name:"Mehak_Singhal.jpg",desi:"Design"},
+        
       ];
     
     var councilcc= councilList.map(item => <div class="flex justify-center text-center py-10 px-5">
