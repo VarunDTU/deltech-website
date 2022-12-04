@@ -36,7 +36,7 @@ const Main = () => {
               </div>
 
               <Timer></Timer>
-              <div className=" inline-flex py-3">
+              <div className="inline-flex py-3">
                 <Link to="aboutus" smooth={true} duration={200}>
                   <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
                     <a href="#_" class="relative inline-block text-lg group">
@@ -67,10 +67,20 @@ const Main = () => {
                 </div>
                 {/* <!-- the menu here --> */}
                 <div class="hidden peer-hover:flex hover:flex rounded-lg flex-col bg-white drop-shadow-lg">
-                  <a class="px-5 py-3 hover:bg-gray-200" href="/">
+                  <a
+                    class="px-5 py-3 hover:bg-gray-200"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://forms.gle/oZKzN6vKpyEtEgaC7"
+                  >
                     Delegate Application
                   </a>
-                  <a class="px-5 py-3 hover:bg-gray-200" href="/">
+                  <a
+                    class="px-5 py-3 hover:bg-gray-200"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://forms.gle/aFJrRfyevoUmt7SS7"
+                  >
                     IP Application
                   </a>
                 </div>
