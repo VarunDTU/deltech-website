@@ -16,11 +16,21 @@ const Campus = () => {
         <div className="pt-5 bg-slate-300 rounded-t-3xl px-5" id="aboutus">
             <h2 className="text-3xl pb-5">About the Programme</h2>
             <div className="md:flex md:flex-row items-center w-full">
-
             <p1 className="w-full">
+            
+                <h2 className="font-semibold"> 
+                Have you ever wondered how does delegation works at the fundamental level?<br></br>
+                Do you know how do diplomats at UN leave a lasting impression?<br></br>Do you ever wish to be a part of an organisation, be at the centre stage organising a MUN? 
+                </h2>
+                <br></br>
+                <b>
+                    Well calm down and become an ambassador!<br></br>
+                    </b>
+                    <br></br>
             North India’s No.1 ranked MUN the DelTech Model United Nations (DelTech MUN) is looking for Campus Ambassadors who can represent DelTech MUN at your respective School/ Institute. As a Campus Ambassador the selected students will assist and support DelTech MUN & DebSoc, DTU to inspire young minds who can redefine the debating and MUNing landscape.
 Interested students can apply through this form.
             </p1>
+            
             <div className="md:w-screen w-80 px-5 pl-10">
             <img className="" src="/images/aboutcampus.png"></img>
 
@@ -49,10 +59,9 @@ Interested students can apply through this form.
             </div>
         <div>
         <p>
-
-        <h2 className="text-3xl py-5">
-        Key takeaways: 
-
+<br></br>
+        <h2 className="text-3xl py-2">
+        Being an ambassador comes with benefits:
            </h2>
             
  <br/>

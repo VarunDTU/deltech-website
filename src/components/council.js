@@ -18,6 +18,7 @@ export default class Council extends Component {
         {name:"Shruti.jpg",desi:'Director, Social & Outreach'},
         {name:"Tushar.jpg",desi:'Director, Research & Policy'},
         {name:"Mehak_Singhal.jpg",desi:"Design"},
+        {name:"Gaurish_Chawla.jpg",desi:"Photography"}
         
       ];
     

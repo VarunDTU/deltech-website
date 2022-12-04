@@ -2,7 +2,7 @@ import { Popover } from "@headlessui/react";
 import { useState } from "react";
 import {Link} from 'react-scroll';
 import { Userposition } from "../hook/navscroll";
-
+import { Link as Linkr } from "react-router-dom";
 export default function NavBar2() {
     const [navbar, setNavbar] = useState(false);
     const scrollPosition=Userposition();
@@ -11,8 +11,8 @@ export default function NavBar2() {
     }
    
     return (
-        <Popover className={classNames(scrollPosition>10)?'bg-white z-10 shadow-black shadow-sm fixed w-full':' md:bg-transparent md:backdrop-blur-none backdrop-blur-md fixed z-10 w-full'}>
-        <nav className=" text-black font-medium z-10 px-4">
+        <Popover className={classNames(scrollPosition>10)?'bg-white z-50 shadow-black shadow-sm fixed w-full':' md:bg-transparent md:backdrop-blur-none backdrop-blur-md fixed z-50 w-full'}>
+        <nav className=" text-black font-medium z-10 px-2">
             <div className="justify-between px-4 md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-3 md:block">
@@ -65,7 +65,7 @@ export default function NavBar2() {
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                        <ul className="items-center text-sm justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="hover:text-blue-600">
                             <Link activeClass="active" className="mr-2 hover:text-red-600 cursor-pointer"  to="home"  smooth={true} duration={300}>
                               HOME
@@ -80,6 +80,19 @@ export default function NavBar2() {
                             <Link activeClass="active" className="mr-2 hover:text-red-600 cursor-pointer"  to="contacts" smooth={true}  duration={300}>
           CONTACT
           </Link>
+
+                            </li>
+                            <li className="hover:text-blue-600 animate-pulse">
+                            <Linkr
+                to="/CampusAmbassador"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-normal text-red-400 text-sm"
+              >
+                
+          CAMPUS AMBASSADOR
+          </Linkr>
+
                             </li>
                             <li className="hover:text-blue-600 animate-pulse">
                                 
@@ -94,7 +107,7 @@ export default function NavBar2() {
                           
                             
             <a href="#_" class="relative inline-block text-lg group">
-<span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+<span class="relative z-10 block px-2 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
 <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
 <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:rotate-180 ease"></span>
 <span class="relative">Register Now</span>
