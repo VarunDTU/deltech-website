@@ -6,7 +6,7 @@ const Committees = () => {
     <>
       <section className="text-center z-50 absolute">
         <div
-          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade fixed top-0 left-0 right-0 z-10 hidden w-full p-6 overflow-x-hidden overflow-y-auto md:inset-0 h-full"
           id="disec"
           tabindex="-1"
           aria-labelledby="disecModalLgLabel"
@@ -34,9 +34,9 @@ const Committees = () => {
               </div>
               <div className="modal-body relative p-10">
                 <p className="text-center text-gray-600 text-sm font-medium ">
-                  Deliberation on the Treaty on Amity and Cooperation ("TAC")
-                  signed by Ukraine at the annual summit of the Association of
-                  Southeast Asian Nations (ASEAN).
+                  Exploring the feasibility of observance of environmental norms
+                  in the drafting and implementation of agreements on
+                  disarmament and arms control.
                 </p>
                 <div class="container mx-auto space-y-9 pt-6 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
                   <div class="flex justify-center">
@@ -45,7 +45,6 @@ const Committees = () => {
                         class="rounded-t-lg w-80 h-72"
                         src="/images/Committees/DhruvJain_UNGA_Chairperson.jpeg"
                         alt=""
-
                       />
                       <div class="p-6">
                         <h5 class="text-gray-900 text-xl font-medium mb-2">
@@ -57,7 +56,6 @@ const Committees = () => {
                   </div>
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                      
                       <img
                         class="rounded-t-lg w-72 h-72"
                         src="/images/Committees/Pulkit Taneja_UNGA_Vice_Chair.jpeg"
@@ -74,10 +72,9 @@ const Committees = () => {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <RegisterButton></RegisterButton>
-                
               </div>
             </div>
           </div>
@@ -85,7 +82,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade fixed top-0 left-0 right-0 z-10 hidden w-full p-6 overflow-x-hidden overflow-y-auto md:inset-0 h-full"
           id="gst"
           tabindex="-1"
           aria-labelledby="gstModalLgLabel"
@@ -158,7 +155,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade fixed top-0 left-0 right-0 z-10 hidden w-full p-6 overflow-x-hidden overflow-y-auto md:inset-0 h-full"
           id="uncsw"
           tabindex="-1"
           aria-labelledby="uncswModalLgLabel"
@@ -233,7 +230,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade fixed top-0 left-0 right-0 z-10 hidden w-full p-6 overflow-x-hidden overflow-y-auto md:inset-0 h-full"
           id="unsc"
           tabindex="-1"
           aria-labelledby="unscModalLgLabel"
@@ -299,7 +296,7 @@ const Committees = () => {
               </div>
 
               <div className="modal-body relative p-4">
-              <RegisterButton></RegisterButton>
+                <RegisterButton></RegisterButton>
               </div>
             </div>
           </div>
@@ -307,7 +304,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade fixed top-0 left-0 right-0 z-10 hidden w-full p-6 overflow-x-hidden overflow-y-auto md:inset-0 h-full"
           id="unhrc"
           tabindex="-1"
           aria-labelledby="unhrcModalLgLabel"
@@ -380,7 +377,7 @@ const Committees = () => {
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
-          class="modal fade z-10 fixed top-0 left-0 hidden text-center w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+          class="modal fade fixed top-0 left-0 right-0 z-10 hidden w-full p-6 overflow-x-hidden overflow-y-auto md:inset-0 h-full"
           id="ip"
           tabindex="-1"
           aria-labelledby="ipModalLgLabel"
@@ -474,10 +471,9 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
-                  <span class="flex h-3 w-3">
-  
-  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-</span>
+                    <span class="flex h-3 w-3">
+                      <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                    </span>
                     <div className="h-32 w-32">
                       <img
                         src="images/disec.png"
@@ -494,9 +490,9 @@ const Committees = () => {
                       Disarmament and International Security Committee
                     </p>
                     <p className="text-center pt-4 text-xs font-medium">
-                      Deliberation on the Treaty on Amity and Cooperation
-                      ("TAC") signed by Ukraine at the annual summit of the
-                      Association of Southeast Asian Nations (ASEAN).
+                      Exploring the feasibility of observance of environmental
+                      norms in the drafting and implementation of agreements on
+                      disarmament and arms control.
                     </p>
                     <div className="w-full flex justify-center pt-5 pb-5">
                       <a href="/" className="mx-5">
@@ -514,12 +510,10 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center ">
-                  <span class="flex h-3 w-3">
-  
-                    <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-                  </span>
+                    <span class="flex h-3 w-3">
+                      <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                    </span>
                     <div className="h-32 w-32">
-                    
                       <img
                         src="/images/gst.png"
                         alt=""
@@ -550,10 +544,9 @@ const Committees = () => {
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
                     <div className="h-32 w-32">
-                    <span class="flex h-3 w-3">
-  
-  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-</span>
+                      <span class="flex h-3 w-3">
+                        <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                      </span>
                       <img
                         src="/images/sc.png"
                         alt=""
@@ -583,10 +576,9 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
-                  <span class="flex h-3 w-3">
-  
-  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-</span>
+                    <span class="flex h-3 w-3">
+                      <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                    </span>
                     <div className="h-32 w-32">
                       <img
                         src="/images/unsc.png"
@@ -616,10 +608,9 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
-                  <span class="flex h-3 w-3">
-  
-  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-</span>
+                    <span class="flex h-3 w-3">
+                      <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                    </span>
                     <div className="h-32 w-32">
                       <img
                         src="/images/unhrc.png"
@@ -650,10 +641,9 @@ const Committees = () => {
               >
                 <div className="rounded overflow-hidden shadow-md bg-white">
                   <div className="absolute -mt-20 w-full flex justify-center">
-                  <span class="flex h-3 w-3">
-  
-  <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-</span>
+                    <span class="flex h-3 w-3">
+                      <span class=" animate-ping relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                    </span>
                     <div className="h-32 w-32">
                       <img
                         src="/images/ip.jpg"
