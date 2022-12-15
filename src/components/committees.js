@@ -14,7 +14,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-2xl relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -32,48 +32,46 @@ const Committees = () => {
                   <FaTimes size={20} />
                 </button>
               </div>
-              <div className="modal-body relative p-10">
-                <p className="text-center text-gray-600 text-sm font-medium ">
+              <div className="modal-body relative p-4">
+                <p className="text-center text-gray-600 text-sm font-medium">
                   Exploring the feasibility of observance of environmental norms
                   in the drafting and implementation of agreements on
                   disarmament and arms control.
                 </p>
-                <div class="container mx-auto space-y-9 pt-6 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                <div class="container mx-auto space-y-9 pt-6 md:pt-0 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg w-80 h-72"
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/DhruvJain_UNGA_Chairperson.jpeg"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Chair
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">Dhruv Jain</p>
+                        <p class="text-gray-700 text-base mb-2">Dhruv Jain</p>
                       </div>
                     </div>
                   </div>
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg w-72 h-72"
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/Pulkit Taneja_UNGA_Vice_Chair.jpeg"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Vice Chairperson
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">
+                        <p class="text-gray-700 text-base mb-2">
                           Pulkit Taneja
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <RegisterButton></RegisterButton>
               </div>
             </div>
@@ -90,7 +88,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-2xl relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -113,34 +111,34 @@ const Committees = () => {
                   Jurisdictional issues.
                 </p>
                 {/* vice chairperson name */}
-                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                <div class="container mx-auto space-y-9 pt-6 md:pt-0 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg w-80 h-72 "
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/Aniket Basu_GST_Council_Chairperson.jpg"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Chair
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">Aniket Basu</p>
+                        <p class="text-gray-700 text-base mb-2">Aniket Basu</p>
                       </div>
                     </div>
                   </div>
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg w-80 h-72"
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/Aditya Sharma_GSTCouncil_Vice_Chair.png"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Vice Chairperson
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">
+                        <p class="text-gray-700 text-base mb-2">
                           Aditya Sharma
                         </p>
                       </div>
@@ -163,7 +161,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-2xl relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -186,42 +184,40 @@ const Committees = () => {
                   including the commercial exchange of sexual services
                 </p>
                 {/* vice chairperson name */}
-                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                <div class="container mx-auto space-y-9 pt-6 md:pt-0 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg w-72 h-72"
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/Kaveri Rawal_UNCSW_Chairperson.jpeg"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Chair
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">Kaveri Rawal</p>
+                        <p class="text-gray-700 text-base mb-2">Kaveri Rawal</p>
                       </div>
                     </div>
                   </div>
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg w-72 h-72"
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/Maheen Faizal_UNCSW_Vice_Chair.jpeg"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Vice Chairperson
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">
+                        <p class="text-gray-700 text-base mb-2">
                           Maheen Faisal
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <RegisterButton></RegisterButton>
               </div>
             </div>
@@ -238,7 +234,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-2xl relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -260,19 +256,19 @@ const Committees = () => {
                 Deliberation on Taiwan crisis
               </p>
               {/* vice chairperson name */}
-              <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+              <div class="container mx-auto space-y-9 pt-6 md:pt-0 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
                 <div class="flex justify-center">
                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
                     <img
-                      class="rounded-t-lg w-72 h-72"
+                      class="rounded-t-lg h-64"
                       src="/images/Committees/Siddharth Kapoor_UNSC_President.jpeg"
                       alt=""
                     />
-                    <div class="p-6">
-                      <h5 class="text-gray-900 text-xl font-medium mb-2">
+                    <div class="p-2">
+                      <h5 class="text-gray-900 text-lg font-medium mb-2">
                         Chair
                       </h5>
-                      <p class="text-gray-700 text-base mb-4">
+                      <p class="text-gray-700 text-base mb-2">
                         Siddharth Kapoor
                       </p>
                     </div>
@@ -281,23 +277,20 @@ const Committees = () => {
                 <div class="flex justify-center">
                   <div class="rounded-lg shadow-lg bg-white max-w-sm">
                     <img
-                      class="rounded-t-lg w-72 h-72"
+                      class="rounded-t-lg h-64"
                       src="/images/Committees/Aryan Singh_UNSC_Vice President.JPG"
                       alt=""
                     />
-                    <div class="p-6">
-                      <h5 class="text-gray-900 text-xl font-medium mb-2">
+                    <div class="p-2">
+                      <h5 class="text-gray-900 text-lg font-medium mb-2">
                         Vice Chairperson
                       </h5>
-                      <p class="text-gray-700 text-base mb-4">Aryan Singh</p>
+                      <p class="text-gray-700 text-base mb-2">Aryan Singh</p>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div className="modal-body relative p-4">
-                <RegisterButton></RegisterButton>
-              </div>
+              <RegisterButton></RegisterButton>
             </div>
           </div>
         </div>
@@ -312,7 +305,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-2xl relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -335,40 +328,38 @@ const Committees = () => {
                   special emphasis on conflicted regions.
                 </p>
                 {/* vice chairperson name */}
-                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                <div class="container mx-auto space-y-9 pt-6 md:pt-0 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg 2-72 h-72"
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/Rahul Menon_UNHRC_President.jpg"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Chair
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">Rahul Menon</p>
+                        <p class="text-gray-700 text-base mb-2">Rahul Menon</p>
                       </div>
                     </div>
                   </div>
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg w-72 h-72"
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/Ishan Jain_UNHRC_Vice_President.jpg"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Vice Chairperson
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">Ishaan Jain</p>
+                        <p class="text-gray-700 text-base mb-2">Ishaan Jain</p>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <RegisterButton></RegisterButton>
               </div>
             </div>
@@ -385,7 +376,7 @@ const Committees = () => {
           role="dialog"
         >
           <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-            <div className="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
+            <div className="modal-content border-none shadow-2xl relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
               <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
                 <h5
                   className="text-lg font-medium leading-normal text-gray-800 "
@@ -405,19 +396,19 @@ const Committees = () => {
               <div className="modal-body relative p-4">
                 <p className="text-center text-gray-600 text-sm font-medium"></p>
                 {/* vice chairperson name */}
-                <div class="container mx-auto space-y-9 pt-8 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                <div class="container mx-auto space-y-9 pt-6 md:pt-0 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg w-72 h-72"
+                        class="rounded-t-lg h-64"
                         src="/images/Committees/Shreya_IP_Editor_In_Chief.jpeg"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Editor in Chief
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">
+                        <p class="text-gray-700 text-base mb-2">
                           Shreya Chatterjee
                         </p>
                       </div>
@@ -430,18 +421,17 @@ const Committees = () => {
                         src="/images/Committees/"
                         alt=""
                       />
-                      <div class="p-6">
-                        <h5 class="text-gray-900 text-xl font-medium mb-2">
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
                           Head Of Photography
                         </h5>
-                        <p class="text-gray-700 text-base mb-4">
+                        <p class="text-gray-700 text-base mb-2">
                           Gaurish Chawla
                         </p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="w-full flex justify-center pt-5 pb-5"></div>
                 <RegisterButton></RegisterButton>
               </div>
             </div>
