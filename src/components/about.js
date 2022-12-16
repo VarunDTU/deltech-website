@@ -12,11 +12,11 @@ const About = () => {
           <img
             src="/images/whiteDelTech.png"
             alt=""
-            className="md:h-64 h-40"
+            className="md:h-60 h-48"
           ></img>
         </div>
         <div className="w-full md:w-1/2">
-          <p className="leading-normal mb-5 text-center mx-10">
+          <p className="leading-normal mb-5 mx-10">
             DelTech MUN and Debating society, the oldest debating society in
             DTU, is a collection of discussing enthusiasts spread out across
             both verticals of the University, the Main Campus, and the
@@ -24,7 +24,7 @@ const About = () => {
             The society organizes an array of events over the year, the main
             event being the DelTech Model United Nations Conference, which is
             one of the most eminent conferences in the Delhi circuit. Other
-            events include weekly charchas, 'Youth ki Awaa, ' mock MUNs, group
+            events include weekly charchas, 'Youth ki Awaaz, ' mock MUNs, group
             discussions, and intra-MUN.
           </p>
         </div>
