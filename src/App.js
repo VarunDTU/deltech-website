@@ -8,41 +8,13 @@ import Footer from "./components/footer";
 import ScrollToTop from "react-scroll-to-top";
 import NavBarnew from "./components/newnavbar";
 import Council from "./components/council";
-import RiseLoader from "react-spinners/RiseLoader";
 import {useState,useEffect} from "react";
 import Timer from "./components/timeer";
 function App() {
-  const [loading,setLoading]=useState(true);
-  useEffect(()=>{
-    
-    setTimeout(()=>{
-      setLoading(false);
-    },2000);
-  },[])
+  
   return (
     <>
-    {
-      loading ? (<div className="bg-slate-900 w-full h-screen flex flex-col items-center justify-center">
-        
-          
-        
-    <h1 className="mt-5 mb-10 text-center py-5 md:text-7xl text-5xl text-white font-lato lh1 font-bold border-black">
-            DELTECH MUN 2023
-            </h1>
-            <RiseLoader
-            className="my-10"
-
-      
-      color={'#FFFFFF'}
-      loading={loading}
-      
-      size={25}
-      
-    />
-    <Timer></Timer>
-        
-    </div>):(
-<div>
+ 
 
       <NavBarnew />
       <Main />
@@ -63,9 +35,6 @@ function App() {
       <Sponsors />
       <Faqs />
       <Footer />
-    </div>
-    )
-    }
 
     </>
   );
