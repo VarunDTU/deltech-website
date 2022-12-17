@@ -52,15 +52,17 @@ const RegisterButton = () => {
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="https://forms.gle/oZKzN6vKpyEtEgaC7"
+                <Link
+                to="/dgRegistration"
+                target="_blank"
+                rel="noopener noreferrer"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                     "block px-4 py-2 text-sm"
                   )}
                 >
                   Delegate Application
-                </a>
+                </Link>
               )}
             </Menu.Item>
           </div>

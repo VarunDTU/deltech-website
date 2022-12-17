@@ -6,7 +6,7 @@ const IpRegistration = () => {
       <section className=" bg-gray-900 text-white">
         <div className="flex flex-col items-center justify-center px-6 mx-auto md:h-full py-0">
           <img
-            className="h-36 md:h-56 m-6"
+            className="h-48 md:h-56 m-6"
             src="/images/cover.png"
             alt="logo"
           />
@@ -17,7 +17,7 @@ const IpRegistration = () => {
               </h1>
               <div className="text-sm">
                 Behold for the 12th Edition of{" "}
-                <p> 𝐃𝐞𝐥𝐓𝐞𝐜𝐡 𝐌𝐨𝐝𝐞𝐥 𝐔𝐧𝐢𝐭𝐞𝐝 𝐍𝐚𝐭𝐢𝐨𝐧𝐬 𝐂𝐨𝐧𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝟐𝟎𝟐𝟑.</p>
+                <span> 𝐃𝐞𝐥𝐓𝐞𝐜𝐡 𝐌𝐨𝐝𝐞𝐥 𝐔𝐧𝐢𝐭𝐞𝐝 𝐍𝐚𝐭𝐢𝐨𝐧𝐬 𝐂𝐨𝐧𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝟐𝟎𝟐𝟑.</span>
               </div>
               <div className="text-sm">
                 This year it will be bigger, better, more competitive, and more
@@ -34,8 +34,8 @@ const IpRegistration = () => {
                 editions of DelTech MUN.
               </div>
               <div className="text-sm">
-                <p>Registration Fees:</p> <br />
-                International Press: ₹ 1400
+                <b>Registration Fees:</b>
+               <p> International Press: ₹ 1400</p>
               </div>
               <div className="text-sm">
                 <p>𝘾𝙤𝙢𝙢𝙞𝙩𝙩𝙚𝙚𝙨 & 𝘼𝙜𝙚𝙣𝙙𝙖𝙨:</p> <br />
@@ -250,14 +250,38 @@ const IpRegistration = () => {
                     className="block mb-2 text-sm font-medium text-white"
                     for="yes"
                   >
-                  <input className="mr-2" type="radio" name="grid" id="yes" value="yes" />
+                  <input className="mr-2" type="radio" name="preference1" id="yes" value="yes" />
                     Journalist
                   </label>
                   
                   <label
                     className="block mb-2 text-sm font-medium text-white"
                     for="no"
-                  ><input className="mr-2" type="radio" name="grid" id="no" value="no" />
+                  ><input className="mr-2" type="radio" name="preference1" id="no" value="no" />
+                   Photographer & Videographer
+                  </label>
+                </div>
+                <div>
+                  <fieldset
+                  />
+                  <legend
+                    for="preference2"
+                    className="block mb-2 text-sm font-medium text-white"
+                  >
+                    Preference 2
+                  </legend>
+                  <label
+                    className="block mb-2 text-sm font-medium text-white"
+                    for="yes"
+                  >
+                  <input className="mr-2" type="radio" name="preference2" id="yes" value="yes" />
+                    Journalist
+                  </label>
+                  
+                  <label
+                    className="block mb-2 text-sm font-medium text-white"
+                    for="no"
+                  ><input className="mr-2" type="radio" name="preference2" id="no" value="no" />
                    Photographer & Videographer
                   </label>
                 </div>
