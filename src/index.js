@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import PaymentPolicy from "./components/paymentPolicy";
 import TermsConditions from "./components/termsConditions";
+import IpRegistration from "./components/ipRegistration";
+import DgRegistration from "./components/dgRegistration";
 import Campus from "./components/campus";
 import "./index.css";
 import App from "./App";
@@ -24,6 +26,16 @@ const router = createBrowserRouter([
   {
     path: "termsConditions",
     element: <TermsConditions/>
+    
+  },
+  {
+    path: "ipRegistration",
+    element: <IpRegistration/>
+    
+  },
+  {
+    path: "dgRegistration",
+    element: <DgRegistration/>
     
   },
   {
