@@ -51,8 +51,7 @@ const IpRegistration = () => {
       munAttended &&
       munExperience &&
       discribeCommittee &&
-      describeIssue &&
-      terms
+      describeIssue
     ) {
       const res = await fetch(
         "https://deltechmun-cabba-default-rtdb.firebaseio.com/ipRegistration.json",
@@ -540,15 +539,7 @@ const IpRegistration = () => {
                 >
                   Register
                 </button>
-                <p className="text-sm font-light text-gray-400">
-                  Already have an account?{" "}
-                  <a
-                    href="/"
-                    className="font-medium text-primary-600 hover:underline text-primary-500"
-                  >
-                    Login here
-                  </a>
-                </p>
+                
               </form>
             </div>
           </div>

@@ -17,6 +17,8 @@ import LoginScreen from "./components/login";
 import Signup from "./components/signup";
 import ProtectedRoute from "./components/protectedroute";
 import Dashboard from "./components/dashboard";
+import IpRegistration from "./components/ipRegistration";
+import DgRegistration from "./components/dgRegistration";
 function App() {
   
   return (
@@ -49,6 +51,8 @@ function App() {
         <Route path="/CampusAmbassador" element={<Campus></Campus>}></Route>
         <Route path="/paymentPolicy" element={<PaymentPolicy/>}></Route>
         <Route path="/termsConditions" element={<TermsConditions/>}></Route>
+        <Route path="/ipRegistration" element={<IpRegistration/>}></Route>
+        <Route path="/dgRegistration" element={<DgRegistration/>}></Route>
         <Route path="/Login" element={<LoginScreen/>}></Route>
         <Route path="/SignUp" element={<Signup></Signup>}></Route>
         <Route path='/Dashboard' element={<ProtectedRoute>
@@ -56,6 +60,16 @@ function App() {
            <Dashboard></Dashboard>
         </ProtectedRoute>
            }/>
+        {/* <Route path='/' element={<ProtectedRoute>
+
+           <IpRegistration></IpRegistration>
+        </ProtectedRoute>
+           }/>
+        <Route path='/dgRegistration' element={<ProtectedRoute>
+
+           <DgRegistration></DgRegistration>
+        </ProtectedRoute>
+           }/> */}
       </Routes>
       
       
