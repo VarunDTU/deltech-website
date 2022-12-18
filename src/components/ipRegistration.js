@@ -1,6 +1,109 @@
-import React from "react";
+import React, { useState } from "react";
+import { useRouteLoaderData } from "react-router-dom";
 
 const IpRegistration = () => {
+  const [userData, setUserData] = useState({
+    Name: "",
+    email: "",
+    instituteName: "",
+    phone: "",
+    munAttended: "",
+    munExperience: "",
+    discribeCommittee: "",
+    describeIssue: "",
+    Photographer: "",
+    Journalist: "",
+    yes: "",
+    no: "",
+    terms: "",
+  });
+
+  let name, value;
+  const postUserData = (event) => {
+    name = event.target.name;
+    value = event.target.value;
+
+    setUserData({ ...userData, [name]: value });
+  };
+
+  const submitData = async (event) => {
+    event.preventDefault();
+    const {
+      Name,
+      email,
+      instituteName,
+      phone,
+      munAttended,
+      munExperience,
+      discribeCommittee,
+      describeIssue,
+      Photographer,
+      Journalist,
+      yes,
+      no,
+      terms,
+    } = userData;
+    if (
+      Name &&
+      email &&
+      instituteName &&
+      phone &&
+      munAttended &&
+      munExperience &&
+      discribeCommittee &&
+      describeIssue &&
+      terms
+    ) {
+      const res = await fetch(
+        "https://deltechmun-cabba-default-rtdb.firebaseio.com/ipRegistration.json",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            Name,
+            email,
+            instituteName,
+            phone,
+            munAttended,
+            munExperience,
+            discribeCommittee,
+            describeIssue,
+            Photographer,
+            Journalist,
+            yes,
+            no,
+            terms,
+          }),
+        }
+      );
+
+      if (res) {
+        setUserData({
+          // Name: "",
+          // email: "",
+          // instituteName: "",
+          // phone: "",
+          // munAttended: "",
+          // munExperience: "",
+          // discribeCommittee: "",
+          // describeIssue: "",
+          // Photographer: "",
+          // Journalist: "",
+          // yes: "",
+          // no: "",
+          // terms: "",
+        });
+        alert("You are Registered");
+      } else {
+        alert("Please fill the data");
+      }
+    } else {
+      alert("Please fill the data");
+    }
+  };
+
   return (
     <>
       <section className=" bg-gray-900 text-white">
@@ -35,7 +138,7 @@ const IpRegistration = () => {
               </div>
               <div className="text-sm">
                 <b>Registration Fees:</b>
-               <p> International Press: ₹ 1400</p>
+                <p> International Press: ₹ 1400</p>
               </div>
               <div className="text-sm">
                 <p>𝘾𝙤𝙢𝙢𝙞𝙩𝙩𝙚𝙚𝙨 & 𝘼𝙜𝙚𝙣𝙙𝙖𝙨:</p> <br />
@@ -111,7 +214,7 @@ const IpRegistration = () => {
               <form className="space-y-4 md:space-y-6" action="#">
                 <div>
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="block mb-2 text-sm font-medium  text-white"
                   >
                     Email
@@ -121,13 +224,15 @@ const IpRegistration = () => {
                     name="email"
                     id="email"
                     className=" border  sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="id@dtu.ac.in"
-                    required=""
+                    value={useRouteLoaderData.email}
+                    onChange={postUserData}
+                    placeholder="email id"
+                    required
                   />
                 </div>
-                <div>
+                {/* <div>
                   <label
-                    for="password"
+                    htmlFor="password"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Password
@@ -136,30 +241,34 @@ const IpRegistration = () => {
                     type="password"
                     name="password"
                     id="password"
+                    value={useRouteLoaderData.password}
+                    onChange={postUserData}
                     placeholder="••••••••"
                     className=" border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
                 </div>
                 <div>
                   <label
-                    for="confirm-password"
+                    htmlFor="confirmPassword"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Confirm password
                   </label>
                   <input
-                    type="confirm-password"
-                    name="confirm-password"
-                    id="confirm-password"
+                    type="password"
+                    name="confirmPassword"
+                    id="confirmPassword"
+                    value={useRouteLoaderData.confirmPassword}
+                    onChange={postUserData}
                     placeholder="••••••••"
                     className=" border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
-                </div>
+                </div> */}
                 <div>
                   <label
-                    for="confirm-password"
+                    htmlFor="Name"
                     className="block mb-2 text-sm font-medium  text-white"
                   >
                     Name
@@ -168,127 +277,163 @@ const IpRegistration = () => {
                     type="Name"
                     name="Name"
                     id="Name"
-                    placeholder="Your Answer"
+                    value={useRouteLoaderData.Name}
+                    onChange={postUserData}
+                    placeholder="full name"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
                 </div>
                 <div>
                   <label
-                    for="confirm-password"
+                    htmlFor="instituteName"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Institute Name
                   </label>
                   <input
-                    type="institute-name"
-                    name="institute-name"
-                    id="institute-name"
+                    type="instituteName"
+                    name="instituteName"
+                    id="instituteName"
+                    value={useRouteLoaderData.instituteName}
+                    onChange={postUserData}
                     placeholder="School/College"
                     className="bordersm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
                 </div>
                 <div>
                   <label
-                    for="confirm-password"
+                    htmlFor="phone"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Contact Number
                   </label>
                   <input
-                    type="contact-number"
-                    name="contact-number"
-                    id="contact-number"
-                    placeholder="Your Answer"
+                    type="number"
+                    name="phone"
+                    id="phone"
+                    value={useRouteLoaderData.phone}
+                    onChange={postUserData}
+                    placeholder="whatsapp number"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
                 </div>
                 <div>
                   <label
-                    for="mun-attended"
+                    htmlFor="munAttended"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     How many MUN's have you attended?
                   </label>
                   <textarea
-                    type="mun-attended"
-                    name="mun-attended"
-                    id="mun-attended"
+                    type="munAttended"
+                    name="munAttended"
+                    id="munAttended"
+                    value={useRouteLoaderData.munAttended}
+                    onChange={postUserData}
                     placeholder="Your Answer"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
                 </div>
                 <div>
                   <label
-                    for="mun-experience"
+                    htmlFor="munExperience"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     List your MUN Experience.
                   </label>
                   <textarea
-                    type="mun-experience"
-                    name="mun-experience"
-                    id="mun-experience"
+                    type="munExperience"
+                    name="munExperience"
+                    id="munExperience"
+                    value={useRouteLoaderData.munExperience}
+                    onChange={postUserData}
                     placeholder="Your Answer"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
                 </div>
                 <div>
-                  <fieldset
-                  />
+                  <fieldset />
                   <legend
-                    for="preference1"
+                    htmlFor="preference"
                     className="block mb-2 text-sm font-medium text-white"
                   >
-                    Preference 1
+                    Preference
                   </legend>
                   <label
                     className="block mb-2 text-sm font-medium text-white"
-                    for="yes"
+                    htmlFor="Journalist"
                   >
-                  <input className="mr-2" type="radio" name="preference1" id="yes" value="yes" />
+                    <input
+                      className="mr-2"
+                      type="radio"
+                      name="preference"
+                      id="Journalist"
+                      value="Journalist"
+                      onChange={postUserData}
+                    />
                     Journalist
                   </label>
-                  
+
                   <label
                     className="block mb-2 text-sm font-medium text-white"
-                    for="no"
-                  ><input className="mr-2" type="radio" name="preference1" id="no" value="no" />
-                   Photographer & Videographer
+                    htmlFor="Photographer"
+                  >
+                    <input
+                      className="mr-2"
+                      type="radio"
+                      name="preference"
+                      id="Photographer"
+                      value={useRouteLoaderData.Photographer}
+                      onChange={postUserData}
+                    />
+                    Photographer & Videographer
                   </label>
                 </div>
-                <div>
-                  <fieldset
-                  />
+                {/* <div>
+                  <fieldset />
                   <legend
-                    for="preference2"
+                    htmlFor="preference2"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Preference 2
                   </legend>
                   <label
                     className="block mb-2 text-sm font-medium text-white"
-                    for="yes"
+                    htmlFor="yes"
                   >
-                  <input className="mr-2" type="radio" name="preference2" id="yes" value="yes" />
+                    <input
+                      className="mr-2"
+                      type="radio"
+                      name="preference2"
+                      id="yes"
+                      value="yes"
+                    />
                     Journalist
                   </label>
-                  
+
                   <label
                     className="block mb-2 text-sm font-medium text-white"
-                    for="no"
-                  ><input className="mr-2" type="radio" name="preference2" id="no" value="no" />
-                   Photographer & Videographer
+                    htmlFor="no"
+                  >
+                    <input
+                      className="mr-2"
+                      type="radio"
+                      name="preference2"
+                      id="no"
+                      value="no"
+                    />
+                    Photographer & Videographer
                   </label>
-                </div>
+                </div> */}
 
                 <div>
                   <label
-                    for="discribe-committee"
+                    htmlFor="discribeCommittee"
                     className="block mb-2 text-sm font-medium  text-white"
                   >
                     Describe in 200-250 words about your understanding of any
@@ -296,59 +441,88 @@ const IpRegistration = () => {
                     choice and its working.
                   </label>
                   <textarea
-                    type="discribe-committee"
-                    name="discribe-committee"
-                    id="discribe-committee"
+                    type="discribeCommittee"
+                    name="discribeCommittee"
+                    id="discribeCommittee"
+                    value={useRouteLoaderData.discribeCommittee}
+                    onChange={postUserData}
                     placeholder="Your Answer"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
                 </div>
                 <div>
                   <label
-                    for="describe-issue"
+                    htmlFor="describeIssue"
                     className="block mb-2 text-sm font-medium  text-white"
                   >
                     Describe in 200-250 words about any one world issue of your
                     choice which is prevalent today.
                   </label>
                   <textarea
-                    type="describe-issue"
-                    name="describe-issue"
-                    id="describe-issue"
+                    type="describeIssue"
+                    name="describeIssue"
+                    id="describeIssue"
+                    value={useRouteLoaderData.describeIssue}
+                    onChange={postUserData}
                     placeholder="Your Answer"
                     className=" border  sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    required=""
+                    required
                   />
                 </div>
-                <div className="flex items-start">
-                  <div className="flex items-center h-5">
+
+                <div>
+                  <fieldset />
+                  <legend
+                    htmlFor="preference1"
+                    className="block mb-2 text-sm font-medium text-white"
+                  >
+                    Would you be requiring accommodation?
+                  </legend>
+                  <label
+                    className="block mb-2 text-sm font-medium text-white"
+                    htmlFor="yes"
+                  >
                     <input
-                      id="terms"
-                      aria-describedby="terms"
-                      type="checkbox"
-                      className="w-4 h-4 border rounded focus:ring-3 focus:ring-primary-300 bg-gray-700 border-gray-600 focus:ring-primary-600 ring-offset-gray-800"
-                      required=""
+                      className="mr-2"
+                      type="radio"
+                      name="yes"
+                      id="yes"
+                      value={useRouteLoaderData.yes}
+                      onChange={postUserData}
                     />
-                  </div>
-                  <div className="ml-3 text-sm">
-                    <label for="terms" className="font-light  text-gray-300">
-                      Would you be requiring accommodation?
-                    </label>
-                  </div>
+                    Yes
+                  </label>
+
+                  <label
+                    className="block mb-2 text-sm font-medium text-white"
+                    htmlFor="no"
+                  >
+                    <input
+                      className="mr-2"
+                      type="radio"
+                      name="no"
+                      id="no"
+                      value={useRouteLoaderData.no}
+                      onChange={postUserData}
+                    />
+                    No
+                  </label>
                 </div>
+
                 <div className="flex items-start">
                   <div className="flex items-center h-5">
                     <input
                       id="terms"
                       aria-describedby="terms"
                       type="checkbox"
+                      value="terms"
+                      onChange="terms"
                       className="w-4 h-4 border rounded focus:ring-3 focus:ring-primary-300 bg-gray-700 border-gray-600 focus:ring-primary-600 ring-offset-gray-800"
-                      required=""
+                      required
                     />
-                  </div>
                   <div className="ml-3 text-sm">
-                    <label for="terms" className="font-light text-gray-300">
+                    <label htmlFor="terms" className="font-light text-gray-300">
                       I hereby declare that all the information provided by me
                       through this form is true to the best of my knowledge. I
                       shall not indulge in any malpractice which is against
@@ -357,9 +531,11 @@ const IpRegistration = () => {
                       found guilty.
                     </label>
                   </div>
+                  </div>
                 </div>
                 <button
                   type="submit"
+                  onClick={submitData}
                   className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-primary-600 hover:bg-primary-700 focus:ring-primary-800"
                 >
                   Register

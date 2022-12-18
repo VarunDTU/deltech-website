@@ -1,6 +1,47 @@
-import React from "react";
+import React,{useState} from "react";
+import { useRouteLoaderData } from "react-router-dom";
 
 const DgRegistration = () => {
+  const [userData, setUserData] = useState({
+    Name: "",
+    email: "",
+    instituteName: "",
+    phone: "",
+    munAttended: "",
+    munExperience: "",
+  });
+
+  let name, value;
+  const postUserData = (event) => {
+    name = event.target.name;
+    value = event.target.value;
+
+    setUserData({ ...userData, [name]: value });
+  };
+
+  const submitData = async (event) => {
+    event.preventDefault();
+    const {
+      Name,
+      email,
+      instituteName,
+      phone,
+      munAttended,
+      munExperience,
+    } = userData;
+    const res = fetch("https://deltechmun-6010d-default-rtdb.firebaseio.com/userDataRecords.json", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ Name,
+        email,
+        instituteName,
+        phone,
+        munAttended,
+        munExperience,}),
+    });
+  };
   return (
     <>
       <section className=" bg-gray-900 text-white">
@@ -115,7 +156,7 @@ const DgRegistration = () => {
               <form className="space-y-4 md:space-y-6" action="#">
                 <div>
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="block mb-2 text-sm font-medium  text-white"
                   >
                     Email
@@ -125,13 +166,15 @@ const DgRegistration = () => {
                     name="email"
                     id="email"
                     className=" border  sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="id@dtu.ac.in"
+                    value={useRouteLoaderData.email}
+                    onChange={postUserData}
+                    placeholder="email id"
                     required=""
                   />
                 </div>
                 <div>
                   <label
-                    for="password"
+                    htmlFor="password"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Password
@@ -140,6 +183,8 @@ const DgRegistration = () => {
                     type="password"
                     name="password"
                     id="password"
+                    value={useRouteLoaderData.password}
+                    onChange={postUserData}
                     placeholder="••••••••"
                     className=" border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
                     required=""
@@ -147,15 +192,17 @@ const DgRegistration = () => {
                 </div>
                 <div>
                   <label
-                    for="confirm-password"
+                    htmlFor="confirmPassword"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Confirm password
                   </label>
                   <input
-                    type="confirm-password"
-                    name="confirm-password"
-                    id="confirm-password"
+                    type="password"
+                    name="confirmPassword"
+                    id="confirmPassword"
+                    value={useRouteLoaderData.confirmPassword}
+                    onChange={postUserData}
                     placeholder="••••••••"
                     className=" border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
                     required=""
@@ -163,7 +210,7 @@ const DgRegistration = () => {
                 </div>
                 <div>
                   <label
-                    for="confirm-password"
+                    htmlFor="Name"
                     className="block mb-2 text-sm font-medium  text-white"
                   >
                     Name
@@ -172,22 +219,26 @@ const DgRegistration = () => {
                     type="Name"
                     name="Name"
                     id="Name"
-                    placeholder="Your Answer"
+                    value={useRouteLoaderData.Name}
+                    onChange={postUserData}
+                    placeholder="full name"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
                     required=""
                   />
                 </div>
                 <div>
                   <label
-                    for="confirm-password"
+                    htmlFor="instituteName"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Institute Name
                   </label>
                   <input
-                    type="institute-name"
-                    name="institute-name"
-                    id="institute-name"
+                    type="instituteName"
+                    name="instituteName"
+                    id="instituteName"
+                    value={useRouteLoaderData.instituteName}
+                    onChange={postUserData}
                     placeholder="School/College"
                     className="bordersm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
                     required=""
@@ -195,31 +246,35 @@ const DgRegistration = () => {
                 </div>
                 <div>
                   <label
-                    for="confirm-password"
+                    htmlFor="phone"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Contact Number
                   </label>
                   <input
-                    type="contact-number"
-                    name="contact-number"
-                    id="contact-number"
-                    placeholder="Your Answer"
+                    type="number"
+                    name="phone"
+                    id="phone"
+                    value={useRouteLoaderData.phone}
+                    onChange={postUserData}
+                    placeholder="whatsapp number"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
                     required=""
                   />
                 </div>
                 <div>
                   <label
-                    for="mun-attended"
+                    htmlFor="munAttended"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     How many MUN's have you attended?
                   </label>
                   <textarea
-                    type="mun-attended"
-                    name="mun-attended"
-                    id="mun-attended"
+                    type="munAttended"
+                    name="munAttended"
+                    id="munAttended"
+                    value={useRouteLoaderData.munAttended}
+                    onChange={postUserData}
                     placeholder="Your Answer"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
                     required=""
@@ -227,15 +282,17 @@ const DgRegistration = () => {
                 </div>
                 <div>
                   <label
-                    for="mun-experience"
+                    htmlFor="munExperience"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     List your MUN Experience.
                   </label>
                   <textarea
-                    type="mun-experience"
-                    name="mun-experience"
-                    id="mun-experience"
+                    type="munExperience"
+                    name="munExperience"
+                    id="munExperience"
+                    value={useRouteLoaderData.munExperience}
+                    onChange={postUserData}
                     placeholder="Your Answer"
                     className="border sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
                     required=""
@@ -244,14 +301,14 @@ const DgRegistration = () => {
                 <div>
                   <fieldset />
                   <legend
-                    for="preference1"
+                    htmlFor="preference1"
                     className="block mb-2 text-sm font-medium text-white"
                   >
                     Are you applying for UNHRC?
                   </legend>
                   <label
                     className="block mb-2 text-sm font-medium text-white"
-                    for="yes"
+                    htmlFor="yes"
                   >
                     <input
                       className="mr-2"
@@ -265,7 +322,7 @@ const DgRegistration = () => {
 
                   <label
                     className="block mb-2 text-sm font-medium text-white"
-                    for="no"
+                    htmlFor="no"
                   >
                     <input
                       className="mr-2"
