@@ -8,15 +8,24 @@ import Footer from "./components/footer";
 import ScrollToTop from "react-scroll-to-top";
 import NavBarnew from "./components/newnavbar";
 import Council from "./components/council";
-import {useState,useEffect} from "react";
-import Timer from "./components/timeer";
+import PaymentPolicy from "./components/paymentPolicy";
+import { AuthProvider } from "./contexts/AuthContext";
+import { Route, Routes } from "react-router-dom";
+import TermsConditions from "./components/termsConditions";
+import Campus from "./components/campus";
+import LoginScreen from "./components/login";
+import Signup from "./components/signup";
+import ProtectedRoute from "./components/protectedroute";
+import Dashboard from "./components/dashboard";
 function App() {
   
   return (
-    <>
- 
+    <AuthProvider>
+      <Routes>
+        <Route path="/" element={
+          <div>
 
-      <NavBarnew />
+          <NavBarnew />
       <Main />
       <ScrollToTop
         smooth
@@ -35,8 +44,23 @@ function App() {
       <Sponsors />
       <Faqs />
       <Footer />
+      </div>
+        }/>
+        <Route path="/CampusAmbassador" element={<Campus></Campus>}></Route>
+        <Route path="/paymentPolicy" element={<PaymentPolicy/>}></Route>
+        <Route path="/termsConditions" element={<TermsConditions/>}></Route>
+        <Route path="/Login" element={<LoginScreen/>}></Route>
+        <Route path="/SignUp" element={<Signup></Signup>}></Route>
+        <Route path='/Dashboard' element={<ProtectedRoute>
 
-    </>
+           <Dashboard></Dashboard>
+        </ProtectedRoute>
+           }/>
+      </Routes>
+      
+      
+
+    </AuthProvider>
   );
 }
 
