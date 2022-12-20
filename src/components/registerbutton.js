@@ -1,5 +1,3 @@
-import { Fragment } from 'react'
-import { Menu, Transition } from '@headlessui/react'
 import { Link } from 'react-router-dom';
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -8,7 +6,7 @@ const RegisterButton=()=>{
     return(
         <div>
           <Link
-                to="/Login"
+                to="/SignUp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-normal text-gray-400 text-sm"

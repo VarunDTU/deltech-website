@@ -34,9 +34,9 @@ const Dashboard = () => {
                 Read more
               </button>
               <Link
-                href="/ipRegistration"
-                target="_blank"
-                rel="noopener noreferrer"
+                to='/ipRegistration'
+                
+              
               >
                 <button className="px-4 py-2 text-sm text-blue-100 bg-blue-500 rounded shadow">
                   Application
@@ -62,12 +62,11 @@ const Dashboard = () => {
                 Read more
               </button>
               <Link
-                href="/dgRegistration"
-                target="_blank"
-                rel="noopener noreferrer"
+                to="/dgRegistration"
+               
               >
                 <button className="px-4 py-2 text-sm text-blue-100 bg-blue-500 rounded shadow">
-                  Form
+                  Application
                 </button>
               </Link>
             </div>

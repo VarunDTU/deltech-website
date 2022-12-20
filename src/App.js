@@ -51,8 +51,14 @@ function App() {
         <Route path="/CampusAmbassador" element={<Campus></Campus>}></Route>
         <Route path="/paymentPolicy" element={<PaymentPolicy/>}></Route>
         <Route path="/termsConditions" element={<TermsConditions/>}></Route>
-        <Route path="/ipRegistration" element={<IpRegistration/>}></Route>
-        <Route path="/dgRegistration" element={<DgRegistration/>}></Route>
+        <Route path="/ipRegistration" element={<ProtectedRoute>
+          <IpRegistration/>
+          </ProtectedRoute>
+          }></Route>
+        <Route path="/dgRegistration" element={<ProtectedRoute>
+          <DgRegistration/>
+          </ProtectedRoute>
+          }></Route>
         <Route path="/Login" element={<LoginScreen/>}></Route>
         <Route path="/SignUp" element={<Signup></Signup>}></Route>
         <Route path='/Dashboard' element={<ProtectedRoute>

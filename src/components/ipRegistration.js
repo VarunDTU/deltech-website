@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { useRouteLoaderData } from "react-router-dom";
-
+import { useAuth } from "../contexts/AuthContext";
 const IpRegistration = () => {
+  const { currentUser} = useAuth();
   const [userData, setUserData] = useState({
     Name: "",
-    email: "",
+    email: currentUser.email,
     instituteName: "",
     phone: "",
     munAttended: "",
@@ -223,9 +224,8 @@ const IpRegistration = () => {
                     name="email"
                     id="email"
                     className=" border  sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
-                    value={useRouteLoaderData.email}
-                    onChange={postUserData}
-                    placeholder="email id"
+                    disabled={true}
+                    placeholder={userData.email}
                     required
                   />
                 </div>
