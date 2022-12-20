@@ -3,7 +3,8 @@ import {Carousel} from '3d-react-carousal';
 export default class Council extends Component {
   render() {
     var councilList=[
-        {name:"Lakshay.jpg",desi:'Public Relations'},
+        
+      {name:"Mehak_Singhal.jpg",desi:"Design"},
         {name:"Divit_goel.jpg",desi:"President"},
         {name:"Ashwin_Rao.jpg",desi:"Vice President"},
         {name:"Rtanjay.jpg",desi:'Director, Administrative Affairs'},
@@ -17,8 +18,7 @@ export default class Council extends Component {
         {name:"Nilesh.jpg",desi:'Director, Operations'},
         {name:"Shruti.jpg",desi:'Director, Social & Outreach'},
         {name:"Tushar.jpg",desi:'Director, Research & Policy'},
-        {name:"Mehak_Singhal.jpg",desi:"Design"},
-        {name:"Gaurish_Chawla.jpg",desi:"Photography"}
+        
         
       ];
     
