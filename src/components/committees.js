@@ -271,7 +271,7 @@ const Committees = () => {
                 <div className="flex flex-row justify-center items-baseline">
                   <RegisterButton></RegisterButton>
                   <a
-                    href="/"
+                    href="https://drive.google.com/file/d/1Rzlyco8VRcV6td6P3zM5i3JOtrBtrmFF/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-normal text-gray-400 text-sm"
@@ -369,7 +369,7 @@ const Committees = () => {
               <div className="flex flex-col md:flex-row justify-evenly items-baseline ">
                 <RegisterButton></RegisterButton>
                 <a
-                  href="/"
+                  href="https://drive.google.com/file/d/1sYJhB94Pbt04YAFC7rPdFyq_s64-G6ZR/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-normal text-gray-400 text-sm"
@@ -462,7 +462,7 @@ const Committees = () => {
                 <div className="flex flex-col md:flex-row justify-center items-baseline">
                   <RegisterButton></RegisterButton>
                   <a
-                    href="/"
+                    href="https://drive.google.com/file/d/1xatHZ4FMArxxWDsD13ijnN4Esc9OTHTH/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-normal text-gray-400 text-sm"
