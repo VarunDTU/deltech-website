@@ -72,7 +72,32 @@ const Committees = () => {
                     </div>
                   </div>
                 </div>
-                <RegisterButton></RegisterButton>
+                <div className="flex flex-col md:flex-row justify-center items-center w-full">
+                  <RegisterButton></RegisterButton>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-normal text-gray-400 text-sm"
+                  >
+                    <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
+                      <div
+                        href="#_"
+                        class="relative inline-block text-lg group"
+                      >
+                        <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                          <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+                          <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+                          <span class="relative">Guide</span>
+                        </span>
+                        <span
+                          class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+                          data-rounded="rounded-lg"
+                        ></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -145,7 +170,32 @@ const Committees = () => {
                     </div>
                   </div>
                 </div>
-                <RegisterButton></RegisterButton>
+                <div className="flex flex-col md:flex-row justify-center items-center w-full">
+                  <RegisterButton></RegisterButton>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-normal text-gray-400 text-sm"
+                  >
+                    <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
+                      <div
+                        href="#_"
+                        class="relative inline-block text-lg group"
+                      >
+                        <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                          <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+                          <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+                          <span class="relative">Guide</span>
+                        </span>
+                        <span
+                          class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+                          data-rounded="rounded-lg"
+                        ></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -218,11 +268,37 @@ const Committees = () => {
                     </div>
                   </div>
                 </div>
-                <RegisterButton></RegisterButton>
+                <div className="flex flex-col md:flex-row justify-center items-center w-full">
+                  <RegisterButton></RegisterButton>
+                  <a
+                    href="https://drive.google.com/file/d/1Rzlyco8VRcV6td6P3zM5i3JOtrBtrmFF/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-normal text-gray-400 text-sm"
+                  >
+                    <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
+                      <div
+                        href="#_"
+                        class="relative inline-block text-lg group"
+                      >
+                        <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                          <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+                          <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+                          <span class="relative">Guide</span>
+                        </span>
+                        <span
+                          class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+                          data-rounded="rounded-lg"
+                        ></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
@@ -290,10 +366,33 @@ const Committees = () => {
                   </div>
                 </div>
               </div>
-              <RegisterButton></RegisterButton>
+              <div className="flex flex-col md:flex-row justify-center items-center w-full">
+                <RegisterButton></RegisterButton>
+                <a
+                  href="https://drive.google.com/file/d/1sYJhB94Pbt04YAFC7rPdFyq_s64-G6ZR/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-normal text-gray-400 text-sm"
+                >
+                  <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
+                    <div href="#_" class="relative inline-block text-lg group">
+                      <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                        <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+                        <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+                        <span class="relative">Guide</span>
+                      </span>
+                      <span
+                        class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+                        data-rounded="rounded-lg"
+                      ></span>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
+
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
@@ -360,11 +459,37 @@ const Committees = () => {
                     </div>
                   </div>
                 </div>
-                <RegisterButton></RegisterButton>
+                <div className="flex flex-col md:flex-row justify-center items-center w-full">
+                  <RegisterButton></RegisterButton>
+                  <a
+                    href="https://drive.google.com/file/d/1xatHZ4FMArxxWDsD13ijnN4Esc9OTHTH/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-normal text-gray-400 text-sm"
+                  >
+                    <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
+                      <div
+                        href="#_"
+                        class="relative inline-block text-lg group"
+                      >
+                        <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                          <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+                          <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+                          <span class="relative">Guide</span>
+                        </span>
+                        <span
+                          class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+                          data-rounded="rounded-lg"
+                        ></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
         {/* <------------------------------------------------------------------------------------------------------> */}
 
         <div
@@ -432,7 +557,32 @@ const Committees = () => {
                     </div>
                   </div>
                 </div>
-                <RegisterButton></RegisterButton>
+                <div className="flex flex-col md:flex-row justify-center items-center w-full">
+                  <RegisterButton></RegisterButton>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-normal text-gray-400 text-sm"
+                  >
+                    <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
+                      <div
+                        href="#_"
+                        class="relative inline-block text-lg group"
+                      >
+                        <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                          <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+                          <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+                          <span class="relative">Guide</span>
+                        </span>
+                        <span
+                          class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+                          data-rounded="rounded-lg"
+                        ></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -479,16 +629,11 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       Disarmament and International Security Committee
                     </p>
-                    <p className="text-center pt-4 text-xs font-medium">
+                    <p className="text-center p-4 text-xs font-medium">
                       Exploring the feasibility of observance of environmental
                       norms in the drafting and implementation of agreements on
                       disarmament and arms control.
                     </p>
-                    <div className="w-full flex justify-center pt-5 pb-5">
-                      <a href="/" className="mx-5">
-                        <div></div>
-                      </a>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -518,11 +663,10 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       Goods And Sevices Tax Council
                     </p>
-                    <p className="text-center pt-4 text-xs font-medium  ">
+                    <p className="text-center p-4 text-xs font-medium  ">
                       Deliberation on the GST Act, With special emphasis on
                       Jurisdictional issues.
                     </p>
-                    <div className="w-full flex justify-center pt-5 pb-5"></div>
                   </div>
                 </div>
               </div>

@@ -8,7 +8,7 @@ const Sponsors = () => {
           PAST PARTNERS
         </h1>
         <div class="flex flex-wrap -m-1 md:-m-2 px-3 md:px-24">
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -17,7 +17,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -26,7 +26,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -35,7 +35,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -44,7 +44,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -53,7 +53,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -62,7 +62,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -71,7 +71,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -80,7 +80,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -89,7 +89,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -98,7 +98,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
@@ -107,7 +107,7 @@ const Sponsors = () => {
               />
             </div>
           </div>
-          <div class="flex flex-wrap w-1/2 md:w-1/5">
+          <div class="flex flex-wrap w-1/2 sm:w-1/3 md:w-1/5">
             <div class="w-full p-1 md:p-2">
               <img
                 alt="gallery"
