@@ -101,102 +101,100 @@ const Committees = () => {
               </div>
             </div>
           </div>
-          {/* <------------------------------------------------------------------------------------------------------> */}
+        </div>
+        {/* <------------------------------------------------------------------------------------------------------> */}
 
-          <div
-            class="modal fade fixed top-0 left-0 right-0 z-10 hidden w-full p-6 overflow-x-hidden overflow-y-auto md:inset-0 h-full"
-            id="gst"
-            tabindex="-1"
-            aria-labelledby="gstModalLgLabel"
-            aria-modal="true"
-            role="dialog"
-          >
-            <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
-              <div className="modal-content border-none shadow-2xl relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
-                <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
-                  <h5
-                    className="text-lg font-medium leading-normal text-gray-800 "
-                    id="gstModalLgLabel"
-                  >
-                    Goods And Sevices Tax Council
-                  </h5>
-                  <button
-                    type="button"
-                    className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <FaTimes size={20} />
-                  </button>
+        <div
+          class="modal fade fixed top-0 left-0 right-0 z-10 hidden w-full p-6 overflow-x-hidden overflow-y-auto md:inset-0 h-full"
+          id="gst"
+          tabindex="-1"
+          aria-labelledby="gstModalLgLabel"
+          aria-modal="true"
+          role="dialog"
+        >
+          <div className="modal-dialog modal-lg relative w-auto pointer-events-none">
+            <div className="modal-content border-none shadow-2xl relative flex flex-col w-full pointer-events-auto bg-slate-100 bg-clip-padding rounded-md outline-none text-current">
+              <div className="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+                <h5
+                  className="text-lg font-medium leading-normal text-gray-800 "
+                  id="gstModalLgLabel"
+                >
+                  Goods And Sevices Tax Council
+                </h5>
+                <button
+                  type="button"
+                  className="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <FaTimes size={20} />
+                </button>
+              </div>
+              <div className="modal-body relative p-4">
+                <p className="text-center text-gray-600 text-sm font-medium">
+                  Deliberation on the GST Act, With special emphasis on
+                  Jurisdictional issues.
+                </p>
+                {/* vice chairperson name */}
+                <div class="container mx-auto space-y-9 pt-6 md:pt-0 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg h-64"
+                        src="/images/Committees/Aniket Basu_GST_Council_Chairperson.jpg"
+                        alt=""
+                      />
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
+                          Chair
+                        </h5>
+                        <p class="text-gray-700 text-base mb-2">Aniket Basu</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                      <img
+                        class="rounded-t-lg h-64"
+                        src="/images/Committees/Aditya Sharma_GSTCouncil_Vice_Chair.png"
+                        alt=""
+                      />
+                      <div class="p-2">
+                        <h5 class="text-gray-900 text-lg font-medium mb-2">
+                          Vice Chairperson
+                        </h5>
+                        <p class="text-gray-700 text-base mb-2">
+                          Aditya Sharma
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="modal-body relative p-4">
-                  <p className="text-center text-gray-600 text-sm font-medium">
-                    Deliberation on the GST Act, With special emphasis on
-                    Jurisdictional issues.
-                  </p>
-                  {/* vice chairperson name */}
-                  <div class="container mx-auto space-y-9 pt-6 md:pt-0 flex md:flex-row flex-col justify-center md:justify-evenly items-center md:items-baseline">
-                    <div class="flex justify-center">
-                      <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                        <img
-                          class="rounded-t-lg h-64"
-                          src="/images/Committees/Aniket Basu_GST_Council_Chairperson.jpg"
-                          alt=""
-                        />
-                        <div class="p-2">
-                          <h5 class="text-gray-900 text-lg font-medium mb-2">
-                            Chair
-                          </h5>
-                          <p class="text-gray-700 text-base mb-2">
-                            Aniket Basu
-                          </p>
-                        </div>
+                <div className="flex flex-row justify-center items-baseline">
+                  <RegisterButton></RegisterButton>
+                  <a
+                    href="/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-normal text-gray-400 text-sm"
+                  >
+                    <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
+                      <div
+                        href="#_"
+                        class="relative inline-block text-lg group"
+                      >
+                        <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+                          <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+                          <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
+                          <span class="relative">Guide</span>
+                        </span>
+                        <span
+                          class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
+                          data-rounded="rounded-lg"
+                        ></span>
                       </div>
                     </div>
-                    <div class="flex justify-center">
-                      <div class="rounded-lg shadow-lg bg-white max-w-sm">
-                        <img
-                          class="rounded-t-lg h-64"
-                          src="/images/Committees/Aditya Sharma_GSTCouncil_Vice_Chair.png"
-                          alt=""
-                        />
-                        <div class="p-2">
-                          <h5 class="text-gray-900 text-lg font-medium mb-2">
-                            Vice Chairperson
-                          </h5>
-                          <p class="text-gray-700 text-base mb-2">
-                            Aditya Sharma
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex flex-col md:flex-row justify-center items-baseline">
-                    <RegisterButton></RegisterButton>
-                    <a
-                      href="/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-normal text-gray-400 text-sm"
-                    >
-                      <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
-                        <div
-                          href="#_"
-                          class="relative inline-block text-lg group"
-                        >
-                          <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
-                            <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
-                            <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
-                            <span class="relative">Guide</span>
-                          </span>
-                          <span
-                            class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0"
-                            data-rounded="rounded-lg"
-                          ></span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -631,7 +629,7 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       Disarmament and International Security Committee
                     </p>
-                    <p className="text-center pt-4 text-xs font-medium">
+                    <p className="text-center p-4 text-xs font-medium">
                       Exploring the feasibility of observance of environmental
                       norms in the drafting and implementation of agreements on
                       disarmament and arms control.
@@ -665,7 +663,7 @@ const Committees = () => {
                     <p className="text-gray-800 text-sm text-center">
                       Goods And Sevices Tax Council
                     </p>
-                    <p className="text-center pt-4 text-xs font-medium  ">
+                    <p className="text-center p-4 text-xs font-medium  ">
                       Deliberation on the GST Act, With special emphasis on
                       Jurisdictional issues.
                     </p>
