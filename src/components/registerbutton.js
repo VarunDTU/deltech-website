@@ -5,12 +5,8 @@ function classNames(...classes) {
 const RegisterButton=()=>{
     return(
         <div>
-          <Link
-                to="/SignUp"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-normal text-gray-400 text-sm"
-              >
+         <a href='https://linktr.ee/deltech_2023'>
+
                 
             <div className="py-5 justify-center flex md:flex-row flex-col z-5 mx-3">
             <div href="#_" class="relative inline-block text-lg group">
@@ -23,7 +19,8 @@ const RegisterButton=()=>{
 </div>
 
             </div>
-              </Link>
+         </a>
+             
         </div>
     );
 };
