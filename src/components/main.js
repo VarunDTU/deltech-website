@@ -39,7 +39,7 @@ const Main = () => {
               <Timer></Timer>
               <div className="inline-flex py-3">
               <Link
-                to="/CampusAmbassador"
+                to="/CampusAmbassador" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-normal text-gray-400 text-sm"
