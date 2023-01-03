@@ -559,8 +559,9 @@ const Committees = () => {
                 </div>
                 <div className="flex flex-col md:flex-row justify-center items-center w-full">
                   <RegisterButton></RegisterButton>
-                  {/* <a
-                    href="/"
+                  <a
+                    href="https://drive.google.com/file/d/16a12tVtgVujMuFF-Xg2ztG_aNKG0rn6f/view?usp=share_link
+                    "
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-normal text-gray-400 text-sm"
@@ -581,7 +582,7 @@ const Committees = () => {
                         ></span>
                       </div>
                     </div>
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>
@@ -800,6 +801,9 @@ const Committees = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="items-center flex justify-center bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500">
+          <img className="py-5" src="/images/itenary.png"></img>
         </div>
       </section>
     </>
