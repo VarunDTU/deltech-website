@@ -542,8 +542,8 @@ const Committees = () => {
                   <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                       <img
-                        class="rounded-t-lg"
-                        src="/images/Committees/"
+                        class="rounded-t-lg h-64 w-full"
+                        src="/images/Council/Gaurish_Chawla.jpg"
                         alt=""
                       />
                       <div class="p-2">
