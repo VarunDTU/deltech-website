@@ -9,23 +9,23 @@ const Timer = () => {
 
   const deadline = "January, 7, 2023";
 
-  const getTime = () => {
-    const time = Date.parse(deadline) - Date.now();
+  // const getTime = () => {
+  //   const time = Date.parse(deadline) - Date.now();
 
-    setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
-    setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
-    setMinutes(Math.floor((time / 1000 / 60) % 60));
-    setSeconds(Math.floor((time / 1000) % 60));
-  };
-  //{days < 10 ? "0" + days : days}
-  //{hours < 10 ? "0" + hours : hours}
-  //{hours < 10 ? "0" + hours : hours}
-  //{seconds < 10 ? "0" + seconds : seconds}
-  useEffect(() => {
-    const interval = setInterval(() => getTime(deadline), 1000);
+  //   setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
+  //   setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
+  //   setMinutes(Math.floor((time / 1000 / 60) % 60));
+  //   setSeconds(Math.floor((time / 1000) % 60));
+  // };
+  // //{days < 10 ? "0" + days : days}
+  // //{hours < 10 ? "0" + hours : hours}
+  // //{hours < 10 ? "0" + hours : hours}
+  // //{seconds < 10 ? "0" + seconds : seconds}
+  // useEffect(() => {
+  //   const interval = setInterval(() => getTime(deadline), 1000);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <div className="min-w-screen h-36 bg-transparent flex items-center justify-center px-5 py-2" x-data="beer()" x-init="start()">
