@@ -2,13 +2,15 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="text-white bg-slate-800" id="aboutus">
-      <h1 className="text-4xl md:text-5xl text-center bg-slate-900 py-8 mb-6 md:mb-16 font-semibold md:font-bold">
-        ABOUT US
+    <section className="text-white bg-slate-800 backdrop-blur-xl" id="aboutus">
+      <h1 className="text-4xl md:text-5xl text-center font-sans bg-slate-900 py-12 font-semibold md:font-bold">
+        DELTECH MUN'24
       </h1>
 
-      <div className="flex flex-col md:flex-row justify-evenly w-full items-center pb-16">
-      <div className="md:py-10 py-5 pb-8">
+      <div className="flex flex-col md:flex-row justify-center w-full items-center ">
+
+        <h1 className="uppercase font-serif text-yellow-300 font-semibold py-36 md:text-7xl text-5xl leading-10  align-middle text-center ">Details <br /> Coming soon</h1>
+        {/* <div className="md:py-10 py-5 pb-8">
           <img
             src="/images/whiteDelTech.png"
             alt=""
@@ -27,8 +29,7 @@ const About = () => {
             events include weekly charchas, 'Youth ki Awaaz, ' mock MUNs, group
             discussions, and intra-MUN.
           </p>
-        </div>
-       
+        </div> */}
       </div>
     </section>
   );

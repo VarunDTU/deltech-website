@@ -41,10 +41,10 @@ function App() {
 
       <About />
       <Committees />
-      <Council />
+      {/* <Council /> */}
       <Gallery />
-      <Sponsors />
-      <Faqs />
+      {/* <Sponsors /> */}
+      {/* <Faqs /> */}
       <Footer />
       </div>
         }/>

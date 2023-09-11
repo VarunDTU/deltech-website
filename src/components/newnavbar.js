@@ -2,8 +2,8 @@ import { Popover } from "@headlessui/react";
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { Userposition } from "../hook/navscroll";
-import { Link as Linkr } from "react-router-dom";
-import RegisterButton from "./registerbutton";
+// import { Link as Linkr } from "react-router-dom";
+// import RegisterButton from "./registerbutton";
 export default function NavBar2() {
   const [navbar, setNavbar] = useState(false);
   const scrollPosition = Userposition();
@@ -16,11 +16,13 @@ export default function NavBar2() {
       className={
         classNames(scrollPosition > 10)
           ? "bg-white z-50 shadow-black shadow-sm fixed w-full"
-          : " md:bg-transparent md:backdrop-blur-none backdrop-blur-md fixed z-50 w-full"
+          : "  fixed z-50 w-full"
       }
     >
-      <nav className=" text-black font-medium z-10 px-2">
-        <div className="justify-between px-4 md:items-center md:flex md:px-8">
+      
+        <div className={`justify-between px-4 md:items-center md:flex md:px-8  text-black font-medium z-10  ${
+        navbar ? "bg-white" : "bg-transparent"
+      }`}>
           <div>
             <div className="flex items-center justify-between py-3 md:py-3 md:block">
               <div className="flex title-font font-medium items-center mb-4">
@@ -110,17 +112,17 @@ export default function NavBar2() {
                     COMMITTEES
                   </Link>
                 </li>
-                <li className="hover:text-blue-600 animate-pulse">
+                {/* <li className="hover:text-blue-600 animate-pulse">
                   <Linkr
                     to="/CampusAmbassador"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-normal text-red-400 text-sm"
                   >
-                    CAMPUS AMBASSADOR
+                    DelTech MUN'24
                   </Linkr>
-                </li>
-                <li className="hover:text-blue-600">
+                </li> */}
+                <li className="hover:text-blue-600 pb-4 md:pb-0">
                   <Link
                     activeClass="active"
                     className="mr-2 hover:text-red-600 cursor-pointer"
@@ -131,12 +133,11 @@ export default function NavBar2() {
                     CONTACT
                   </Link>
                 </li>
-                <RegisterButton />
+                {/* <RegisterButton /> */}
               </ul>
             </div>
           </div>
         </div>
-      </nav>
     </Popover>
   );
 }
