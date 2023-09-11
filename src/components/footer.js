@@ -46,25 +46,25 @@ const Footer = () => {
                   Administrative Affairs
                 </p>
                 <h5 className="mb-2 font-bold text-sm text-white">
-                  Rtanjay Shrivastava
+                  Arin Singhal
                 </h5>
                 <div className="font-normal text-sm flex flex-row items-center  text-neutral-300">
                   <span>
                     <FaPhoneAlt size={15} />
                   </span>
-                  <span className="ml-2">9431448889</span>
+                  <span className="ml-2">94007084266</span>
                 </div>
               </div>
               <div className="p-4 w-52  h-24 mb-5 flex flex-col justify-evenly items-center rounded-lg border  bg-gray-800 border-gray-700 hover:bg-gray-700">
                 <p className=" text-neutral-300 text-xs text-center font-normal pb-2">
                   Publicity
                 </p>
-                <h5 className="mb-2  font-bold text-white">Ritika Rai</h5>
+                <h5 className="mb-2  font-bold text-white">Dhruv Rustagi</h5>
                 <div className="font-normal  text-xs flex flex-row items-center text-neutral-300   ">
                   <span>
                     <FaPhoneAlt size={15} />
                   </span>
-                  <span className="ml-2 leading-loose ">9013541686</span>
+                  <span className="ml-2 leading-loose ">9718453773</span>
                 </div>
               </div>
             </div>

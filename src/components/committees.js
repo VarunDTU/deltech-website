@@ -802,9 +802,9 @@ const Committees = () => {
             </div>
           </div>
         </div>
-        <div className="items-center flex justify-center bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500">
+        {/* <div className="items-center flex justify-center bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500">
           <img className="py-5" src="/images/itenary.png"></img>
-        </div>
+        </div> */}
       </section>
     </>
   );
